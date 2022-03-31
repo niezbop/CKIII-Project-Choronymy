@@ -10,4 +10,6 @@ end
 
 lexer = Clausewitz::Parsing::Lexer.new
 
-puts lexer.tokenize(File.read(test_file)).inspect
+lexer.tokenize(File.read(test_file)).each do |token, line, first, last|
+  puts "L#{line} #{first}:#{last} #{token.inspect}"
+end
