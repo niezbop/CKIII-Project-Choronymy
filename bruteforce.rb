@@ -54,13 +54,14 @@ configuration['title_files']['mods'].each do |source, file|
   titles[source] = source_titles
 end
 
-output_file = File.join(
+output_file_path = File.join(
   'target',
   configuration['title_files']['mods'].values.map {|k| File.basename(k) }.sort.last || File.basename(configuration['title_files']['vanilla']))
-FileUtils.mkdir_p(File.dirname(output_file))
+FileUtils.mkdir_p(File.dirname(output_file_path))
 
 File.open(configuration['title_files']['vanilla'], 'r') do |vanilla_file|
-  File.open(output_file, 'w') do |output_file|
+  File.open(output_file_path, 'w') do |output_file|
+    puts "# WRITING output (#{output_file_path})..."
     last_title = nil
     title_offset = ""
     has_cultural_names = false
