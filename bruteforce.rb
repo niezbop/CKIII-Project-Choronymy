@@ -5,7 +5,7 @@ require 'fileutils'
 
 TITlE_REGEXP = /^(?<offset>\s*)(?<title>(?:e|k|d|c|b)_[\w\-']+)\s*=\s*\{/
 CULTURAL_NAMES_REGEXP = /^(?<offset>\s*)cultural_names/
-NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>.+)\s*$/
+NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>.+)$/
 
 CONFIGURATION_FILE = './config.yml'
 
@@ -59,6 +59,8 @@ output_file_path = File.join(
   configuration['title_files']['mods'].values.map {|k| File.basename(k) }.sort.last || File.basename(configuration['title_files']['vanilla']))
 FileUtils.mkdir_p(File.dirname(output_file_path))
 
+stats = (configuration['title_files']['mods'].keys + [:vanilla]).map {|k| [k, 0] }.to_h
+
 File.open(configuration['title_files']['vanilla'], 'r') do |vanilla_file|
   File.open(output_file_path, 'w') do |output_file|
     puts "# WRITING output (#{output_file_path})..."
@@ -83,7 +85,7 @@ File.open(configuration['title_files']['vanilla'], 'r') do |vanilla_file|
         has_cultural_names = true
         current_names = {}
       elsif (match = NAME_LIST_REGEXP.match line)
-        current_names[match[:name_list]] = [ match[:cultural_name], :vanilla ]
+        current_names[match[:name_list]] = [ match[:cultural_name].strip, :vanilla ]
       elsif Regexp.new("^#{title_offset}}").match(line)
         # Finish the current title declaration
         cultural_names = configuration['title_files']['mods']
@@ -99,6 +101,7 @@ File.open(configuration['title_files']['vanilla'], 'r') do |vanilla_file|
           output_file.puts(title_offset + "\t" + "cultural_names = {")
           cultural_names.each do |k, (name, source)|
             output_file.puts(title_offset + "\t" + "\t" + "#{k} = #{name} # #{source}")
+            stats[source] += 1
           end
           output_file.puts(title_offset + "\t" + "}")
         end
@@ -110,4 +113,9 @@ File.open(configuration['title_files']['vanilla'], 'r') do |vanilla_file|
       end
     end
   end
+end
+
+puts "# STATS"
+stats.sort_by {|_k,v| v}.each do |k,v|
+  puts "• #{k}: #{v} entries"
 end
