@@ -83,21 +83,22 @@ File.open(configuration['title_files']['vanilla'], 'r') do |vanilla_file|
         has_cultural_names = true
         current_names = {}
       elsif (match = NAME_LIST_REGEXP.match line)
-        current_names[match[:name_list]] = match[:cultural_name]
+        current_names[match[:name_list]] = [ match[:cultural_name], :vanilla ]
       elsif Regexp.new("^#{title_offset}}").match(line)
         # Finish the current title declaration
         cultural_names = configuration['title_files']['mods']
           .keys
-          .map {|source| titles.dig(source, last_title, :cultural_names) }
-          .compact # Remove sources which do not have cultural_names for this title
+          .map {|source| [source, titles.dig(source, last_title, :cultural_names)] }
+          .reject { |source, names| names.nil? or names.empty? }
+          .map { |source, names| names.transform_values { |name| [name, source] } }
           .reduce(current_names) {|aggregate, names| aggregate.merge(names) }
           .sort_by { |k,_v| k }
 
         if cultural_names.any?
           # Start cultural_names declaration (wasn't written earlier)
           output_file.puts(title_offset + "\t" + "cultural_names = {")
-          cultural_names.each do |k,v|
-            output_file.puts(title_offset + "\t" + "\t" + "#{k} = #{v}")
+          cultural_names.each do |k, (name, source)|
+            output_file.puts(title_offset + "\t" + "\t" + "#{k} = #{name} # #{source}")
           end
           output_file.puts(title_offset + "\t" + "}")
         end
