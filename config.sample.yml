@@ -1,0 +1,8 @@
+title_files:
+  vanilla: path/to/game/common/landed_titles/00_landed_titles.txt
+  mods:
+    # Order is important, it will define which one get the priority
+    # Currently, the lowest in the pile has the higher priority
+    rosetta: path/to/2233777492/common/landed_titles/00_landed_titles.txt
+    immersive_toponyms: path/to/2255229872/common/landed_titles/00_landed_titles.txt
+    more_cultural_names: path/to/2217534250/common/landed_titles/999_MoreCulturalNames.txt
