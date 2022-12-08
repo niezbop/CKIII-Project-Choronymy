@@ -5,7 +5,7 @@ require 'fileutils'
 
 TITlE_REGEXP = /^(?<offset>\s*)(?<title>(?:e|k|d|c|b)_[\w\-']+)\s*=\s*\{/
 CULTURAL_NAMES_REGEXP = /^(?<offset>\s*)cultural_names/
-NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>[\w\-]+)/
+NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>.+)\s*$/
 
 CONFIGURATION_FILE = './config.yml'
 
@@ -43,7 +43,7 @@ configuration['title_files']['mods'].each do |source, file|
 
       source_titles[title] = { offset: match[:offset], cultural_names: {} }
     elsif (match = NAME_LIST_REGEXP.match line)
-      source_titles[last_title][:cultural_names][match[:name_list]] = match[:cultural_name]
+      source_titles[last_title][:cultural_names][match[:name_list]] = match[:cultural_name].strip
     end
   rescue => e
     puts "[#{source}][#{last_title}] Failed to parse line #{index}:"
