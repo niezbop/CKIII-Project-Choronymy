@@ -53,8 +53,6 @@ configuration['title_files']['mods'].each do |source, file|
   titles[source] = source_titles
 end
 
-File.open('output.json', 'w') {|f| f.write JSON.pretty_generate(titles) }
-
 output_file = File.join(
   'target',
   configuration['title_files']['mods'].values.map {|k| File.basename(k) }.sort.last || File.basename(configuration['title_files']['vanilla']))
