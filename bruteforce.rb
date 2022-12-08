@@ -25,6 +25,7 @@ end
 
 # Read mod titles
 configuration['title_files']['mods'].each do |source, file|
+  puts "# READING #{source} (#{file})..."
   unless File.file?(file)
     puts "#{file} is not a file"
     next
