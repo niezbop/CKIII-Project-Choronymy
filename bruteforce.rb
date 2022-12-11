@@ -118,7 +118,7 @@ File.open(output_localize_path, 'w') do |file|
   end
 end
 
-puts "# STATS"
+puts "### STATS"
 stats.sort_by {|_k,v| v}.each do |k,v|
   puts "• #{k}: #{v} entries"
 end
