@@ -105,6 +105,7 @@ end
 
 File.open(output_localize_path, 'w') do |file|
   puts "# WRITING LOCALIZATION AT #{file.path}"
+  file.write("\uFEFF") # Set BOM
   file.puts('l_english:')
   to_localize.sort_by { |k,_v| k }.each do |key, cultural_name|
     value = localizations.dig(cultural_name.source, cultural_name.value) || cultural_name.value
