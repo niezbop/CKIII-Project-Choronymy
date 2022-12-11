@@ -7,6 +7,7 @@ require_relative 'lib/landed_titles'
 TITlE_REGEXP = /^(?<offset>\s*)(?<title>(?:e|k|d|c|b)_[\w\-']+)\s*=\s*\{/
 CULTURAL_NAMES_REGEXP = /^(?<offset>\s*)cultural_names/
 NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>.+)$/
+LOCALIZATION_KEY_REGEXP = /\s+(?<key>\w+):0\s(?<value>.+)$/
 
 CONFIGURATION_FILE = './config.yml'
 
@@ -48,7 +49,7 @@ def localization_key(title, name_list)
   "cn_pd_#{title.name}_#{name_list.sub(/name_list_/, "")}"
 end
 
-localization = {}
+to_localize = {}
 
 File.open(configuration['title_files']['vanilla'], 'r') do |vanilla_file|
   reader = LandedTitles::Reader.new(:vanilla, vanilla_file)
@@ -69,16 +70,41 @@ File.open(configuration['title_files']['vanilla'], 'r') do |vanilla_file|
 
       if cultural_names.any?
         # Start cultural_names declaration as it was skipped earlier
-        output_file.puts(title.offset + "\t" + "cultural_names = {")
+        output_file.puts("#{title.offset}\tcultural_names = {")
         cultural_names.each do |name_list, cultural_name|
           localization_key = localization_key(title, name_list)
           output_file.puts("#{title.offset}\t\t#{name_list} = #{localization_key}")
-          localization[localization_key] = cultural_name.value
+          to_localize[localization_key] = cultural_name
           stats[cultural_name.source] += 1
         end
         output_file.puts(title.offset + "\t" + "}")
       end
     end
+  end
+end
+
+output_localize_path = File.join('target', 'localization', 'english', 'titles_cultural_names_l_english.yml')
+FileUtils.mkdir_p(File.dirname(output_localize_path))
+
+localizations = configuration['localization_files'].transform_values do |file|
+  raise StandardError, "#{file} is not a file" unless File.file?(file)
+
+  entries = {}
+
+  File.readlines(file).each do |line|
+    if(match = LOCALIZATION_KEY_REGEXP.match(line))
+      entries[match[:key]] = match[:value]
+    end
+  end
+
+  entries
+end
+
+File.open(output_localize_path, 'w') do |file|
+  file.puts('l_english:')
+  to_localize.each do |key, cultural_name|
+    value = localizations.dig(cultural_name.source, cultural_name.value) || cultural_name.value
+    file.puts(" #{key}:0 #{value}")
   end
 end
 
