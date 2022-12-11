@@ -7,7 +7,7 @@ require_relative 'lib/landed_titles'
 TITlE_REGEXP = /^(?<offset>\s*)(?<title>(?:e|k|d|c|b)_[\w\-']+)\s*=\s*\{/
 CULTURAL_NAMES_REGEXP = /^(?<offset>\s*)cultural_names/
 NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>.+)$/
-LOCALIZATION_KEY_REGEXP = /\s+(?<key>\w+):0\s(?<value>.+)$/
+LOCALIZATION_KEY_REGEXP = /\s+(?<key>\w+):0\s(?<value>[^#]+)(?:\s*#\s*(?<comment>.+))?$/
 
 CONFIGURATION_FILE = './config.yml'
 
@@ -52,7 +52,7 @@ end
 to_localize = {}
 
 File.open(configuration['title_files']['vanilla'], 'r') do |vanilla_file|
-  reader = LandedTitles::Reader.new(:vanilla, vanilla_file)
+  reader = LandedTitles::Reader.new('vanilla', vanilla_file)
   File.open(output_file_path, 'w') do |output_file|
     puts "# WRITING output (#{output_file_path})..."
 
@@ -108,7 +108,13 @@ File.open(output_localize_path, 'w') do |file|
   file.puts('l_english:')
   to_localize.sort_by { |k,_v| k }.each do |key, cultural_name|
     value = localizations.dig(cultural_name.source, cultural_name.value) || cultural_name.value
-    file.puts(" #{key}:0 #{value}")
+    comment = if cultural_name.comment.nil? or cultural_name.comment.strip.empty?
+      cultural_name.source
+    else
+      [cultural_name.comment, cultural_name.source].join(' - ')
+    end
+
+    file.puts(" #{key}:0 #{value.strip} # #{comment}")
   end
 end
 
