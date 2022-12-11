@@ -35,7 +35,9 @@ module LandedTitles
 
         if (match = TITlE_NAME_REGEXP.match(line))
           inner_title = Title.new(match[:title], match[:offset])
+          @on_line_read.call(line, false) unless @on_line_read.nil? # Close block as @on_line_break won't get called later
           read_recursive(inner_title, file, &on_title_read)
+          next
         elsif title && closing_title_regexp.match?(line)
           on_title_read.call(title)
           @on_line_read.call(line, false) unless @on_line_read.nil? # Close block as @on_line_break won't get called later
