@@ -2,13 +2,14 @@ module LandedTitles
   class Reader
     TITlE_NAME_REGEXP = /^(?<offset>\s*)(?<title>(?:e|k|d|c|b)_[\w\-']+)\s*=\s*\{/
     CULTURAL_NAMES_REGEXP = /^(?<offset>\s*)cultural_names/
-    NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>.+)(?:\s*#\s*(?<comment>.+))$/
+    NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>.+)(?:\s*#\s*(?<comment>.+))?$/
 
     attr_reader :name, :file_path
 
     def initialize(name, file_path)
       @name = name
       @file_path = file_path
+      @on_line_read = nil
     end
 
     def read(&on_title_read)
@@ -16,6 +17,10 @@ module LandedTitles
       File.open(file_path, 'r') do |file|
         read_recursive(nil, file, &on_title_read)
       end
+    end
+
+    def on_line_read(&block)
+      @on_line_read = block
     end
 
     private
@@ -33,13 +38,20 @@ module LandedTitles
           read_recursive(inner_title, file, &on_title_read)
         elsif title && closing_title_regexp.match?(line)
           on_title_read.call(title)
+          @on_line_read.call(line, false) unless @on_line_read.nil? # Close block as @on_line_break won't get called later
           break
-        elsif CULTURAL_NAMES_REGEXP.match(line)
-          reading_cultural_names = true
         elsif reading_cultural_names && (match = NAME_LIST_REGEXP.match(line))
-          cultural_name = Title::CulturalName.new(match[:cultural_name].strip, match[:comment])
-          title.cultural_names[match[:name_list]]
-        elsif reading_cultural_names && closing_cultural_names_regexp.match?(line)
+          title.cultural_names[match[:name_list]] = Title::CulturalName.new(
+            match[:cultural_name].strip, match[:comment], self.name)
+        end
+
+        if CULTURAL_NAMES_REGEXP.match(line)
+          reading_cultural_names = true
+        end
+
+        @on_line_read.call(line, reading_cultural_names) unless @on_line_read.nil?
+
+        if reading_cultural_names && closing_cultural_names_regexp.match?(line)
           reading_cultural_names = false
         end
       end

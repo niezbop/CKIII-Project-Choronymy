@@ -35,66 +35,48 @@ configuration['title_files']['mods'].each do |source, file|
   end
 
   titles[source] = source_titles
+  puts "\tFound #{source_titles.keys.count} titles for #{source}"
+  puts "\t#{source_titles.reject {|_k,v| v.cultural_names.empty? }.count} of them have cultural names"
 end
 
-raise StandardError, 'END OF READ'
-
-output_file_path = File.join(
-  'target',
-  configuration['title_files']['mods'].values.map {|k| File.basename(k) }.sort.last || File.basename(configuration['title_files']['vanilla']))
+output_file_path = File.join('target', File.basename(configuration['title_files']['vanilla']))
 FileUtils.mkdir_p(File.dirname(output_file_path))
 
-stats = (configuration['title_files']['mods'].keys + [:vanilla]).map {|k| [k, 0] }.to_h
+stats = Hash.new(0)
+
+def localization_key(title, name_list)
+  "cn_pd_#{title.name}_#{name_list.sub(/name_list_/, "")}"
+end
+
+localization = {}
 
 File.open(configuration['title_files']['vanilla'], 'r') do |vanilla_file|
+  reader = LandedTitles::Reader.new(:vanilla, vanilla_file)
   File.open(output_file_path, 'w') do |output_file|
     puts "# WRITING output (#{output_file_path})..."
-    last_title = nil
-    title_offset = ""
-    has_cultural_names = false
-    current_names = {}
 
-    until vanilla_file.eof?
-      line = vanilla_file.readline
+    # Don't write cultural_names block now
+    reader.on_line_read { |line, reading_cultural_names| output_file.write(line) unless reading_cultural_names }
+    reader.read do |title|
+      # Aggregate all cultural names
+      cultural_names = configuration['title_files']['mods']
+        .keys
+        .map { |source| titles.dig(source, title.name) }
+        .compact
+        .map(&:cultural_names)
+        .reduce(title.cultural_names) { |aggregate, names| aggregate.merge(names) }
+        .sort_by { |k,_v| k }
 
-      if (match = TITlE_REGEXP.match line)
-        # Start a new title declaration
-        last_title = match[:title]
-        title_offset = match[:offset]
-        has_cultural_names = false
-        current_names = {}
-
-        output_file.write(line)
-      elsif (match = CULTURAL_NAMES_REGEXP.match line)
-        # Track cultural_names
-        has_cultural_names = true
-        current_names = {}
-      elsif (match = NAME_LIST_REGEXP.match line)
-        current_names[match[:name_list]] = [ match[:cultural_name].strip, :vanilla ]
-      elsif Regexp.new("^#{title_offset}}").match(line)
-        # Finish the current title declaration
-        cultural_names = configuration['title_files']['mods']
-          .keys
-          .map {|source| [source, titles.dig(source, last_title, :cultural_names)] }
-          .reject { |source, names| names.nil? or names.empty? }
-          .map { |source, names| names.transform_values { |name| [name, source] } }
-          .reduce(current_names) {|aggregate, names| aggregate.merge(names) }
-          .sort_by { |k,_v| k }
-
-        if cultural_names.any?
-          # Start cultural_names declaration (wasn't written earlier)
-          output_file.puts(title_offset + "\t" + "cultural_names = {")
-          cultural_names.each do |k, (name, source)|
-            output_file.puts(title_offset + "\t" + "\t" + "#{k} = #{name} # #{source}")
-            stats[source] += 1
-          end
-          output_file.puts(title_offset + "\t" + "}")
+      if cultural_names.any?
+        # Start cultural_names declaration as it was skipped earlier
+        output_file.puts(title.offset + "\t" + "cultural_names = {")
+        cultural_names.each do |name_list, cultural_name|
+          localization_key = localization_key(title, name_list)
+          output_file.puts("#{title.offset}\t\t#{name_list} = #{localization_key}")
+          localization[localization_key] = cultural_name.value
+          stats[cultural_name.source] += 1
         end
-
-        # Properly close title
-        output_file.write(line)
-      else
-        output_file.write(line)
+        output_file.puts(title.offset + "\t" + "}")
       end
     end
   end

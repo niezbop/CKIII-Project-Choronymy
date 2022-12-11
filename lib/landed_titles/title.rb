@@ -9,11 +9,12 @@ module LandedTitles
     end
 
     class CulturalName
-      attr_reader :value, :comment
+      attr_reader :value, :comment, :source
 
-      def initialize(value, comment)
+      def initialize(value, comment, source)
         @value = value
         @comment = comment
+        @source = source
       end
     end
   end
