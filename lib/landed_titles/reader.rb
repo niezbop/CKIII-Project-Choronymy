@@ -2,7 +2,7 @@ module LandedTitles
   class Reader
     TITlE_NAME_REGEXP = /^(?<offset>\s*)(?<title>(?:e|k|d|c|b)_[\w\-']+)\s*=\s*\{/
     CULTURAL_NAMES_REGEXP = /^(?<offset>\s*)cultural_names/
-    NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>.+)(?:\s*#\s*(?<comment>.+))?$/
+    NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>[^#]+)(?:\s*#\s*(?<comment>.+))?$/
 
     attr_reader :name, :file_path
 

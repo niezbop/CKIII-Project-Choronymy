@@ -83,11 +83,14 @@ File.open(configuration['title_files']['vanilla'], 'r') do |vanilla_file|
   end
 end
 
+puts '### LOCALIZATION'
+
 output_localize_path = File.join('target', 'localization', 'english', 'titles_cultural_names_l_english.yml')
 FileUtils.mkdir_p(File.dirname(output_localize_path))
 
 localizations = configuration['localization_files'].transform_values do |file|
   raise StandardError, "#{file} is not a file" unless File.file?(file)
+  puts "# READING LOCALIZATION AT #{file}"
 
   entries = {}
 
@@ -101,8 +104,9 @@ localizations = configuration['localization_files'].transform_values do |file|
 end
 
 File.open(output_localize_path, 'w') do |file|
+  puts "# WRITING LOCALIZATION AT #{file.path}"
   file.puts('l_english:')
-  to_localize.each do |key, cultural_name|
+  to_localize.sort_by { |k,_v| k }.each do |key, cultural_name|
     value = localizations.dig(cultural_name.source, cultural_name.value) || cultural_name.value
     file.puts(" #{key}:0 #{value}")
   end
