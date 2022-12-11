@@ -2,6 +2,7 @@
 require 'json'
 require 'yaml'
 require 'fileutils'
+require_relative 'lib/landed_titles'
 
 TITlE_REGEXP = /^(?<offset>\s*)(?<title>(?:e|k|d|c|b)_[\w\-']+)\s*=\s*\{/
 CULTURAL_NAMES_REGEXP = /^(?<offset>\s*)cultural_names/
@@ -25,34 +26,18 @@ end
 
 # Read mod titles
 configuration['title_files']['mods'].each do |source, file|
+  reader = LandedTitles::Reader.new(source, file)
+
   puts "# READING #{source} (#{file})..."
-  unless File.file?(file)
-    puts "#{file} is not a file"
-    next
-  end
-
-  lines = File.readlines(file)
-
   source_titles = {}
-  last_title = nil
-
-  lines.each_with_index do |line, index|
-    if (match = TITlE_REGEXP.match line)
-      title = match[:title]
-      last_title = title
-
-      source_titles[title] = { offset: match[:offset], cultural_names: {} }
-    elsif (match = NAME_LIST_REGEXP.match line)
-      source_titles[last_title][:cultural_names][match[:name_list]] = match[:cultural_name].strip
-    end
-  rescue => e
-    puts "[#{source}][#{last_title}] Failed to parse line #{index}:"
-    puts line
-    raise e
+  reader.read do |title|
+    source_titles[title.name] = title
   end
 
   titles[source] = source_titles
 end
+
+raise StandardError, 'END OF READ'
 
 output_file_path = File.join(
   'target',
