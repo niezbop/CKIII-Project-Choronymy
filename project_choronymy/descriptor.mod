@@ -5,5 +5,6 @@ tags={
 	"Culture"
 }
 name="Project Choronymy"
-supported_version="1.8.0"
 replace_path="common/landed_titles"
+supported_version="1.8.*"
+remote_file_id="2901057259"
