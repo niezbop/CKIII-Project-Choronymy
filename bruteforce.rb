@@ -7,7 +7,7 @@ require_relative 'lib/landed_titles'
 TITlE_REGEXP = /^(?<offset>\s*)(?<title>(?:e|k|d|c|b)_[\w\-']+)\s*=\s*\{/
 CULTURAL_NAMES_REGEXP = /^(?<offset>\s*)cultural_names/
 NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>.+)$/
-LOCALIZATION_KEY_REGEXP = /\s+(?<key>\w+):0\s(?<value>[^#]+)(?:\s*#\s*(?<comment>.+))?$/
+LOCALIZATION_KEY_REGEXP = /\s+(?<key>[\w\-]+):0\s(?<value>[^#]+)(?:\s*#\s*(?<comment>.+))?$/
 
 CONFIGURATION_FILE = './config.yml'
 
@@ -103,19 +103,27 @@ localizations = configuration['localization_files'].transform_values do |file|
   entries
 end
 
+def clean_value(value)
+  value_clean = value.strip
+  value_clean = "\"#{value_clean}\"" unless /"/.match(value_clean)
+  value_clean
+end
+
 File.open(output_localize_path, 'w') do |file|
   puts "# WRITING LOCALIZATION AT #{file.path}"
   file.write("\uFEFF") # Set BOM
   file.puts('l_english:')
   to_localize.sort_by { |k,_v| k }.each do |key, cultural_name|
-    value = localizations.dig(cultural_name.source, cultural_name.value) || cultural_name.value
+    value = localizations.dig(cultural_name.source, cultural_name.value) ||
+      localizations.dig('vanilla', cultural_name.value) ||
+      cultural_name.value
     comment = if cultural_name.comment.nil? or cultural_name.comment.strip.empty?
       cultural_name.source
     else
-      [cultural_name.comment, cultural_name.source].join(' - ')
+      [cultural_name.comment.strip, cultural_name.source].join(' - ')
     end
 
-    file.puts(" #{key}:0 #{value.strip} # #{comment}")
+    file.puts(" #{key}:0 #{clean_value(value)} # #{comment}")
   end
 end
 
