@@ -1,0 +1,43 @@
+[h1]About[/h1]
+
+[b]Project Choronymy[/b] (aka [b]More Immersive Rosetta[/b]) is an opinionated patch that aims to make [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2255229872]Immersive Toponyms[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2217534250]More Cultural Names[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2233777492]Rosetta[/url]. All of these mods do a similar thing: they [b]change the name of holdings on the map depending on the culture of their holder[/b]. They all tackle different areas of the map and use a different approach to doing this however, meaning that while there is value in using all of them at the same time, they are incompatible by default. This mod makes it possible to use them in conjunction.
+
+[h1]Features[/h1]
+Any title will try to pick its cultural name from [b]Rosetta[/b] first, then [b]More Cultural Names[/b] then [b]Immersive Toponyms[/b] and finally vanilla if possible.
+[list]
+[*] [b]276902[/b] cultural names come from [b]Immersive Toponyms[/b]
+[*] [b]124101[/b] cultural names come from [b]MCN[/b]
+[*] [b]99551[/b] cultural names come from [b]Immersive Toponyms[/b]
+[*] [b]3[/b] are vanilla entries!
+[/list]
+
+[h1]Compatibility[/h1]
+
+[h2]Achievements Compatibility[/h2]
+
+This mod is [b]Ironman Compatible[/b] but will [b]disable Achievements[/b].
+
+[h2]Known incompatibilies[/h2]
+
+Any mod known to be incompatible with any of the three mods this mod patches will be incompatible with this patch.
+
+[h2]File overwrites[/h2]
+This mod overwrites [i]common/landed_titles/00_landed_titles.txt[/i] and the associated localization. Any mod touching this file will have a hard incompatibility with this patch.
+
+[h1]Credits[/h1]
+[list]
+[*] All credit for cultural names coming from the excellent [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2255229872]Immersive Toponyms[/url] goes to its author, [url=https://steamcommunity.com/profiles/76561198012563486]Scratchmen[/url]
+[*] All credit for cultural names coming from the wonderful [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2217534250]More Cultural Names[/url] goes to its author, [url=https://steamcommunity.com/id/76561998136141589]El Pollo Rojo[/url]
+[*] All credit for cultural names coming from the fantastic [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2233777492]Rosetta[/url] goes to its author, [url=https://steamcommunity.com/profiles/76561198006841318]Protodeus[/url]
+[/list]
+
+[h1]Links[/h1]
+You may also be interested in my other mods!
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2833935905]A few more Emerging Culture Names[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2765843981]Slightly More Interesting Crimea[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2765890006]Slightly More Interesting Russia[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2854434625]Syncretic Special Buildings[/url]
+[/list]
+
+This project can be found on [url=https://github.com/niezbop/CKIII-SMI-Crimea]Github[/url]
