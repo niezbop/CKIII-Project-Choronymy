@@ -1,6 +1,7 @@
 [h1]About[/h1]
 
-[b]Project Choronymy[/b] (aka [b]More Immersive Rosetta[/b]) is an opinionated patch that aims to make [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2255229872]Immersive Toponyms[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2217534250]More Cultural Names[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2233777492]Rosetta[/url]. All of these mods do a similar thing: they [b]change the name of holdings on the map depending on the culture of their holder[/b]. They all tackle different areas of the map and use a different approach to doing this however, meaning that while there is value in using all of them at the same time, they are incompatible by default. This mod makes it possible to use them in conjunction.
+[b]Project Choronymy[/b] (aka [b]More Immersive Rosetta[/b]) is an opinionated patch that aims to make [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2255229872]Immersive Toponyms[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2217534250]More Cultural Names[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2233777492]Rosetta[/url] compatible.
+All of these mods do a similar thing: they [b]change the name of holdings on the map depending on the culture of their holder[/b]. They all tackle different areas of the map and use a different approach to doing this however, meaning that while there is value in using all of them at the same time, they are incompatible by default. This mod makes it possible to use them in conjunction.
 
 [h1]Features[/h1]
 Any title will try to pick its cultural name from [b]Rosetta[/b] first, then [b]More Cultural Names[/b] then [b]Immersive Toponyms[/b] and finally vanilla if possible.
