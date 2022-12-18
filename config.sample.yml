@@ -6,3 +6,7 @@ title_files:
     rosetta: path/to/2233777492/common/landed_titles/00_landed_titles.txt
     immersive_toponyms: path/to/2255229872/common/landed_titles/00_landed_titles.txt
     more_cultural_names: path/to/2217534250/common/landed_titles/999_MoreCulturalNames.txt
+localization_files:
+  vanilla: path/to/game/localization/english/titles_cultural_names_l_english.yml
+  more_cultural_names: path/to/2217534250/localization/more-cultural-names_titles_cultural_names_l_english.yml
+  rosetta: path/to/2233777492/localization/english/titles_l_english.yml
