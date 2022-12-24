@@ -10,6 +10,7 @@ NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>.+)$/
 LOCALIZATION_KEY_REGEXP = /\s+(?<key>[\w\-]+):0\s(?<value>[^#]+)(?:\s*#\s*(?<comment>.+))?$/
 
 CONFIGURATION_FILE = './config.yml'
+BLOCKLIST_FILE = './blocklist.yml'
 
 unless File.file?(CONFIGURATION_FILE)
   puts "Configuration file #{CONFIGURATION_FILE} is missing"
@@ -25,6 +26,13 @@ unless File.file?(configuration['title_files']['vanilla'])
   exit -1
 end
 
+blocklist = if File.file?(BLOCKLIST_FILE)
+  puts "Reading blocklist at #{BLOCKLIST_FILE}..."
+  YAML.load(File.read(BLOCKLIST_FILE))
+else
+  {}
+end
+
 # Read mod titles
 configuration['title_files']['mods'].each do |source, file|
   reader = LandedTitles::Reader.new(source, file)
@@ -32,6 +40,11 @@ configuration['title_files']['mods'].each do |source, file|
   puts "# READING #{source} (#{file})..."
   source_titles = {}
   reader.read do |title|
+    (blocklist.dig(source, title.name) || []).each do |name_list_to_block|
+      if title.cultural_names.delete(name_list_to_block)
+        puts "\tBlocking #{name_list_to_block} for #{title.name} from #{source}"
+      end
+    end
     source_titles[title.name] = title
   end
 
@@ -62,9 +75,9 @@ File.open(configuration['title_files']['vanilla'], 'r') do |vanilla_file|
       # Aggregate all cultural names
       cultural_names = configuration['title_files']['mods']
         .keys
-        .map { |source| titles.dig(source, title.name) }
-        .compact
-        .map(&:cultural_names)
+        .map { |source| titles.dig(source, title.name) } # Get title from source
+        .compact # Reject mods that don't have the title declared
+        .map(&:cultural_names) # Get the list of cultural names
         .reduce(title.cultural_names) { |aggregate, names| aggregate.merge(names) }
         .sort_by { |k,_v| k }
 
