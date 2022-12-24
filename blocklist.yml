@@ -1,0 +1,20 @@
+rosetta:
+  b_nizhny_novgorod:
+    - name_list_mari
+    - name_list_merya
+    - name_list_meshchera
+    - name_list_mordvin
+    - name_list_muroma
+  c_nizhny_novgorod:
+    - name_list_mari
+    - name_list_merya
+    - name_list_meshchera
+    - name_list_mordvin
+    - name_list_muroma
+  d_nizhny_novgorod:
+    - name_list_mari
+    - name_list_merya
+    - name_list_meshchera
+    - name_list_mordvin
+    - name_list_muroma
+  
