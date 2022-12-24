@@ -25,3 +25,5 @@ rosetta:
     - name_list_breton
   d_york:
     - name_list_breton
+  c_sebezh:
+    - name_list_lithuanian
