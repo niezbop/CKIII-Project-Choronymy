@@ -19,5 +19,9 @@ rosetta:
     - name_list_muroma
   b_noteborg:
     - name_list_swedish
-  
-  
+  b_york:
+    - name_list_breton
+  c_north_riding:
+    - name_list_breton
+  d_york:
+    - name_list_breton
