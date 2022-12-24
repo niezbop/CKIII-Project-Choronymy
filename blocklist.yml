@@ -17,4 +17,7 @@ rosetta:
     - name_list_meshchera
     - name_list_mordvin
     - name_list_muroma
+  b_noteborg:
+    - name_list_swedish
+  
   
