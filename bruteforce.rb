@@ -7,7 +7,7 @@ require_relative 'lib/landed_titles'
 TITlE_REGEXP = /^(?<offset>\s*)(?<title>(?:e|k|d|c|b)_[\w\-']+)\s*=\s*\{/
 CULTURAL_NAMES_REGEXP = /^(?<offset>\s*)cultural_names/
 NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>.+)$/
-LOCALIZATION_KEY_REGEXP = /\s+(?<key>[\w\-]+):0\s(?<value>[^#]+)(?:\s*#\s*(?<comment>.+))?$/
+LOCALIZATION_KEY_REGEXP = /\s+(?<key>[\w\-]+):\d+\s(?<value>[^#]+)(?:\s*#\s*(?<comment>.+))?$/
 
 CONFIGURATION_FILE = './config.yml'
 BLOCKLIST_FILE = './blocklist.yml'
