@@ -12,6 +12,19 @@ Any title will try to pick its cultural name from [b]Rosetta[/b] first, then [b]
 [*] [b]3[/b] are vanilla entries!
 [/list]
 
+This mod being generated automatically also means that it makes it possible to use the 3 other mods even if they are outdated, as long as this patch is present!
+
+For example, at the time of writing this, Rosetta is only updated for 1.7.1 and the latest version of the game is 1.8, but this patch makes sure that there are no incompatibilies and that using Rosetta on this version of the game does not cause any issue.
+
+[h1]Load Order[/b]
+Your load order should be:
+[list]
+[*] Immersive Toponyms
+[*] More Cultural Names
+[*] Rosetta
+[*] Project Choronymy (this mod)
+[/list]
+
 [h1]Compatibility[/h1]
 
 [h2]Achievements Compatibility[/h2]
