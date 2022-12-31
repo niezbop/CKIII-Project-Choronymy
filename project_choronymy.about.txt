@@ -16,7 +16,7 @@ This mod being generated automatically also means that it makes it possible to u
 
 For example, at the time of writing this, Rosetta is only updated for 1.7.1 and the latest version of the game is 1.8, but this patch makes sure that there are no incompatibilies and that using Rosetta on this version of the game does not cause any issue.
 
-[h1]Load Order[/b]
+[h1]Load Order[/h1]
 Your load order should be:
 [list]
 [*] Immersive Toponyms
@@ -40,9 +40,9 @@ This mod overwrites [i]common/landed_titles/00_landed_titles.txt[/i] and the ass
 
 [h1]Credits[/h1]
 [list]
-[*] All credit for cultural names coming from the excellent [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2255229872]Immersive Toponyms[/url] goes to its author, [url=https://steamcommunity.com/profiles/76561198012563486]Scratchmen[/url]
-[*] All credit for cultural names coming from the wonderful [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2217534250]More Cultural Names[/url] goes to its author, [url=https://steamcommunity.com/id/76561998136141589]El Pollo Rojo[/url]
-[*] All credit for cultural names coming from the fantastic [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2233777492]Rosetta[/url] goes to its author, [url=https://steamcommunity.com/profiles/76561198006841318]Protodeus[/url]
+[*] All credit for cultural names, and all the work associated coming from the excellent [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2255229872]Immersive Toponyms[/url] goes to its author, [url=https://steamcommunity.com/profiles/76561198012563486]Scratchmen[/url]
+[*] All credit for cultural names, and all the work associated coming from the wonderful [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2217534250]More Cultural Names[/url] goes to its author, [url=https://steamcommunity.com/id/76561998136141589]El Pollo Rojo[/url]
+[*] All credit for cultural names, and all the work associated coming from the fantastic [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2233777492]Rosetta[/url] goes to its author, [url=https://steamcommunity.com/profiles/76561198006841318]Protodeus[/url]
 [/list]
 
 [h1]Links[/h1]
@@ -54,4 +54,4 @@ You may also be interested in my other mods!
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2854434625]Syncretic Special Buildings[/url]
 [/list]
 
-This project can be found on [url=https://github.com/niezbop/CKIII-SMI-Crimea]Github[/url]
+This project can be found on [url=https://github.com/niezbop/CKIII-Project-Choronymy]Github[/url]
