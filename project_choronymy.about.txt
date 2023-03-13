@@ -25,7 +25,7 @@ Your load order should be:
 [*] Project Choronymy (this mod)
 [/list]
 
-[i]NOTE[/i]: At the time of writing this, activating Rosetta will cause your court names to be named "Royal Court of TITLE_DEFINITIVE_NAME". In order to bypass this issue, simply deactive Rosetta in your load order.
+[i]NOTE[/i]: At the time of writing this, activating Rosetta will cause your court names to be named "Royal Court of TITLE_DEFINITIVE_NAME". In order to bypass this issue, simply deactivate Rosetta in your load order.
 
 [h1]Compatibility[/h1]
 
