@@ -174,3 +174,5 @@ puts "### STATS"
 stats.sort_by {|_k,v| v}.each do |k,v|
   puts "• #{k}: #{v} entries"
 end
+
+File.open(File.join('target', 'stats.json'), 'w') { |f| f.write JSON.pretty_generate stats }
