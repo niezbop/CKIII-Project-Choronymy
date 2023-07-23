@@ -12,14 +12,16 @@ LOCALIZATION_KEY_REGEXP = /\s+(?<key>[\w\-]+):\d+\s(?<value>[^#]+)(?:\s*#\s*(?<c
 CONFIGURATION_FILE = './config.yml'
 BLOCKLIST_FILE = './blocklist.yml'
 
-unless File.file?(CONFIGURATION_FILE)
-  puts "Configuration file #{CONFIGURATION_FILE} is missing"
+configuration_file = ARGV[0] || CONFIGURATION_FILE
+
+unless File.file?(configuration_file)
+  puts "Configuration file #{configuration_file} is missing"
   exit -1
 end
 
 titles = {}
 
-configuration = YAML.load(File.read(CONFIGURATION_FILE))
+configuration = YAML.load(File.read(configuration_file))
 
 unless File.file?(configuration['title_files']['vanilla'])
   puts "Vanilla title files #{configuration['title_files']['vanilla']} is not a file"
