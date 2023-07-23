@@ -28,6 +28,26 @@ unless File.file?(configuration['title_files']['vanilla'])
   exit -1
 end
 
+parsed_versions = {}
+
+# Read versions
+launcher_settings_path = configuration['title_files']['vanilla'].sub(/game.*$/, File.join('launcher', 'launcher-settings.json'))
+if File.file?(launcher_settings_path)
+  puts "Reading vanilla version from #{launcher_settings_path}..."
+  parsed_versions[:vanilla] = JSON.parse(File.read(launcher_settings_path))['rawVersion']
+else
+  puts "No file at #{launcher_settings_path}, skipping vanilla version parsing..."
+end
+
+configuration['title_files']['mods'].each do |source, file|
+  descriptor_path = file.sub(/common.*/, 'descriptor.mod')
+  puts "Reading #{source} version from #{descriptor_path}..."
+  version_line = `grep "version=" #{descriptor_path} | grep -v supported_version`
+  parsed_versions[source] = version_line.sub(/version="([^\s]+)"\s*$/, '\1')
+end
+
+File.open(File.join('target', 'parsed_versions.json'), 'w') { |f| f.write JSON.pretty_generate parsed_versions }
+
 blocklist = if File.file?(BLOCKLIST_FILE)
   puts "Reading blocklist at #{BLOCKLIST_FILE}..."
   YAML.load(File.read(BLOCKLIST_FILE))
