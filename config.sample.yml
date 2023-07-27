@@ -10,3 +10,5 @@ localization_files:
   vanilla: path/to/game/localization/english/titles_cultural_names_l_english.yml
   more_cultural_names: path/to/2217534250/localization/more-cultural-names_titles_cultural_names_l_english.yml
   rosetta: path/to/2233777492/localization/english/titles_l_english.yml
+fallbacks:
+  culture_A: culture_B

@@ -28,6 +28,16 @@ unless File.file?(configuration['title_files']['vanilla'])
   exit -1
 end
 
+fallback_cultures = configuration['fallbacks'] || {}
+
+def get_fallbacks(cultural_names, fallback_cultures)
+  fallback_cultural_names = fallback_cultures.map do |name, fallback_name|
+    # Skip fallback if either the fallback culture is missing or the original is already defined
+    next nil if cultural_names.keys.include?(name) or !cultural_names.keys.include?(fallback_name)
+    [name, cultural_names[fallback_name]]
+  end.compact.to_h
+end
+
 parsed_versions = {}
 
 # Read versions
@@ -100,6 +110,7 @@ File.open(configuration['title_files']['vanilla'], 'r') do |vanilla_file|
         .map { |source| titles.dig(source, title.name) } # Get title from source
         .compact # Reject mods that don't have the title declared
         .map(&:cultural_names) # Get the list of cultural names
+        .tap { |names| names.reverse.map { |n| get_fallbacks(n, fallback_cultures) }.each {|fn| names.unshift(fn) } } # Inject fallback names at the top of the possibilities so that they're later merged over by proper ones
         .reduce(title.cultural_names) { |aggregate, names| aggregate.merge(names) }
         .sort_by { |k,_v| k }
 
