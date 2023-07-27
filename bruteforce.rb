@@ -120,7 +120,7 @@ end
 
 puts '### LOCALIZATION'
 
-output_localize_path = File.join('target', 'localization', 'english', 'titles_cultural_names_l_english.yml')
+output_localize_path = File.join('target', 'titles_cultural_names_l_english.yml')
 FileUtils.mkdir_p(File.dirname(output_localize_path))
 
 localizations = configuration['localization_files'].transform_values do |file|
