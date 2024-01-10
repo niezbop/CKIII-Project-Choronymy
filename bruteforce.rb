@@ -11,6 +11,7 @@ LOCALIZATION_KEY_REGEXP = /\s+(?<key>[\w\-]+):\d+\s(?<value>[^#]+)(?:\s*#\s*(?<c
 
 CONFIGURATION_FILE = './config.yml'
 BLOCKLIST_FILE = './blocklist.yml'
+FIXLIST_FILE = './fixlist.yml'
 
 configuration_file = ARGV[0] || CONFIGURATION_FILE
 
@@ -65,6 +66,13 @@ else
   {}
 end
 
+fixlist = if File.file?(FIXLIST_FILE)
+  puts "Reading fixlist at #{FIXLIST_FILE}..."
+  YAML.load(File.read(FIXLIST_FILE))
+else
+  {}
+end
+
 # Read mod titles
 configuration['title_files']['mods'].each do |source, file|
   reader = LandedTitles::Reader.new(source, file)
@@ -75,6 +83,13 @@ configuration['title_files']['mods'].each do |source, file|
     (blocklist.dig(source, title.name) || []).each do |name_list_to_block|
       if title.cultural_names.delete(name_list_to_block)
         puts "\tBlocking #{name_list_to_block} for #{title.name} from #{source}"
+      end
+    end
+
+    fixlist.dig(source, 'culture_names')&.each do |name_list_to_fix, name_list_fixing|
+      if value = title.cultural_names.delete(name_list_to_fix)
+        puts "\tReplacing #{name_list_to_fix} with #{name_list_fixing} for #{title.name} from #{source}"
+        title.cultural_names[name_list_fixing] = value
       end
     end
     source_titles[title.name] = title
