@@ -57,6 +57,7 @@ configuration['title_files']['mods'].each do |source, file|
   parsed_versions[source] = version_line.sub(/version="([^\s]+)"\s*$/, '\1')
 end
 
+FileUtils.mkdir_p('target')
 File.open(File.join('target', 'parsed_versions.json'), 'w') { |f| f.write JSON.pretty_generate parsed_versions }
 
 blocklist = if File.file?(BLOCKLIST_FILE)
@@ -100,7 +101,7 @@ configuration['title_files']['mods'].each do |source, file|
   puts "\t#{source_titles.reject {|_k,v| v.cultural_names.empty? }.count} of them have cultural names"
 end
 
-output_file_path = File.join('target', File.basename(configuration['title_files']['vanilla']))
+output_file_path = File.join('target', 'common', 'landed_titles', File.basename(configuration['title_files']['vanilla']))
 FileUtils.mkdir_p(File.dirname(output_file_path))
 
 stats = Hash.new(0)
@@ -146,7 +147,7 @@ end
 
 puts '### LOCALIZATION'
 
-output_localize_path = File.join('target', 'titles_cultural_names_l_english.yml')
+output_localize_path = File.join('target', 'localization', 'english', 'project_choronymy_titles_cultural_names_l_english.yml')
 FileUtils.mkdir_p(File.dirname(output_localize_path))
 
 localizations = configuration['localization_files'].transform_values do |file|
@@ -202,3 +203,7 @@ stats.sort_by {|_k,v| v}.each do |k,v|
 end
 
 File.open(File.join('target', 'stats.json'), 'w') { |f| f.write JSON.pretty_generate stats }
+
+puts "===> Bruteforce process completed with success! You can run"
+puts "\tcp -r target/* project_choronymy"
+puts "to propagate the changes"
