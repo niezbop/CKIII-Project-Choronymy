@@ -93,6 +93,7 @@ configuration['title_files']['mods'].each do |source, file|
         title.cultural_names[name_list_fixing] = value
       end
     end
+
     source_titles[title.name] = title
   end
 
@@ -105,50 +106,6 @@ output_file_path = File.join('target', 'common', 'landed_titles', File.basename(
 FileUtils.mkdir_p(File.dirname(output_file_path))
 
 stats = Hash.new(0)
-
-def localization_key(title, name_list)
-  "cn_pd_#{title.name}_#{name_list.sub(/name_list_/, "")}"
-end
-
-to_localize = {}
-
-File.open(configuration['title_files']['vanilla'], 'r') do |vanilla_file|
-  reader = LandedTitles::Reader.new('vanilla', vanilla_file)
-  File.open(output_file_path, 'w') do |output_file|
-    puts "# WRITING output (#{output_file_path})..."
-
-    # Don't write cultural_names block now
-    reader.on_line_read { |line, reading_cultural_names| output_file.write(line) unless reading_cultural_names }
-    reader.read do |title|
-      # Aggregate all cultural names
-      cultural_names = configuration['title_files']['mods']
-        .keys
-        .map { |source| titles.dig(source, title.name) } # Get title from source
-        .compact # Reject mods that don't have the title declared
-        .map(&:cultural_names) # Get the list of cultural names
-        .tap { |names| names.reverse.map { |n| get_fallbacks(n, fallback_cultures) }.each {|fn| names.unshift(fn) } } # Inject fallback names at the top of the possibilities so that they're later merged over by proper ones
-        .reduce(title.cultural_names) { |aggregate, names| aggregate.merge(names) }
-        .sort_by { |k,_v| k }
-
-      if cultural_names.any?
-        # Start cultural_names declaration as it was skipped earlier
-        output_file.puts("#{title.offset}\tcultural_names = {")
-        cultural_names.each do |name_list, cultural_name|
-          localization_key = localization_key(title, name_list)
-          output_file.puts("#{title.offset}\t\t#{name_list} = #{localization_key}")
-          to_localize[localization_key] = cultural_name
-          stats[cultural_name.source] += 1
-        end
-        output_file.puts(title.offset + "\t" + "}")
-      end
-    end
-  end
-end
-
-puts '### LOCALIZATION'
-
-output_localize_path = File.join('target', 'localization', 'english', 'project_choronymy_titles_cultural_names_l_english.yml')
-FileUtils.mkdir_p(File.dirname(output_localize_path))
 
 localizations = configuration['localization_files'].transform_values do |file|
   raise StandardError, "#{file} is not a file" unless File.file?(file)
@@ -176,17 +133,70 @@ def get_localization_value(localizations, source, value)
     localizations.dig('vanilla', value) ||
     value
 
+  puts output.value, output.source if output.is_a? LandedTitles::Title::CulturalName
   return output unless (output.start_with?('cn_') && output != value)
 
   get_localization_value(localizations, output, source)
 end
 
+def localization_key(title, name_list)
+  "cn_pd_#{title.name}_#{name_list.sub(/name_list_/, "")}"
+end
+
+localization_key_sources = {}
+to_localize = {}
+
+File.open(configuration['title_files']['vanilla'], 'r') do |vanilla_file|
+  reader = LandedTitles::Reader.new('vanilla', vanilla_file)
+  File.open(output_file_path, 'w') do |output_file|
+    puts "# WRITING output (#{output_file_path})..."
+
+    # Don't write cultural_names block now
+    reader.on_line_read { |line, reading_cultural_names| output_file.write(line) unless reading_cultural_names }
+    reader.read do |title|
+      # Aggregate all cultural names
+      cultural_names = configuration['title_files']['mods']
+        .keys
+        .map { |source| titles.dig(source, title.name) } # Get title from source
+        .compact # Reject mods that don't have the title declared
+        .map(&:cultural_names) # Get the list of cultural names
+        .tap { |names| names.reverse.map { |n| get_fallbacks(n, fallback_cultures) }.each {|fn| names.unshift(fn) } } # Inject fallback names at the top of the possibilities so that they're later merged over by proper ones
+        .reduce(title.cultural_names) { |aggregate, names| aggregate.merge(names) }
+        .sort_by { |k,_v| k }
+
+      if cultural_names.any?
+        # Start cultural_names declaration as it was skipped earlier
+        output_file.puts("#{title.offset}\tcultural_names = {")
+        cultural_names.each do |name_list, cultural_name|
+          # Simplify localization
+          localized_value = clean_value(get_localization_value(localizations, cultural_name.source, cultural_name.value))
+          localization_key = if localization_key_sources.has_key?(localized_value)
+            localization_key_sources[localized_value]
+          else
+            key = localization_key(title, name_list)
+            localization_key_sources[localized_value] = key
+          end
+
+          output_file.puts("#{title.offset}\t\t#{name_list} = #{localization_key}")
+          to_localize[localization_key] ||= [cultural_name, localized_value]
+          stats[cultural_name.source] += 1
+        end
+        output_file.puts(title.offset + "\t" + "}")
+      end
+    end
+  end
+end
+
+puts '### LOCALIZATION'
+
+output_localize_path = File.join('target', 'localization', 'english', 'project_choronymy_titles_cultural_names_l_english.yml')
+FileUtils.mkdir_p(File.dirname(output_localize_path))
+
 File.open(output_localize_path, 'w') do |file|
   puts "# WRITING LOCALIZATION AT #{file.path}"
   file.write("\uFEFF") # Set BOM
   file.puts('l_english:')
-  to_localize.sort_by { |k,_v| k }.each do |key, cultural_name|
-    value = get_localization_value(localizations, cultural_name.source, cultural_name.value)
+  to_localize.sort_by { |k,_v| k }.each do |key, (cultural_name, value)|
     comment = if cultural_name.comment.nil? or cultural_name.comment.strip.empty?
       cultural_name.source
     else
