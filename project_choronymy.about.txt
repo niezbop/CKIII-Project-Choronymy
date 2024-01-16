@@ -31,7 +31,7 @@ This mod is [b]Ironman Compatible[/b] but will [b]disable Achievements[/b].
 
 [h2]Known incompatibilies[/h2]
 
-Any mod known to be incompatible with any of the three mods this mod patches will be incompatible with this patch.
+Any mod known to be incompatible with any of the three mods this mod patches will probably be incompatible with this patch.
 
 [h2]File overwrites[/h2]
 This mod overwrites [i]common/landed_titles/00_landed_titles.txt[/i] and the associated localization. Any mod touching this file will have a hard incompatibility with this patch.
@@ -47,7 +47,6 @@ This mod overwrites [i]common/landed_titles/00_landed_titles.txt[/i] and the ass
 You may also be interested in my other mods!
 [list]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2833935905]A few more Emerging Culture Names[/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2765843981]Slightly More Interesting Crimea[/url]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2765890006]Slightly More Interesting Russia[/url]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2854434625]Syncretic Special Buildings[/url]
 [/list]
