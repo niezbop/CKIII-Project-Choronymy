@@ -17,15 +17,11 @@ This mod being generated automatically also means that it makes it possible to u
 For example, at the time of writing this, Rosetta is only updated for 1.7.1 and the latest version of the game is 1.8, but this patch makes sure that there are no incompatibilies and that using Rosetta on this version of the game does not cause any issue.
 
 [h1]Load Order[/h1]
-Your load order should be:
-[list]
-[*] Immersive Toponyms
-[*] More Cultural Names
-[*] Rosetta
-[*] Project Choronymy (this mod)
-[/list]
+
+Your load order should only include Project Choronymy, this mod. However, [b]please subscribe to the original mods[/b] this mod uses. It would not exist if these other ones did not.
 
 [i]NOTE[/i]: At the time of writing this, activating Rosetta will cause your court names to be named "Royal Court of TITLE_DEFINITIVE_NAME". In order to bypass this issue, simply deactivate Rosetta in your load order.
+[i]NOTE[/i]: At the time of writing this, activating Immersive Toponyms will cause crashes.
 
 [h1]Compatibility[/h1]
 
