@@ -102,7 +102,8 @@ configuration['title_files']['mods'].each do |source, file|
   puts "\t#{source_titles.reject {|_k,v| v.cultural_names.empty? }.count} of them have cultural names"
 end
 
-output_file_path = File.join('target', 'common', 'landed_titles', File.basename(configuration['title_files']['vanilla']))
+output_file_name = configuration['title_files']['mods'].map { |_source,path| File.basename(path) }.sort.last
+output_file_path = File.join('target', 'common', 'landed_titles', output_file_name)
 FileUtils.mkdir_p(File.dirname(output_file_path))
 
 stats = Hash.new(0)
