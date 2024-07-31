@@ -5,10 +5,10 @@ require 'yaml'
 require 'fileutils'
 require_relative 'lib/landed_titles'
 
-TITlE_REGEXP = /^(?<offset>\s*)(?<title>(?:e|k|d|c|b)_[\w\-']+)\s*=\s*\{/
-CULTURAL_NAMES_REGEXP = /^(?<offset>\s*)cultural_names/
-NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>.+)$/
-LOCALIZATION_KEY_REGEXP = /\s+(?<key>[\w\-]+):\d+\s(?<value>[^#]+)(?:\s*#\s*(?<comment>.+))?$/
+TITLE_REGEXP = /^(?<offset>\s*)(?<title>(?:e|k|d|c|b)_[\w\-']+)\s*=\s*\{/.freeze
+CULTURAL_NAMES_REGEXP = /^(?<offset>\s*)cultural_names/.freeze
+NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>.+)$/.freeze
+LOCALIZATION_KEY_REGEXP = /\s+(?<key>[\w\-]+):\d+\s(?<value>[^#]+)(?:\s*#\s*(?<comment>.+))?$/.freeze
 
 CONFIGURATION_FILE = './config.yml'
 BLOCKLIST_FILE = './blocklist.yml'
@@ -33,9 +33,9 @@ end
 fallback_cultures = configuration['fallbacks'] || {}
 
 def get_fallbacks(cultural_names, fallback_cultures)
-  fallback_cultural_names = fallback_cultures.map do |name, fallback_name|
+  fallback_cultures.map do |name, fallback_name|
     # Skip fallback if either the fallback culture is missing or the original is already defined
-    next nil if cultural_names.keys.include?(name) or !cultural_names.keys.include?(fallback_name)
+    next nil if cultural_names.keys.include?(name) || !cultural_names.keys.include?(fallback_name)
 
     [name, cultural_names[fallback_name]]
   end.compact.to_h

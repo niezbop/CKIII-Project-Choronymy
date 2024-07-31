@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module LandedTitles
   class Title
     attr_reader :name, :offset, :cultural_names

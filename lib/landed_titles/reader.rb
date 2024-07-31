@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 module LandedTitles
   class Reader
-    TITlE_NAME_REGEXP = /^(?<offset>\s*)(?<title>(?:e|k|d|c|b)_[\w\-']+)\s*=\s*\{/
-    CULTURAL_NAMES_REGEXP = /^(?<offset>\s*)cultural_names/
-    NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>[^#]+)(?:\s*#\s*(?<comment>.+))?$/
+    TITLE_NAME_REGEXP = /^(?<offset>\s*)(?<title>(?:e|k|d|c|b)_[\w\-']+)\s*=\s*\{/.freeze
+    CULTURAL_NAMES_REGEXP = /^(?<offset>\s*)cultural_names/.freeze
+    NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>[^#]+)(?:\s*#\s*(?<comment>.+))?$/.freeze
 
     attr_reader :name, :file_path
 
@@ -34,16 +36,16 @@ module LandedTitles
       until file.eof?
         line = file.readline
 
-        if (match = TITlE_NAME_REGEXP.match(line))
+        if (match = TITLE_NAME_REGEXP.match(line))
           inner_title = Title.new(match[:title], match[:offset])
           # Close block as @on_line_break won't get called later
-          @on_line_read.call(line, false) unless @on_line_read.nil?
+          @on_line_read&.call(line, false)
           read_recursive(inner_title, file, &on_title_read)
           next
         elsif title && closing_title_regexp.match?(line)
           on_title_read.call(title)
           # Close block as @on_line_break won't get called later
-          @on_line_read.call(line, false) unless @on_line_read.nil?
+          @on_line_read&.call(line, false)
           break
         elsif reading_cultural_names && (match = NAME_LIST_REGEXP.match(line))
           title.cultural_names[match[:name_list]] = Title::CulturalName.new(
@@ -53,7 +55,7 @@ module LandedTitles
 
         reading_cultural_names = true if CULTURAL_NAMES_REGEXP.match(line)
 
-        @on_line_read.call(line, reading_cultural_names) unless @on_line_read.nil?
+        @on_line_read&.call(line, reading_cultural_names)
 
         reading_cultural_names = false if reading_cultural_names && closing_cultural_names_regexp.match?(line)
       end
