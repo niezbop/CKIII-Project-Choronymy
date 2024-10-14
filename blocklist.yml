@@ -28,3 +28,8 @@ rosetta:
     - name_list_breton
   d_york:
     - name_list_breton
+immersive_toponyms:
+  k_bene_israel:
+    - name_list_bavlim
+    - name_list_kochinim
+
