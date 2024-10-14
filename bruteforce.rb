@@ -218,6 +218,10 @@ File.open(output_localize_path, 'w') do |file|
   end
 end
 
+french_localize_path = output_localize_path.gsub('english', 'french')
+FileUtils.mkdir_p(File.dirname(french_localize_path))
+FileUtils.cp(output_localize_path, french_localize_path)
+
 puts '### STATS'
 stats.sort_by { |_k, v| v }.each do |k, v|
   puts "• #{k}: #{v} entries"
