@@ -6,8 +6,8 @@ All of these mods do a similar thing: they [b]change the name of holdings on the
 [h1]Features[/h1]
 Any title will try to pick its cultural name from [b]Rosetta[/b] first, then [b]More Cultural Names[/b] then [b]Immersive Toponyms[/b] and finally vanilla if possible.
 [list]
-[*] [b]420505[/b] cultural names come from [b]Immersive Toponyms[/b]
-[*] [b]134256[/b] cultural names come from [b]MCN[/b]
+[*] [b]4416519[/b] cultural names come from [b]Immersive Toponyms[/b]
+[*] [b]138042[/b] cultural names come from [b]MCN[/b]
 [*] [b]99485[/b] cultural names come from [b]Rosetta[/b]
 [*] [b]3[/b] are vanilla entries!
 [/list]
@@ -18,10 +18,17 @@ For example, at the time of writing this, Rosetta is only updated for 1.7.1 and 
 
 [h1]Load Order[/h1]
 
-Your load order should only include Project Choronymy, this mod. However, [b]please subscribe to the original mods[/b] this mod uses. It would not exist if these other ones did not.
+Your load order should only include Project Choronymy (this mod), preceded by Immersive Toponyms which this mod relies on to get some fonts. However, [b]please subscribe to the other mods[/b] this mod uses. It would not exist if these other ones did not.
 
 [i]NOTE[/i]: At the time of writing this, activating Rosetta will cause your court names to be named "Royal Court of TITLE_DEFINITIVE_NAME". In order to bypass this issue, simply deactivate Rosetta in your load order.
-[i]NOTE[/i]: At the time of writing this, activating Immersive Toponyms will cause crashes.
+
+Your load order should end up looking like:
+[list]
+[*] [i]Other mods before...[/i]
+[*] Immersive Toponyms
+[*] Project Choronymy
+[*] [i]Other mods after...[/i]
+[/list]
 
 [h1]Compatibility[/h1]
 
