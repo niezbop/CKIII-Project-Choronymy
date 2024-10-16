@@ -5,9 +5,6 @@ require 'yaml'
 require 'fileutils'
 require_relative 'lib/landed_titles'
 
-TITLE_REGEXP = /^(?<offset>\s*)(?<title>(?:e|k|d|c|b)_[\w\-']+)\s*=\s*\{/.freeze
-CULTURAL_NAMES_REGEXP = /^(?<offset>\s*)cultural_names/.freeze
-NAME_LIST_REGEXP = /(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>.+)$/.freeze
 LOCALIZATION_KEY_REGEXP = /\s+(?<key>[\w\-]+):\d+\s(?<value>[^#]+)(?:\s*#\s*(?<comment>.+))?$/.freeze
 
 CONFIGURATION_FILE = './config.yml'
