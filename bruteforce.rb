@@ -215,9 +215,16 @@ File.open(output_localize_path, 'w') do |file|
   end
 end
 
-french_localize_path = output_localize_path.gsub('english', 'french')
-FileUtils.mkdir_p(File.dirname(french_localize_path))
-FileUtils.cp(output_localize_path, french_localize_path)
+%w[french].each do |locale|
+  localized_path = output_localize_path.gsub('english', locale)
+  FileUtils.mkdir_p(File.dirname(localized_path))
+  FileUtils.cp(output_localize_path, localized_path)
+  File.open(localized_path, 'r+') do |file|
+    data = file.read
+    data = data.sub('l_english:', "l_#{locale}:")
+    file.write data
+  end
+end
 
 puts '### STATS'
 stats.sort_by { |_k, v| v }.each do |k, v|
