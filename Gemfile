@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-ruby '2.7.4'
+ruby file: '.ruby-version'
 
 source 'https://rubygems.org'
 
