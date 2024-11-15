@@ -1,6 +1,9 @@
 AllCops:
-  TargetRubyVersion: '2.7'
+  TargetRubyVersion: '3.3'
   NewCops: enable
 
 Style/Documentation:
+  Enabled: false
+
+Style/RedundantSort:
   Enabled: false
