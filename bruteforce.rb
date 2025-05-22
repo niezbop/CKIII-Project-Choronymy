@@ -215,7 +215,7 @@ File.open(output_localize_path, 'w') do |file|
   end
 end
 
-%w[french].each do |locale|
+%w[french spanish].each do |locale|
   localized_path = output_localize_path.gsub('english', locale)
   FileUtils.mkdir_p(File.dirname(localized_path))
   FileUtils.cp(output_localize_path, localized_path)
