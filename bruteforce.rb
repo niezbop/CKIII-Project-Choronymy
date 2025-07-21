@@ -5,7 +5,7 @@ require 'yaml'
 require 'fileutils'
 require_relative 'lib/landed_titles'
 
-LOCALIZATION_KEY_REGEXP = /\s+(?<key>[\w\-]+):\d+\s(?<value>[^#]+)(?:\s*#\s*(?<comment>.+))?$/
+LOCALIZATION_KEY_REGEXP = /\s+(?<key>[\w\-]+):\d*\s(?<value>[^#]+)(?:\s*#\s*(?<comment>.+))?$/
 
 CONFIGURATION_FILE = './config.yml'
 BLOCKLIST_FILE = './blocklist.yml'
