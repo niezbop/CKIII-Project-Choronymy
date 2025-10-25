@@ -5,5 +5,6 @@ ruby file: '.ruby-version'
 source 'https://rubygems.org'
 
 group :development do
+  gem 'erb'
   gem 'rubocop'
 end

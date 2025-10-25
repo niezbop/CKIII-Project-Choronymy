@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require 'erb'
 require 'json'
 require 'yaml'
 require 'fileutils'
@@ -230,6 +231,10 @@ stats.sort_by { |_k, v| v }.each do |k, v|
 end
 
 File.write(File.join('target', 'stats.json'), JSON.pretty_generate(stats))
+
+puts '### ABOUT'
+template = ERB.new File.read('project_choronymy.about.erb')
+File.write('project_choronymy.about.txt', template.result)
 
 puts '===> Bruteforce process completed with success! You can run'
 puts "\tcp -r target/* project_choronymy"
