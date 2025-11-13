@@ -30,19 +30,22 @@ module LandedTitles
 
     def read_recursive(title, file, &on_title_read)
       reading_cultural_names = false
-      closing_title_regexp = title ? end_of_title_regexp(title) : nil
-      closing_cultural_names_regexp = title ? end_of_cultural_names_regexp(title) : nil
+      opened_blocks = 1 # title opening block was opened in parent call
 
       until file.eof?
         line = file.readline
+
+        opened_blocks += 1 if line.include?('{')
+        opened_blocks -= 1 if line.include?('}')
 
         if (match = TITLE_NAME_REGEXP.match(line))
           inner_title = Title.new(match[:title], match[:offset])
           # Close block as @on_line_break won't get called later
           @on_line_read&.call(line, false)
           read_recursive(inner_title, file, &on_title_read)
+          opened_blocks -= 1
           next
-        elsif title && closing_title_regexp.match?(line)
+        elsif title && opened_blocks < 1
           on_title_read.call(title)
           # Close block as @on_line_break won't get called later
           @on_line_read&.call(line, false)
@@ -57,20 +60,8 @@ module LandedTitles
 
         @on_line_read&.call(line, reading_cultural_names)
 
-        reading_cultural_names = false if reading_cultural_names && closing_cultural_names_regexp.match?(line)
+        reading_cultural_names = false if reading_cultural_names && opened_blocks < 2
       end
-    end
-
-    def end_of_title_regexp(title)
-      closing_expression(title.offset)
-    end
-
-    def end_of_cultural_names_regexp(title)
-      closing_expression(title.offset + "\t")
-    end
-
-    def closing_expression(offset)
-      Regexp.new("^#{offset}}")
     end
   end
 end
