@@ -772,9 +772,9 @@ e_goryeo = {
 
 					color = { 180 92 195 }
 					cultural_names = {
-						name_list_emishi = cn_pd_b_Goryeo_Bukgye_Isan_emishi
+						name_list_emishi = cn_pd_b_izan_basque
 						name_list_han = cn_pd_b_Goryeo_Bukgye_Isan_han
-						name_list_yamato = cn_pd_b_Goryeo_Bukgye_Isan_emishi
+						name_list_yamato = cn_pd_b_izan_basque
 					}
 				}
 				cultural_names = {
@@ -854,7 +854,7 @@ e_goryeo = {
 					color = { 135 192 194 }
 					cultural_names = {
 						name_list_emishi = cn_pd_b_Liao_Xingzhou_yamato
-						name_list_han = cn_pd_b_Goryeo_Yanggwan_Gwangju_han
+						name_list_han = cn_pd_b_Liao_Guangzhou_english
 						name_list_yamato = cn_pd_b_Liao_Xingzhou_yamato
 					}
 				}
@@ -880,7 +880,7 @@ e_goryeo = {
 				}
 				cultural_names = {
 					name_list_emishi = cn_pd_b_Liao_Xingzhou_yamato
-					name_list_han = cn_pd_b_Goryeo_Yanggwan_Gwangju_han
+					name_list_han = cn_pd_b_Liao_Guangzhou_english
 					name_list_yamato = cn_pd_b_Liao_Xingzhou_yamato
 				}
 			}
@@ -966,7 +966,7 @@ e_goryeo = {
 			}
 			cultural_names = {
 				name_list_emishi = cn_pd_b_Liao_Xingzhou_yamato
-				name_list_han = cn_pd_b_Goryeo_Yanggwan_Gwangju_han
+				name_list_han = cn_pd_b_Liao_Guangzhou_english
 				name_list_yamato = cn_pd_b_Liao_Xingzhou_yamato
 			}
 		}
@@ -1892,7 +1892,7 @@ e_goryeo = {
 					color = { 120 215 60 }
 					cultural_names = {
 						name_list_emishi = cn_pd_b_changping_yamato
-						name_list_han = cn_pd_b_Goryeo_Jeolla_Seungpyeong_han
+						name_list_han = cn_pd_b_shengping_bodpa
 						name_list_yamato = cn_pd_b_changping_yamato
 					}
 				}

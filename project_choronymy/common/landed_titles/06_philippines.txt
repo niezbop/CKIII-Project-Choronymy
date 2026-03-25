@@ -843,7 +843,7 @@ e_nusantara = {
 					color = { 134 31 30 }
 					cultural_names = {
 						name_list_han = cn_pd_b_PHI_Sugbu_han
-						name_list_korean = cn_pd_b_PHI_Sugbu_korean
+						name_list_korean = cn_pd_b_subu_basque
 						name_list_yamato = cn_pd_b_PHI_Sugbu_yamato
 					}
 				}
@@ -865,7 +865,7 @@ e_nusantara = {
 				}
 				cultural_names = {
 					name_list_han = cn_pd_b_PHI_Sugbu_han
-					name_list_korean = cn_pd_b_PHI_Sugbu_korean
+					name_list_korean = cn_pd_b_subu_basque
 					name_list_yamato = cn_pd_b_PHI_Sugbu_yamato
 				}
 			}
@@ -1185,7 +1185,7 @@ e_nusantara = {
 					color = { 158 54 72 }
 					cultural_names = {
 						name_list_han = cn_pd_b_PHI_Butuan_han
-						name_list_yamato = cn_pd_b_PHI_Butuan_yamato
+						name_list_yamato = cn_pd_k_lhomon_avar
 					}
 				}
 				b_PHI_Cabadbaran = {
@@ -1214,7 +1214,7 @@ e_nusantara = {
 				}
 				cultural_names = {
 					name_list_han = cn_pd_b_PHI_Butuan_han
-					name_list_yamato = cn_pd_b_PHI_Butuan_yamato
+					name_list_yamato = cn_pd_k_lhomon_avar
 				}
 			}
 
@@ -1256,8 +1256,8 @@ e_nusantara = {
 				}
 				cultural_names = {
 					name_list_han = cn_pd_c_PHI_calagan_han
-					name_list_korean = cn_pd_c_PHI_calagan_korean
-					name_list_yamato = cn_pd_c_PHI_calagan_korean
+					name_list_korean = cn_pd_b_kurgan_sinhala
+					name_list_yamato = cn_pd_b_kurgan_sinhala
 				}
 			}
 
@@ -1303,7 +1303,7 @@ e_nusantara = {
 					color = { 205 75 33 }
 					cultural_names = {
 						name_list_han = cn_pd_c_PHI_calagan_han
-						name_list_yamato = cn_pd_b_PHI_Malita_yamato
+						name_list_yamato = cn_pd_b_barata_alan
 					}
 				}
 				b_PHI_Glan = {
@@ -1330,7 +1330,7 @@ e_nusantara = {
 			}
 			cultural_names = {
 				name_list_han = cn_pd_b_PHI_Butuan_han
-				name_list_yamato = cn_pd_b_PHI_Butuan_yamato
+				name_list_yamato = cn_pd_k_lhomon_avar
 			}
 		}
 		cultural_names = {
@@ -1380,7 +1380,7 @@ e_nusantara = {
 
 					color = { 58 157 34 }
 					cultural_names = {
-						name_list_amis = cn_pd_b_taiwan_miaoli_amis
+						name_list_amis = cn_pd_b_balu_afghan
 						name_list_korean = cn_pd_b_taiwan_miaoli_korean
 						name_list_yamato = cn_pd_b_taiwan_miaoli_yamato
 					}
