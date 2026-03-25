@@ -1506,6 +1506,9 @@ e_kambuja = {
 				b_pleiku = {
 					province = 10925
 					color = { 0 96 76 }
+					cultural_names = {
+						name_list_vietnamese = cn_pd_b_pleiku_vietnamese
+					}
 				}
 				b_phu_bon = {
 					province = 10926
@@ -1514,6 +1517,9 @@ e_kambuja = {
 				b_plei_doch = {
 					province = 10999
 					color = { 0 53 65 }
+				}
+				cultural_names = {
+					name_list_vietnamese = cn_pd_b_pleiku_vietnamese
 				}
 			}
 		}
@@ -1814,6 +1820,9 @@ e_kambuja = {
 				b_simhapura = {
 					province = 10828
 					color = { 95 58 171 }
+					cultural_names = {
+						name_list_vietnamese = cn_pd_b_simhapura_vietnamese
+					}
 				}
 				b_tan_xuyen = {
 					province = 11464
@@ -1829,6 +1838,9 @@ e_kambuja = {
 						name_list_mon = cn_pd_b_hve_cham
 					}
 				}
+				cultural_names = {
+					name_list_vietnamese = cn_pd_b_simhapura_vietnamese
+				}
 			}
 			c_ma_linh = {
 				color = { 67 80 117 }
@@ -1837,6 +1849,12 @@ e_kambuja = {
 				b_ma_linh = {
 					province = 10836
 					color = { 79 97 98 }
+					cultural_names = {
+						name_list_cham = cn_pd_b_ma_linh_cham
+						name_list_han = cn_pd_b_ma_linh_han
+						name_list_khmer = cn_pd_b_ma_linh_cham
+						name_list_mon = cn_pd_b_ma_linh_cham
+					}
 				}
 				b_dia_ly = {
 					province = 10837
@@ -1845,9 +1863,17 @@ e_kambuja = {
 				b_bo_chinh = {
 					province = 10838
 					color = { 77 103 151 }
+					cultural_names = {
+						name_list_cham = cn_pd_b_bo_chinh_cham
+						name_list_khmer = cn_pd_b_bo_chinh_cham
+						name_list_mon = cn_pd_b_bo_chinh_cham
+					}
 				}
 				cultural_names = {
-					name_list_han = cn_pd_c_ma_linh_han
+					name_list_cham = cn_pd_b_bo_chinh_cham
+					name_list_han = cn_pd_b_ma_linh_han
+					name_list_khmer = cn_pd_b_bo_chinh_cham
+					name_list_mon = cn_pd_b_bo_chinh_cham
 				}
 			}
 			cultural_names = {
@@ -1894,14 +1920,23 @@ e_kambuja = {
 				b_kauthara = {
 					province = 10826
 					color = { 98 52 182 }
+					cultural_names = {
+						name_list_vietnamese = cn_pd_b_kauthara_vietnamese
+					}
 				}
 				b_aya_ru = {
 					province = 10832
 					color = { 83 67 139 }
+					cultural_names = {
+						name_list_vietnamese = cn_pd_b_aya_ru_vietnamese
+					}
 				}
 				b_nhan = {
 					province = 11093
 					color = { 97 52 227 }
+				}
+				cultural_names = {
+					name_list_vietnamese = cn_pd_b_kauthara_vietnamese
 				}
 			}
 			c_panduranga = {
@@ -1910,14 +1945,28 @@ e_kambuja = {
 				b_panduranga = {
 					province = 10825
 					color = { 155 75 150 }
+					cultural_names = {
+						name_list_vietnamese = cn_pd_b_panduranga_vietnamese
+					}
 				}
 				b_malithit = {
 					province = 10834
 					color = { 96 66 182 }
+					cultural_names = {
+						name_list_vietnamese = cn_pd_b_malithit_vietnamese
+					}
 				}
 				b_binh_tuy = {
 					province = 10921
 					color = { 158 82 98 }
+					cultural_names = {
+						name_list_cham = cn_pd_b_binh_tuy_cham
+						name_list_khmer = cn_pd_b_binh_tuy_cham
+						name_list_mon = cn_pd_b_binh_tuy_cham
+					}
+				}
+				cultural_names = {
+					name_list_vietnamese = cn_pd_b_panduranga_vietnamese
 				}
 			}
 			cultural_names = {

@@ -87,21 +87,46 @@ e_goryeo = {
 					province = 9906
 
 					color = { 90 120 225 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gaeseong_Gaeseong_emishi
+						name_list_han = cn_pd_b_Goryeo_Gaeseong_Gaeseong_han
+						name_list_yamato = cn_pd_b_Goryeo_Gaeseong_Gaeseong_emishi
+					}
 				}
 				b_Goryeo_Gaeseong_Tosan = {
 					province = 9905
 
 					color = { 90 120 225 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gaeseong_Tosan_emishi
+						name_list_han = cn_pd_b_Goryeo_Gaeseong_Tosan_han
+						name_list_yamato = cn_pd_b_Goryeo_Gaeseong_Tosan_emishi
+					}
 				}
 				b_Goryeo_Gaeseong_Chuiljeon = {
 					province = 9907
 
 					color = { 90 120 225 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gaeseong_Chuiljeon_emishi
+						name_list_han = cn_pd_b_Goryeo_Gaeseong_Chuiljeon_han
+						name_list_yamato = cn_pd_b_Goryeo_Gaeseong_Chuiljeon_emishi
+					}
 				}
 				b_Goryeo_Yanggwan_Ganghwa = {
 					province = 9945
 
 					color = { 90 120 225 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_cirlzj_xinghua_balhae
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Ganghwa_han
+						name_list_yamato = cn_pd_b_cirlzj_xinghua_balhae
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Goryeo_Gaeseong_Gaeseong_emishi
+					name_list_han = cn_pd_b_Goryeo_Gaeseong_Gaeseong_han
+					name_list_yamato = cn_pd_b_Goryeo_Gaeseong_Gaeseong_emishi
 				}
 			}
 			
@@ -112,21 +137,46 @@ e_goryeo = {
 					province = 9911
 
 					color = { 55 90 225 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Seohae_Gokju_emishi
+						name_list_han = cn_pd_b_Goryeo_Seohae_Gokju_han
+						name_list_yamato = cn_pd_b_Goryeo_Seohae_Gokju_emishi
+					}
 				}
 				b_Goryeo_Seohae_Suan = {
 					province = 9909
 
 					color = { 55 90 225 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Seohae_Suan_emishi
+						name_list_han = cn_pd_b_Goryeo_Seohae_Suan_emishi
+						name_list_yamato = cn_pd_b_Goryeo_Seohae_Suan_emishi
+					}
 				}
 				b_Goryeo_Seohae_Tosan = {
 					province = 9908
 
 					color = { 55 90 225 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Seohae_Tosan_emishi
+						name_list_han = cn_pd_b_Goryeo_Seohae_Tosan_han
+						name_list_yamato = cn_pd_b_Goryeo_Seohae_Tosan_emishi
+					}
 				}
 				b_Goryeo_Seohae_Sineun = {
 					province = 9910
 
 					color = { 55 90 225 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Seohae_Sineun_emishi
+						name_list_han = cn_pd_b_Goryeo_Seohae_Sineun_han
+						name_list_yamato = cn_pd_b_Goryeo_Seohae_Sineun_emishi
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Goryeo_Seohae_Gokju_emishi
+					name_list_han = cn_pd_b_Goryeo_Seohae_Gokju_han
+					name_list_yamato = cn_pd_b_Goryeo_Seohae_Gokju_emishi
 				}
 			}
 			
@@ -137,12 +187,32 @@ e_goryeo = {
 					province = 9922
 
 					color = { 100 125 210 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_pingzhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Seohae_Pyeongju_han
+						name_list_yamato = cn_pd_b_pingzhou_yamato
+					}
 				}
 				b_Goryeo_Seohae_Dongju = {
 					province = 9915
 
 					color = { 120 225 230 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Tangzhou2_yamato
+						name_list_han = cn_pd_b_Goryeo_Seohae_Dongju_han
+						name_list_yamato = cn_pd_b_Liao_Tangzhou2_yamato
+					}
 				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_pingzhou_yamato
+					name_list_han = cn_pd_b_Goryeo_Seohae_Pyeongju_han
+					name_list_yamato = cn_pd_b_pingzhou_yamato
+				}
+			}
+			cultural_names = {
+				name_list_emishi = cn_pd_b_Goryeo_Gaeseong_Gaeseong_emishi
+				name_list_han = cn_pd_b_Goryeo_Gaeseong_Gaeseong_han
+				name_list_yamato = cn_pd_b_Goryeo_Gaeseong_Gaeseong_emishi
 			}
 		}
 		
@@ -158,16 +228,36 @@ e_goryeo = {
 					province = 9919
 
 					color = { 51 186 193 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Kaizhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Seohae_Haeju_han
+						name_list_yamato = cn_pd_b_Liao_Kaizhou_yamato
+					}
 				}
 				b_Goryeo_Seohae_Ongjin = {
 					province = 9920
 
 					color = { 51 186 193 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Seohae_Ongjin_emishi
+						name_list_han = cn_pd_b_Goryeo_Seohae_Ongjin_han
+						name_list_yamato = cn_pd_b_Goryeo_Seohae_Ongjin_emishi
+					}
 				}
 				b_Goryeo_Seohae_Yeomju = {
 					province = 9921
 
 					color = { 100 125 210 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Yuanzhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Seohae_Yeomju_han
+						name_list_yamato = cn_pd_b_Liao_Yuanzhou_yamato
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Liao_Kaizhou_yamato
+					name_list_han = cn_pd_b_Goryeo_Seohae_Haeju_han
+					name_list_yamato = cn_pd_b_Liao_Kaizhou_yamato
 				}
 			}
 			
@@ -178,16 +268,36 @@ e_goryeo = {
 					province = 9912
 
 					color = { 120 225 230 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Xingzhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Seohae_Hwangju_han
+						name_list_yamato = cn_pd_b_Liao_Xingzhou_yamato
+					}
 				}
 				b_Goryeo_Seohae_Anak = {
 					province = 9913
 
 					color = { 120 225 230 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_anyue_yamato
+						name_list_han = cn_pd_b_Goryeo_Seohae_Anak_han
+						name_list_yamato = cn_pd_b_anyue_yamato
+					}
 				}
 				b_Goryeo_Seohae_Bongju = {
 					province = 9914
 
 					color = { 120 225 230 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Fengzhou3_yamato
+						name_list_han = cn_pd_b_Goryeo_Seohae_Bongju_han
+						name_list_yamato = cn_pd_b_Liao_Fengzhou3_yamato
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Liao_Xingzhou_yamato
+					name_list_han = cn_pd_b_Goryeo_Seohae_Hwangju_han
+					name_list_yamato = cn_pd_b_Liao_Xingzhou_yamato
 				}
 			}
 
@@ -198,17 +308,42 @@ e_goryeo = {
 					province = 9916
 
 					color = { 20 205 215 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Fengzhou3_yamato
+						name_list_han = cn_pd_b_Goryeo_Seohae_Bongju_han
+						name_list_yamato = cn_pd_b_Liao_Fengzhou3_yamato
+					}
 				}
 				b_Goryeo_Seohae_Jangyeon = {
 					province = 9917
 
 					color = { 20 205 215 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Seohae_Jangyeon_emishi
+						name_list_han = cn_pd_b_Goryeo_Seohae_Jangyeon_han
+						name_list_yamato = cn_pd_b_Goryeo_Seohae_Jangyeon_emishi
+					}
 				}
 				b_Goryeo_Seohae_Cheongsong = {
 					province = 9918
 
 					color = { 20 205 215 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_qichang_yamato
+						name_list_han = cn_pd_b_Goryeo_Seohae_Cheongsong_han
+						name_list_yamato = cn_pd_b_qichang_yamato
+					}
 				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Liao_Fengzhou3_yamato
+					name_list_han = cn_pd_b_Goryeo_Seohae_Bongju_han
+					name_list_yamato = cn_pd_b_Liao_Fengzhou3_yamato
+				}
+			}
+			cultural_names = {
+				name_list_emishi = cn_pd_b_Liao_Kaizhou_yamato
+				name_list_han = cn_pd_b_Goryeo_Seohae_Haeju_han
+				name_list_yamato = cn_pd_b_Liao_Kaizhou_yamato
 			}
 		}
 		
@@ -224,16 +359,36 @@ e_goryeo = {
 					province = 9873
 
 					color = { 70 140 245 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Xingzhou_yamato
+						name_list_han = cn_pd_c_thang_long_han
+						name_list_yamato = cn_pd_b_Liao_Xingzhou_yamato
+					}
 				}
 				b_Goryeo_Gyoju_Geumseong = {
 					province = 9874
 
 					color = { 70 140 245 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_jincheng_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyoju_Geumseong_han
+						name_list_yamato = cn_pd_b_jincheng_yamato
+					}
 				}
 				b_Goryeo_Gyoju_Nangcheon = {
 					province = 9875
 
 					color = { 70 140 245 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gyoju_Nangcheon_emishi
+						name_list_han = cn_pd_b_Goryeo_Gyoju_Nangcheon_han
+						name_list_yamato = cn_pd_b_Goryeo_Gyoju_Nangcheon_emishi
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Liao_Xingzhou_yamato
+					name_list_han = cn_pd_c_thang_long_han
+					name_list_yamato = cn_pd_b_Liao_Xingzhou_yamato
 				}
 			}
 			
@@ -244,11 +399,26 @@ e_goryeo = {
 					province = 9870
 
 					color = { 95 155 250 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gyoju_Inje_emishi
+						name_list_han = cn_pd_b_Goryeo_Gyoju_Inje_han
+						name_list_yamato = cn_pd_b_Goryeo_Gyoju_Inje_emishi
+					}
 				}
 				b_Goryeo_Gyoju_Yanggu = {
 					province = 9872
 
 					color = { 95 155 250 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_yangjiang_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyoju_Yanggu_han
+						name_list_yamato = cn_pd_b_yangjiang_yamato
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Goryeo_Gyoju_Inje_emishi
+					name_list_han = cn_pd_b_Goryeo_Gyoju_Inje_han
+					name_list_yamato = cn_pd_b_Goryeo_Gyoju_Inje_emishi
 				}
 			}
 			
@@ -259,21 +429,46 @@ e_goryeo = {
 					province = 9879
 
 					color = { 30 115 240 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Tangzhou2_yamato
+						name_list_han = cn_pd_b_Goryeo_Seohae_Dongju_han
+						name_list_yamato = cn_pd_b_Liao_Tangzhou2_yamato
+					}
 				}
 				b_Goryeo_Gyoju_Pyeonggang = {
 					province = 9876
 
 					color = { 30 115 240 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_pinggao_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyoju_Pyeonggang_han
+						name_list_yamato = cn_pd_b_pinggao_yamato
+					}
 				}
 				b_Goryeo_Gyoju_Icheon = {
 					province = 9877
 
 					color = { 30 115 240 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gyoju_Icheon_emishi
+						name_list_han = cn_pd_b_Goryeo_Gyoju_Icheon_han
+						name_list_yamato = cn_pd_b_Goryeo_Gyoju_Icheon_emishi
+					}
 				}
 				b_Goryeo_Gyoju_Anhyeop = {
 					province = 9878
 
 					color = { 30 115 240 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_anxiang_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyoju_Anhyeop_han
+						name_list_yamato = cn_pd_b_anxiang_yamato
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Liao_Tangzhou2_yamato
+					name_list_han = cn_pd_b_Goryeo_Seohae_Dongju_han
+					name_list_yamato = cn_pd_b_Liao_Tangzhou2_yamato
 				}
 			}
 
@@ -284,17 +479,42 @@ e_goryeo = {
 					province = 9880
 
 					color = { 30 90 170 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Chunzhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyoju_Chunju_han
+						name_list_yamato = cn_pd_b_Liao_Chunzhou_yamato
+					}
 				}
 				b_Goryeo_Gyoju_Hoengcheon = {
 					province = 9881
 
 					color = { 30 90 170 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gyoju_Hoengcheon_emishi
+						name_list_han = cn_pd_b_Goryeo_Gyoju_Hoengcheon_han
+						name_list_yamato = cn_pd_b_Goryeo_Gyoju_Hoengcheon_emishi
+					}
 				}
 				b_Goryeo_Gyoju_Hongcheon = {
 					province = 9882
 
 					color = { 30 90 170 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gyoju_Hongcheon_emishi
+						name_list_han = cn_pd_b_Goryeo_Gyoju_Hongcheon_han
+						name_list_yamato = cn_pd_b_Goryeo_Gyoju_Hongcheon_emishi
+					}
 				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Liao_Chunzhou_yamato
+					name_list_han = cn_pd_b_Goryeo_Gyoju_Chunju_han
+					name_list_yamato = cn_pd_b_Liao_Chunzhou_yamato
+				}
+			}
+			cultural_names = {
+				name_list_emishi = cn_pd_b_Liao_Xingzhou_yamato
+				name_list_han = cn_pd_c_thang_long_han
+				name_list_yamato = cn_pd_b_Liao_Xingzhou_yamato
 			}
 		}
 		
@@ -310,16 +530,36 @@ e_goryeo = {
 					province = 9887
 
 					color = { 35 35 120 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_changqing_yamato
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Jangjeong_han
+						name_list_yamato = cn_pd_b_changqing_yamato
+					}
 				}
 				b_Goryeo_Bukgye_Sakju = {
 					province = 9888
 
 					color = { 35 35 120 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_shuozhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Sakju_han
+						name_list_yamato = cn_pd_c_shuozhou_yamato
+					}
 				}
 				b_FIC_EMan_Bao = {
 					province = 12454
 
 					color = { 35 35 120 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_FIC_EMan_Bao_emishi
+						name_list_han = cn_pd_b_FIC_EMan_Bao_han
+						name_list_yamato = cn_pd_b_FIC_EMan_Bao_emishi
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_changqing_yamato
+					name_list_han = cn_pd_b_Goryeo_Bukgye_Jangjeong_han
+					name_list_yamato = cn_pd_b_changqing_yamato
 				}
 			}
 
@@ -330,11 +570,26 @@ e_goryeo = {
 					province = 9889
 
 					color = { 60 60 130 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Yizhou_yamato
+						name_list_han = cn_pd_b_hami_han
+						name_list_yamato = cn_pd_b_Liao_Yizhou_yamato
+					}
 				}
 				b_Goryeo_Bukgye_Cheolju = {
 					province = 9890
 
 					color = { 60 60 130 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Bukgye_Cheolju_emishi
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Cheolju_han
+						name_list_yamato = cn_pd_b_Goryeo_Bukgye_Cheolju_emishi
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Liao_Yizhou_yamato
+					name_list_han = cn_pd_b_hami_han
+					name_list_yamato = cn_pd_b_Liao_Yizhou_yamato
 				}
 			}
 			
@@ -345,16 +600,36 @@ e_goryeo = {
 					province = 9891
 
 					color = { 40 45 170 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Jizhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Gwiju_han
+						name_list_yamato = cn_pd_b_Liao_Jizhou_yamato
+					}
 				}
 				b_Goryeo_Bukgye_Seonju = {
 					province = 9892
 
 					color = { 40 45 170 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Zhongjing_yamato
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Seonju_han
+						name_list_yamato = cn_pd_b_Liao_Zhongjing_yamato
+					}
 				}
 				b_Goryeo_Bukgye_Gaju = {
 					province = 9893
 
 					color = { 40 45 170 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Hezhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Gaju_han
+						name_list_yamato = cn_pd_b_Liao_Hezhou_yamato
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Liao_Jizhou_yamato
+					name_list_han = cn_pd_b_Goryeo_Bukgye_Gwiju_han
+					name_list_yamato = cn_pd_b_Liao_Jizhou_yamato
 				}
 			}
 
@@ -365,17 +640,42 @@ e_goryeo = {
 					province = 9894
 
 					color = { 30 35 220 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Amur_Taizhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Taeju_han
+						name_list_yamato = cn_pd_b_Amur_Taizhou_yamato
+					}
 				}
 				b_Goryeo_Bukgye_Sukju = {
 					province = 9895
 
 					color = { 30 35 220 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_suzhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Sukju_han
+						name_list_yamato = cn_pd_c_suzhou_yamato
+					}
 				}
 				b_Goryeo_Bukgye_Wiju = {
 					province = 9896
 
 					color = { 30 35 220 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Weizhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Wiju_han
+						name_list_yamato = cn_pd_b_Liao_Weizhou_yamato
+					}
 				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Amur_Taizhou_yamato
+					name_list_han = cn_pd_b_Goryeo_Bukgye_Taeju_han
+					name_list_yamato = cn_pd_b_Amur_Taizhou_yamato
+				}
+			}
+			cultural_names = {
+				name_list_emishi = cn_pd_d_yukju_emishi
+				name_list_han = cn_pd_d_yukju_han
+				name_list_yamato = cn_pd_d_yukju_emishi
 			}
 		}
 		
@@ -391,21 +691,46 @@ e_goryeo = {
 					province = 9899
 
 					color = { 135 42 169 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Xijing_yamato
+						name_list_han = cn_pd_c_BAL_east_amnok_han
+						name_list_yamato = cn_pd_b_Liao_Xijing_yamato
+					}
 				}
 				b_Goryeo_Bukgye_Tonghae = {
 					province = 9900
 
 					color = { 135 42 169 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Bukgye_Tonghae_emishi
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Tonghae_han
+						name_list_yamato = cn_pd_b_Goryeo_Bukgye_Tonghae_emishi
+					}
 				}
 				b_Goryeo_Bukgye_Samhwa = {
 					province = 9897
 
 					color = { 135 42 169 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Bukgye_Samhwa_emishi
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Samhwa_han
+						name_list_yamato = cn_pd_b_Goryeo_Bukgye_Samhwa_emishi
+					}
 				}
 				b_Goryeo_Bukgye_Yonggang = {
 					province = 9898
 
 					color = { 135 42 169 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_longgang_yamato
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Yonggang_han
+						name_list_yamato = cn_pd_b_longgang_yamato
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Liao_Xijing_yamato
+					name_list_han = cn_pd_c_BAL_east_amnok_han
+					name_list_yamato = cn_pd_b_Liao_Xijing_yamato
 				}
 			}
 
@@ -416,21 +741,46 @@ e_goryeo = {
 					province = 9902
 
 					color = { 180 92 195 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Dongjing_yamato
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Seongju_han
+						name_list_yamato = cn_pd_b_Liao_Dongjing_yamato
+					}
 				}
 				b_Goryeo_Bukgye_Jaju = {
 					province = 9901
 
 					color = { 180 92 195 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_cizhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Jaju_han
+						name_list_yamato = cn_pd_c_cizhou_yamato
+					}
 				}
 				b_Goryeo_Bukgye_Yangam = {
 					province = 9903
 
 					color = { 180 92 195 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Bukgye_Yangam_emishi
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Yangam_han
+						name_list_yamato = cn_pd_b_Goryeo_Bukgye_Yangam_emishi
+					}
 				}
 				b_Goryeo_Bukgye_Isan = {
 					province = 9904
 
 					color = { 180 92 195 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Bukgye_Isan_emishi
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Isan_han
+						name_list_yamato = cn_pd_b_Goryeo_Bukgye_Isan_emishi
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Liao_Dongjing_yamato
+					name_list_han = cn_pd_b_Goryeo_Bukgye_Seongju_han
+					name_list_yamato = cn_pd_b_Liao_Dongjing_yamato
 				}
 			}
 			
@@ -441,22 +791,52 @@ e_goryeo = {
 					province = 9883
 
 					color = { 155 100 165 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_ningyuan_2_yamato
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Yeongwon_han
+						name_list_yamato = cn_pd_b_ningyuan_2_yamato
+					}
 				}
 				b_Goryeo_Bukgye_Muju = {
 					province = 9884
 
 					color = { 155 100 165 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_fangzhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Muju_han
+						name_list_yamato = cn_pd_c_fangzhou_yamato
+					}
 				}
 				b_Goryeo_Bukgye_Deokju = {
 					province = 9885
 
 					color = { 155 100 165 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_dezhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Deokju_han
+						name_list_yamato = cn_pd_c_dezhou_yamato
+					}
 				}
 				b_Goryeo_Bukgye_Maengju = {
 					province = 9886
 
 					color = { 155 100 165 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Bukgye_Maengju_emishi
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Maengju_han
+						name_list_yamato = cn_pd_b_Goryeo_Bukgye_Maengju_emishi
+					}
 				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_ningyuan_2_yamato
+					name_list_han = cn_pd_b_Goryeo_Bukgye_Yeongwon_han
+					name_list_yamato = cn_pd_b_ningyuan_2_yamato
+				}
+			}
+			cultural_names = {
+				name_list_emishi = cn_pd_b_beihai_yamato
+				name_list_han = cn_pd_d_bukgye_han
+				name_list_yamato = cn_pd_b_beihai_yamato
 			}
 		}
 		
@@ -472,16 +852,36 @@ e_goryeo = {
 					province = 9939
 
 					color = { 135 192 194 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Xingzhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Gwangju_han
+						name_list_yamato = cn_pd_b_Liao_Xingzhou_yamato
+					}
 				}
 				b_Goryeo_Yanggwan_Yanggeun = {
 					province = 9928
 
 					color = { 105 190 205 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Yanggwan_Yanggeun_emishi
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Yanggeun_han
+						name_list_yamato = cn_pd_b_Goryeo_Yanggwan_Yanggeun_emishi
+					}
 				}
 				b_Goryeo_Yanggwan_Cheonyeong = {
 					province = 9929
 
 					color = { 105 190 205 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Yanggwan_Cheonyeong_emishi
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Cheonyeong_han
+						name_list_yamato = cn_pd_b_Goryeo_Yanggwan_Cheonyeong_emishi
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Liao_Xingzhou_yamato
+					name_list_han = cn_pd_b_Goryeo_Yanggwan_Gwangju_han
+					name_list_yamato = cn_pd_b_Liao_Xingzhou_yamato
 				}
 			}
 
@@ -492,16 +892,36 @@ e_goryeo = {
 					province = 9925
 
 					color = { 135 192 194 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Yaozhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Yangju_han
+						name_list_yamato = cn_pd_b_Liao_Yaozhou_yamato
+					}
 				}
 				b_Goryeo_Yanggwan_Gyeonju = {
 					province = 9924
 
 					color = { 135 192 194 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_xingzhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Gyeonju_han
+						name_list_yamato = cn_pd_c_xingzhou_yamato
+					}
 				}
 				b_Goryeo_Yanggwan_Poju = {
 					province = 9923
 
 					color = { 135 192 194 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Fengzhou3_yamato
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Poju_han
+						name_list_yamato = cn_pd_b_Liao_Fengzhou3_yamato
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Liao_Yaozhou_yamato
+					name_list_han = cn_pd_b_Goryeo_Yanggwan_Yangju_han
+					name_list_yamato = cn_pd_b_Liao_Yaozhou_yamato
 				}
 			}
 
@@ -512,21 +932,47 @@ e_goryeo = {
 					province = 9946
 
 					color = { 120 185 175 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_tongcheng_yamato
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Dangseong_han
+						name_list_yamato = cn_pd_c_tongcheng_yamato
+					}
 				}
 				b_Goryeo_Yanggwan_Anseong = {
 					province = 9948
 
 					color = { 120 185 175 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Yanggwan_Anseong_emishi
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Anseong_han
+						name_list_yamato = cn_pd_b_Goryeo_Yanggwan_Anseong_emishi
+					}
 				}
 				b_Goryeo_Yanggwan_Jukju = {
 					province = 9947
 
 					color = { 120 185 175 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Yanggwan_Jukju_emishi
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Jukju_han
+						name_list_yamato = cn_pd_b_Goryeo_Yanggwan_Jukju_emishi
+					}
 				}
+				cultural_names = {
+					name_list_emishi = cn_pd_c_tongcheng_yamato
+					name_list_han = cn_pd_b_Goryeo_Yanggwan_Dangseong_han
+					name_list_yamato = cn_pd_c_tongcheng_yamato
+				}
+			}
+			cultural_names = {
+				name_list_emishi = cn_pd_b_Liao_Xingzhou_yamato
+				name_list_han = cn_pd_b_Goryeo_Yanggwan_Gwangju_han
+				name_list_yamato = cn_pd_b_Liao_Xingzhou_yamato
 			}
 		}
 		cultural_names = {
 			name_list_emishi = cn_pd_b_como_ilmenian
+			name_list_han = cn_pd_k_goguryeo_han
 			name_list_yamato = cn_pd_b_como_ilmenian
 		}
 	}
@@ -562,16 +1008,36 @@ e_goryeo = {
 					province = 9973
 
 					color = { 150 75 70 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_xingzhou_yamato
+						name_list_han = cn_pd_b_Liao_Dongjing_han
+						name_list_yamato = cn_pd_c_xingzhou_yamato
+					}
 				}
 				b_Goryeo_Gyeongsang_Janggi = {
 					province = 9970
 
 					color = { 150 75 70 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gyeongsang_Janggi_emishi
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Janggi_han
+						name_list_yamato = cn_pd_b_Goryeo_Gyeongsang_Janggi_emishi
+					}
 				}
 				b_Goryeo_Gyeongsang_Yeju = {
 					province = 9972
 
 					color = { 150 75 70 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_lingzhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Yeju_han
+						name_list_yamato = cn_pd_c_lingzhou_yamato
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_c_xingzhou_yamato
+					name_list_han = cn_pd_b_Liao_Dongjing_han
+					name_list_yamato = cn_pd_c_xingzhou_yamato
 				}
 			}
 
@@ -582,16 +1048,36 @@ e_goryeo = {
 					province = 9979
 
 					color = { 205 125 115 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gyeongsang_Andong_emishi
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Andong_han
+						name_list_yamato = cn_pd_b_Goryeo_Gyeongsang_Andong_emishi
+					}
 				}
 				b_Goryeo_Gyeongsang_Sunan = {
 					province = 9978
 
 					color = { 205 125 115 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gyeongsang_Sunan_emishi
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Sunan_han
+						name_list_yamato = cn_pd_b_Goryeo_Gyeongsang_Sunan_emishi
+					}
 				}
 				b_Goryeo_Gyeongsang_Jaesan = {
 					province = 9977
 
 					color = { 205 125 115 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gyeongsang_Jaesan_emishi
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Jaesan_han
+						name_list_yamato = cn_pd_b_Goryeo_Gyeongsang_Jaesan_emishi
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Goryeo_Gyeongsang_Andong_emishi
+					name_list_han = cn_pd_b_Goryeo_Gyeongsang_Andong_han
+					name_list_yamato = cn_pd_b_Goryeo_Gyeongsang_Andong_emishi
 				}
 			}
 
@@ -602,16 +1088,34 @@ e_goryeo = {
 					province = 9984
 
 					color = { 235 90 80 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Xiangzhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Sangju_han
+						name_list_yamato = cn_pd_b_Liao_Xiangzhou_yamato
+					}
 				}
 				b_Goryeo_Gyeongsang_Dain = {
 					province = 9985
 
 					color = { 235 90 80 }
+					cultural_names = {
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Dain_han
+					}
 				}
 				b_Goryeo_Gyeongsang_Giju = {
 					province = 9986
 
 					color = { 235 90 80 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Jizhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Giju_han
+						name_list_yamato = cn_pd_b_Liao_Jizhou_yamato
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Liao_Xiangzhou_yamato
+					name_list_han = cn_pd_b_Goryeo_Gyeongsang_Sangju_han
+					name_list_yamato = cn_pd_b_Liao_Xiangzhou_yamato
 				}
 			}
 
@@ -622,17 +1126,42 @@ e_goryeo = {
 					province = 9991
 
 					color = { 180 60 55 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gyeongsang_Ilseon_emishi
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Isan_han
+						name_list_yamato = cn_pd_b_Goryeo_Gyeongsang_Ilseon_emishi
+					}
 				}
 				b_Goryeo_Gyeongsang_Gaeryeong = {
 					province = 9992
 
 					color = { 180 60 55 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_huaining_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Gaeryeong_han
+						name_list_yamato = cn_pd_c_huaining_yamato
+					}
 				}
 				b_Goryeo_Gyeongsang_Yeongju = {
 					province = 9993
 
 					color = { 180 60 55 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Yingzhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Yeongju_han
+						name_list_yamato = cn_pd_b_Liao_Yingzhou_yamato
+					}
 				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Goryeo_Gyeongsang_Ilseon_emishi
+					name_list_han = cn_pd_b_Goryeo_Bukgye_Isan_han
+					name_list_yamato = cn_pd_b_Goryeo_Gyeongsang_Ilseon_emishi
+				}
+			}
+			cultural_names = {
+				name_list_emishi = cn_pd_c_xingzhou_yamato
+				name_list_han = cn_pd_b_Liao_Dongjing_han
+				name_list_yamato = cn_pd_c_xingzhou_yamato
 			}
 		}
 		
@@ -648,16 +1177,36 @@ e_goryeo = {
 					province = 9981
 
 					color = { 70 35 28 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Xinzhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Jinju_han
+						name_list_yamato = cn_pd_b_Liao_Xinzhou_yamato
+					}
 				}
 				b_Goryeo_Gyeongsang_Hadong = {
 					province = 9980
 
 					color = { 70 35 28 }
+					cultural_names = {
+						name_list_emishi = cn_pd_d_hedong_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Hadong_han
+						name_list_yamato = cn_pd_d_hedong_yamato
+					}
 				}
 				b_Goryeo_Gyeongsang_Geoje = {
 					province = 9982
 
 					color = { 70 35 28 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gyeongsang_Geoje_emishi
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Geoje_han
+						name_list_yamato = cn_pd_b_Goryeo_Gyeongsang_Geoje_emishi
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Liao_Xinzhou_yamato
+					name_list_han = cn_pd_b_Goryeo_Gyeongsang_Jinju_han
+					name_list_yamato = cn_pd_b_Liao_Xinzhou_yamato
 				}
 			}
 
@@ -668,16 +1217,36 @@ e_goryeo = {
 					province = 9974
 
 					color = { 80 20 10 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gyeongsang_Ulju_emishi
+						name_list_han = cn_pd_b_Goryeo_Bukgye_Wiju_han
+						name_list_yamato = cn_pd_b_Goryeo_Gyeongsang_Ulju_emishi
+					}
 				}
 				b_Goryeo_Gyeongsang_Gijang = {
 					province = 9975
 
 					color = { 80 20 10 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gyeongsang_Gijang_emishi
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Gijang_han
+						name_list_yamato = cn_pd_b_Goryeo_Gyeongsang_Gijang_emishi
+					}
 				}
 				b_Goryeo_Gyeongsang_Milseong = {
 					province = 9976
 
 					color = { 80 20 10 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gyeongsang_Milseong_emishi
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Milseong_han
+						name_list_yamato = cn_pd_b_Goryeo_Gyeongsang_Milseong_emishi
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Goryeo_Gyeongsang_Ulju_emishi
+					name_list_han = cn_pd_b_Goryeo_Bukgye_Wiju_han
+					name_list_yamato = cn_pd_b_Goryeo_Gyeongsang_Ulju_emishi
 				}
 			}
 			
@@ -688,21 +1257,46 @@ e_goryeo = {
 					province = 9987
 
 					color = { 70 55 50 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_hanyang_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Hamyang_han
+						name_list_yamato = cn_pd_b_hanyang_yamato
+					}
 				}
 				b_Goryeo_Gyeongsang_Geochang = {
 					province = 9988
 
 					color = { 70 55 50 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_xuchang_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Geochang_han
+						name_list_yamato = cn_pd_b_xuchang_yamato
+					}
 				}
 				b_Goryeo_Gyeongsang_Gyeongsanbu = {
 					province = 9989
 
 					color = { 70 55 50 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gyeongsang_Gyeongsanbu_emishi
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Gyeongsanbu_han
+						name_list_yamato = cn_pd_b_Goryeo_Gyeongsang_Gyeongsanbu_emishi
+					}
 				}
 				b_Goryeo_Gyeongsang_Hapcheon = {
 					province = 9990
 
 					color = { 70 55 50 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gyeongsang_Hapcheon_emishi
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Hapcheon_han
+						name_list_yamato = cn_pd_b_Goryeo_Gyeongsang_Hapcheon_emishi
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_hanyang_yamato
+					name_list_han = cn_pd_b_Goryeo_Gyeongsang_Hamyang_han
+					name_list_yamato = cn_pd_b_hanyang_yamato
 				}
 			}
 			
@@ -713,12 +1307,32 @@ e_goryeo = {
 					province = 9995
 
 					color = { 80 45 15 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_xinzhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Jinju_han
+						name_list_yamato = cn_pd_c_xinzhou_yamato
+					}
 				}
 				b_Goryeo_Gyeongsang_Yeongsan = {
 					province = 9994
 
 					color = { 80 45 15 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_lingshan_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Yeongsan_han
+						name_list_yamato = cn_pd_b_lingshan_yamato
+					}
 				}
+				cultural_names = {
+					name_list_emishi = cn_pd_c_xinzhou_yamato
+					name_list_han = cn_pd_b_Goryeo_Gyeongsang_Jinju_han
+					name_list_yamato = cn_pd_c_xinzhou_yamato
+				}
+			}
+			cultural_names = {
+				name_list_emishi = cn_pd_b_Liao_Xinzhou_yamato
+				name_list_han = cn_pd_b_Goryeo_Gyeongsang_Jinju_han
+				name_list_yamato = cn_pd_b_Liao_Xinzhou_yamato
 			}
 		}
 		
@@ -734,21 +1348,46 @@ e_goryeo = {
 					province = 9858
 
 					color = { 160 45 5 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_mingzhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Donggye_Myeongju_han
+						name_list_yamato = cn_pd_c_mingzhou_yamato
+					}
 				}
 				b_Goryeo_Donggye_Samcheok = {
 					province = 9859
 
 					color = { 160 45 5 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Donggye_Samcheok_emishi
+						name_list_han = cn_pd_b_Goryeo_Donggye_Samcheok_han
+						name_list_yamato = cn_pd_b_Goryeo_Donggye_Samcheok_emishi
+					}
 				}
 				b_Goryeo_Donggye_Ingnyeong = {
 					province = 9860
 
 					color = { 160 45 5 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_changning_yamato
+						name_list_han = cn_pd_b_Goryeo_Donggye_Ingnyeong_han
+						name_list_yamato = cn_pd_b_changning_yamato
+					}
 				}
 				b_Goryeo_Gyeongsang_Uljin = {
 					province = 9971
 
 					color = { 150 75 70 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Gyeongsang_Uljin_emishi
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Uljin_han
+						name_list_yamato = cn_pd_b_Goryeo_Gyeongsang_Uljin_emishi
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_c_mingzhou_yamato
+					name_list_han = cn_pd_b_Goryeo_Donggye_Myeongju_han
+					name_list_yamato = cn_pd_c_mingzhou_yamato
 				}
 			}
 
@@ -759,21 +1398,46 @@ e_goryeo = {
 					province = 9862
 
 					color = { 136 81 19 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_kaocheng_yamato
+						name_list_han = cn_pd_b_Goryeo_Donggye_Goseong_han
+						name_list_yamato = cn_pd_b_kaocheng_yamato
+					}
 				}
 				b_Goryeo_Donggye_Ganseong = {
 					province = 9861
 
 					color = { 136 81 19 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_guancheng_yamato
+						name_list_han = cn_pd_b_Goryeo_Donggye_Ganseong_han
+						name_list_yamato = cn_pd_b_guancheng_yamato
+					}
 				}
 				b_Goryeo_Donggye_Tongcheon = {
 					province = 9863
 
 					color = { 136 81 19 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_tongchuan_1_yamato
+						name_list_han = cn_pd_b_Goryeo_Donggye_Tongcheon_han
+						name_list_yamato = cn_pd_b_tongchuan_1_yamato
+					}
 				}
 				b_Goryeo_Donggye_Heupgok = {
 					province = 9864
 
 					color = { 136 81 19 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Donggye_Heupgok_emishi
+						name_list_han = cn_pd_b_Goryeo_Donggye_Heupgok_han
+						name_list_yamato = cn_pd_b_Goryeo_Donggye_Heupgok_emishi
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_kaocheng_yamato
+					name_list_han = cn_pd_b_Goryeo_Donggye_Goseong_han
+					name_list_yamato = cn_pd_b_kaocheng_yamato
 				}
 			}
 
@@ -784,22 +1448,47 @@ e_goryeo = {
 					province = 9865
 
 					color = { 170 125 15 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Tangzhou2_yamato
+						name_list_han = cn_pd_b_Goryeo_Donggye_Deungju_han
+						name_list_yamato = cn_pd_b_Liao_Tangzhou2_yamato
+					}
 				}
 				b_Goryeo_Donggye_Yeju = {
 					province = 9868
 
 					color = { 170 125 15 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_lingzhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Yeju_han
+						name_list_yamato = cn_pd_c_lingzhou_yamato
+					}
 				}
 				b_Goryeo_Donggye_Uiju = {
 					province = 9866
 
 					color = { 170 125 15 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Yizhou_yamato
+						name_list_han = cn_pd_b_hami_han
+						name_list_yamato = cn_pd_b_Liao_Yizhou_yamato
+					}
 				}
 				b_Goryeo_Donggye_Hwaju = {
 					province = 9867
 
 					color = { 170 125 15 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Donggye_Hwaju_emishi
+						name_list_han = cn_pd_b_Goryeo_Donggye_Hwaju_han
+						name_list_yamato = cn_pd_b_Goryeo_Donggye_Hwaju_emishi
+					}
  				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Liao_Tangzhou2_yamato
+					name_list_han = cn_pd_b_Goryeo_Donggye_Deungju_han
+					name_list_yamato = cn_pd_b_Liao_Tangzhou2_yamato
+				}
 			}
 
 			c_wonju = {
@@ -809,26 +1498,56 @@ e_goryeo = {
 					province = 9926
 
 					color = { 105 190 205 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_yuanzhou_2_yamato
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Wonju_han
+						name_list_yamato = cn_pd_c_yuanzhou_2_yamato
+					}
 				}
 				b_Goryeo_Yanggwan_Yeongwol = {
 					province = 9931
 
 					color = { 115 85 10 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Yanggwan_Yeongwol_emishi
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Yeongwol_han
+						name_list_yamato = cn_pd_b_Goryeo_Yanggwan_Yeongwol_emishi
+					}
 				}
 				b_Goryeo_Yanggwan_Pyeongchang = {
 					province = 9930
 
 					color = { 115 85 10 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Yanggwan_Pyeongchang_emishi
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Pyeongchang_han
+						name_list_yamato = cn_pd_b_Goryeo_Yanggwan_Pyeongchang_emishi
+					}
 				}
 				b_Goryeo_Yanggwan_Jecheon = {
 					province = 9932
 
 					color = { 115 85 10 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Yanggwan_Jecheon_emishi
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Jecheon_han
+						name_list_yamato = cn_pd_b_Goryeo_Yanggwan_Jecheon_emishi
+					}
 				}
 				b_Goryeo_Gyoju_Girin = {
 					province = 9871
 
 					color = { 115 85 10 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_qilin_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyoju_Girin_han
+						name_list_yamato = cn_pd_b_qilin_yamato
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_c_yuanzhou_2_yamato
+					name_list_han = cn_pd_b_Goryeo_Yanggwan_Wonju_han
+					name_list_yamato = cn_pd_c_yuanzhou_2_yamato
 				}
 			}
 
@@ -839,11 +1558,27 @@ e_goryeo = {
 					province = 9869
 
 				    color = { 120 110 45 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Donggye_Ulleung_emishi
+						name_list_han = cn_pd_b_Goryeo_Donggye_Ulleung_han
+						name_list_yamato = cn_pd_b_Goryeo_Donggye_Ulleung_emishi
+					}
 				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Goryeo_Donggye_Ulleung_emishi
+					name_list_han = cn_pd_b_Goryeo_Donggye_Ulleung_han
+					name_list_yamato = cn_pd_b_Goryeo_Donggye_Ulleung_emishi
+				}
+			}
+			cultural_names = {
+				name_list_emishi = cn_pd_b_Goryeo_Bukgye_Tonghae_emishi
+				name_list_han = cn_pd_d_donggye_han
+				name_list_yamato = cn_pd_b_Goryeo_Bukgye_Tonghae_emishi
 			}
 		}
 		cultural_names = {
 			name_list_emishi = cn_pd_k_silla_emishi
+			name_list_han = cn_pd_k_silla_han
 			name_list_yamato = cn_pd_k_silla_emishi
 		}
 	}
@@ -879,21 +1614,46 @@ e_goryeo = {
 					province = 9933
 
 					color = { 33 170 85 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_zhongzhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Chungju_han
+						name_list_yamato = cn_pd_c_zhongzhou_yamato
+					}
 				}
 				b_Goryeo_Yanggwan_Goeju = {
 					province = 9934
 
 					color = { 33 170 85 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Kaizhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Goeju_han
+						name_list_yamato = cn_pd_b_Liao_Kaizhou_yamato
+					}
 				}
 				b_Goryeo_Yanggwan_Jangyeon = {
 					province = 9935
 
 					color = { 33 170 85 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Seohae_Jangyeon_emishi
+						name_list_han = cn_pd_b_Goryeo_Seohae_Jangyeon_han
+						name_list_yamato = cn_pd_b_Goryeo_Seohae_Jangyeon_emishi
+					}
 				}
 				b_Goryeo_Gyeongsang_Boryeong = {
 					province = 9983
 
 					color = { 33 170 85 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_baoning_yamato
+						name_list_han = cn_pd_b_Goryeo_Gyeongsang_Boryeong_han
+						name_list_yamato = cn_pd_b_baoning_yamato
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_c_zhongzhou_yamato
+					name_list_han = cn_pd_b_Goryeo_Yanggwan_Chungju_han
+					name_list_yamato = cn_pd_c_zhongzhou_yamato
 				}
 			}
 
@@ -904,11 +1664,26 @@ e_goryeo = {
 					province = 9943
 
 					color = { 40 135 100 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Yanggwan_Hongju_emishi
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Hongju_han
+						name_list_yamato = cn_pd_b_Goryeo_Yanggwan_Hongju_emishi
+					}
 				}
 				b_Goryeo_Yanggwan_Buseong = {
 					province = 9942
 
 					color = { 40 135 100 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_fuchang_yamato
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Buseong_han
+						name_list_yamato = cn_pd_b_fuchang_yamato
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Goryeo_Yanggwan_Hongju_emishi
+					name_list_han = cn_pd_b_Goryeo_Yanggwan_Hongju_han
+					name_list_yamato = cn_pd_b_Goryeo_Yanggwan_Hongju_emishi
 				}
 			}
 
@@ -919,6 +1694,11 @@ e_goryeo = {
 					province = 9937
 
 					color = { 9 150 95 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Yanggwan_Gongju_emishi
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Gongju_han
+						name_list_yamato = cn_pd_b_Goryeo_Yanggwan_Gongju_emishi
+					}
 				}
 				b_Goryeo_Yanggwan_Nampo = {
 					province = 9941
@@ -929,11 +1709,26 @@ e_goryeo = {
 					province = 9927
 
 					color = { 40 135 100 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Yanggwan_Cheonan_emishi
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Cheonan_han
+						name_list_yamato = cn_pd_b_Goryeo_Yanggwan_Cheonan_emishi
+					}
 				}
 				b_Goryeo_Yanggwan_Yesan = {
 					province = 9944
 
 					color = { 40 135 100 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_lingshan_yamato
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Yesan_han
+						name_list_yamato = cn_pd_b_lingshan_yamato
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Goryeo_Yanggwan_Gongju_emishi
+					name_list_han = cn_pd_b_Goryeo_Yanggwan_Gongju_han
+					name_list_yamato = cn_pd_b_Goryeo_Yanggwan_Gongju_emishi
 				}
 			}
 
@@ -944,17 +1739,42 @@ e_goryeo = {
 					province = 9936
 
 					color = { 9 150 95 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Dongjing_yamato
+						name_list_han = cn_pd_b_Liao_Dongjing_han
+						name_list_yamato = cn_pd_b_Liao_Dongjing_yamato
+					}
 				}
 				b_Goryeo_Yanggwan_Yeonsan = {
 					province = 9938
 
 					color = { 9 150 95 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_lianshan_yamato
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Yeonsan_han
+						name_list_yamato = cn_pd_b_lianshan_yamato
+					}
 				}
 				b_Goryeo_Yanggwan_Seorim = {
 					province = 9940
 
 					color = { 9 150 95 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_FIC_Liao_Xilin_yamato
+						name_list_han = cn_pd_b_Goryeo_Yanggwan_Seorim_han
+						name_list_yamato = cn_pd_b_FIC_Liao_Xilin_yamato
+					}
 				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Liao_Dongjing_yamato
+					name_list_han = cn_pd_b_Liao_Dongjing_han
+					name_list_yamato = cn_pd_b_Liao_Dongjing_yamato
+				}
+			}
+			cultural_names = {
+				name_list_emishi = cn_pd_c_zhongzhou_yamato
+				name_list_han = cn_pd_b_Goryeo_Yanggwan_Chungju_han
+				name_list_yamato = cn_pd_c_zhongzhou_yamato
 			}
 		}
 		
@@ -970,21 +1790,46 @@ e_goryeo = {
 					province = 9949
 
 					color = { 45 120 25 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_luozhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Naju_han
+						name_list_yamato = cn_pd_c_luozhou_yamato
+					}
 				}
 				b_Goryeo_Jeolla_Yeongam = {
 					province = 9950
 
 					color = { 45 120 25 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Jeolla_Yeongam_emishi
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Yeongam_han
+						name_list_yamato = cn_pd_b_Goryeo_Jeolla_Yeongam_emishi
+					}
 				}
 				b_Goryeo_Jeolla_Neungseong = {
 					province = 9966
 
 					color = { 45 120 25 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_liaocheng_yamato
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Neungseong_han
+						name_list_yamato = cn_pd_b_liaocheng_yamato
+					}
 				}
 				b_Goryeo_Jeolla_Haeyang = {
 					province = 9967
 
 					color = { 45 120 25 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_haiyang_yamato
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Haeyang_han
+						name_list_yamato = cn_pd_b_haiyang_yamato
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_c_luozhou_yamato
+					name_list_han = cn_pd_b_Goryeo_Jeolla_Naju_han
+					name_list_yamato = cn_pd_c_luozhou_yamato
 				}
 			}
 
@@ -995,16 +1840,36 @@ e_goryeo = {
 					province = 9954
 
 					color = { 40 150 10 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_changjiang_yamato
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Jangheung_han
+						name_list_yamato = cn_pd_b_changjiang_yamato
+					}
 				}
 				b_Goryeo_Jeolla_Donggang = {
 					province = 9955
 
 					color = { 40 150 10 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_dongguang_yamato
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Donggang_han
+						name_list_yamato = cn_pd_b_dongguang_yamato
+					}
 				}
 				b_Goryeo_Jeolla_Jindo = {
 					province = 9956
 
 					color = { 40 150 10 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Jeolla_Jindo_emishi
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Jindo_han
+						name_list_yamato = cn_pd_b_Goryeo_Jeolla_Jindo_emishi
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_changjiang_yamato
+					name_list_han = cn_pd_b_Goryeo_Jeolla_Jangheung_han
+					name_list_yamato = cn_pd_b_changjiang_yamato
 				}
 			}
 
@@ -1015,17 +1880,42 @@ e_goryeo = {
 					province = 9964
 
 					color = { 120 215 60 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Liao_Fengcheng_yamato
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Boseong_han
+						name_list_yamato = cn_pd_b_Liao_Fengcheng_yamato
+					}
 				}
 				b_Goryeo_Jeolla_Seungpyeong = {
 					province = 9963
 
 					color = { 120 215 60 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_changping_yamato
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Seungpyeong_han
+						name_list_yamato = cn_pd_b_changping_yamato
+					}
 				}
 				b_Goryeo_Jeolla_Namyang = {
 					province = 9965
 
 					color = { 120 215 60 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_nanyang_yamato
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Namyang_han
+						name_list_yamato = cn_pd_b_nanyang_yamato
+					}
 				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Liao_Fengcheng_yamato
+					name_list_han = cn_pd_b_Goryeo_Jeolla_Boseong_han
+					name_list_yamato = cn_pd_b_Liao_Fengcheng_yamato
+				}
+			}
+			cultural_names = {
+				name_list_emishi = cn_pd_c_luozhou_yamato
+				name_list_han = cn_pd_b_Goryeo_Jeolla_Naju_han
+				name_list_yamato = cn_pd_c_luozhou_yamato
 			}
 		}
 
@@ -1041,12 +1931,27 @@ e_goryeo = {
 					province = 9856
 
 					color = { 45 245 135 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_caizhou_yamato
+						name_list_han = cn_pd_b_Goryeo_Tamna_Tamna_han
+						name_list_yamato = cn_pd_c_caizhou_yamato
+					}
 				}
 				b_Goryeo_Tamna_WestTamna = {
 					province = 9969
 
 					color = { 45 245 135 }
 				}
+				cultural_names = {
+					name_list_emishi = cn_pd_c_caizhou_yamato
+					name_list_han = cn_pd_b_Goryeo_Tamna_Tamna_han
+					name_list_yamato = cn_pd_c_caizhou_yamato
+				}
+			}
+			cultural_names = {
+				name_list_emishi = cn_pd_c_caizhou_yamato
+				name_list_han = cn_pd_b_Goryeo_Tamna_Tamna_han
+				name_list_yamato = cn_pd_c_caizhou_yamato
 			}
 		}
 		
@@ -1062,16 +1967,36 @@ e_goryeo = {
 					province = 9953
 
 					color = { 50 110 90 }
+					cultural_names = {
+						name_list_emishi = cn_pd_c_quanzhou_2_yamato
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Jeonju_han
+						name_list_yamato = cn_pd_c_quanzhou_2_yamato
+					}
 				}
 				b_Goryeo_Jeolla_Yeonggwang = {
 					province = 9951
 
 					color = { 50 110 90 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Jeolla_Yeonggwang_emishi
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Yeonggwang_han
+						name_list_yamato = cn_pd_b_Goryeo_Jeolla_Yeonggwang_emishi
+					}
 				}
 				b_Goryeo_Jeolla_Gangseong = {
 					province = 9952
 
 					color = { 50 110 90 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_kaocheng_yamato
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Gangseong_han
+						name_list_yamato = cn_pd_b_kaocheng_yamato
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_c_quanzhou_2_yamato
+					name_list_han = cn_pd_b_Goryeo_Jeolla_Jeonju_han
+					name_list_yamato = cn_pd_c_quanzhou_2_yamato
 				}
 			}
 			
@@ -1082,16 +2007,36 @@ e_goryeo = {
 					province = 9958
 
 					color = { 25 65 40 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Jeolla_Jillye_emishi
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Jillye_han
+						name_list_yamato = cn_pd_b_Goryeo_Jeolla_Jillye_emishi
+					}
 				}
 				b_Goryeo_Jeolla_Jindong = {
 					province = 9957
 
 					color = { 25 65 40 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Jeolla_Jindo_emishi
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Jindong_han
+						name_list_yamato = cn_pd_b_Goryeo_Jeolla_Jindo_emishi
+					}
 				}
 				b_Goryeo_Jeolla_Mupung = {
 					province = 9959
 
 					color = { 25 65 40 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Jeolla_Mupung_emishi
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Mupung_han
+						name_list_yamato = cn_pd_b_Goryeo_Jeolla_Mupung_emishi
+					}
+				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Goryeo_Jeolla_Jillye_emishi
+					name_list_han = cn_pd_b_Goryeo_Jeolla_Jillye_han
+					name_list_yamato = cn_pd_b_Goryeo_Jeolla_Jillye_emishi
 				}
 			}
 
@@ -1102,23 +2047,54 @@ e_goryeo = {
 					province = 9961
 
 					color = { 50 70 60 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Jeolla_Namwon_emishi
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Namwon_han
+						name_list_yamato = cn_pd_b_Goryeo_Jeolla_Namwon_emishi
+					}
 				}
 				b_Goryeo_Jeolla_Imsil = {
 					province = 9962
 
 					color = { 50 70 60 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Jeolla_Imsil_emishi
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Imsil_han
+						name_list_yamato = cn_pd_b_Goryeo_Jeolla_Imsil_emishi
+					}
 				}
 				b_Goryeo_Jeolla_Jinan = {
 					province = 9960
 
 					color = { 50 70 60 }
+					cultural_names = {
+						name_list_emishi = cn_pd_b_Goryeo_Jeolla_Jinan_emishi
+						name_list_han = cn_pd_b_Goryeo_Jeolla_Jinan_han
+						name_list_yamato = cn_pd_b_Goryeo_Jeolla_Jinan_emishi
+					}
 				}
+				cultural_names = {
+					name_list_emishi = cn_pd_b_Goryeo_Jeolla_Namwon_emishi
+					name_list_han = cn_pd_b_Goryeo_Jeolla_Namwon_han
+					name_list_yamato = cn_pd_b_Goryeo_Jeolla_Namwon_emishi
+				}
+			}
+			cultural_names = {
+				name_list_emishi = cn_pd_c_quanzhou_2_yamato
+				name_list_han = cn_pd_b_Goryeo_Jeolla_Jeonju_han
+				name_list_yamato = cn_pd_c_quanzhou_2_yamato
 			}
 		}
 		cultural_names = {
 			name_list_emishi = cn_pd_k_baekje_emishi
+			name_list_han = cn_pd_k_baekje_han
 			name_list_yamato = cn_pd_k_baekje_emishi
 		}
+	}
+	cultural_names = {
+		name_list_emishi = cn_pd_b_como_ilmenian
+		name_list_han = cn_pd_e_goryeo_han
+		name_list_yamato = cn_pd_b_como_ilmenian
 	}
 }
 

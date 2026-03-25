@@ -106,7 +106,8 @@ configuration['title_files'].each do |file_name, file_config|
       source_titles[title.name] = title
     end
 
-    titles[source] = source_titles
+    titles[source] ||= {}
+    titles[source].merge!(source_titles)
     puts "\tFound #{source_titles.keys.count} titles for #{source}"
     puts "\t#{source_titles.reject { |_k, v| v.cultural_names.empty? }.count} of them have cultural names"
   end

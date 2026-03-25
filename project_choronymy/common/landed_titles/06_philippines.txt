@@ -36,7 +36,7 @@ e_nusantara = {
 						name_list_korean = cn_pd_b_PHI_Tondo_korean
 						name_list_portuguese = cn_pd_b_PHI_Tondo_aragonese
 						name_list_visigothic = cn_pd_b_PHI_Tondo_aragonese
-						name_list_yamato = cn_pd_b_PHI_Tondo_yamato
+						name_list_yamato = cn_pd_b_dangtu_yamato
 					}
 				}
 				b_PHI_Kapampangan = {
@@ -141,7 +141,7 @@ e_nusantara = {
 					name_list_sardinian = cn_pd_b_PHI_Maynila_aragonese
 					name_list_sicilian = cn_pd_b_PHI_Maynila_aragonese
 					name_list_visigothic = cn_pd_b_PHI_Tondo_aragonese
-					name_list_yamato = cn_pd_b_PHI_Tondo_yamato
+					name_list_yamato = cn_pd_b_dangtu_yamato
 				}
 			}
 
@@ -244,7 +244,7 @@ e_nusantara = {
 
 					color = { 196 131 25 }
 					cultural_names = {
-						name_list_yamato = cn_pd_b_PHI_Dongon_yamato
+						name_list_yamato = cn_pd_b_dongguang_yamato
 					}
 				}
 				b_PHI_Bongabong = {
@@ -344,7 +344,7 @@ e_nusantara = {
 
 					color = { 213 148 32 }
 					cultural_names = {
-						name_list_yamato = cn_pd_b_PHI_Ticao_yamato
+						name_list_yamato = cn_pd_d_dingjiang_yamato
 					}
 				}
 				b_PHI_Donblon = {   #Romblon
@@ -372,7 +372,7 @@ e_nusantara = {
 				name_list_korean = cn_pd_b_PHI_Tondo_korean
 				name_list_portuguese = cn_pd_b_PHI_Tondo_aragonese
 				name_list_visigothic = cn_pd_b_PHI_Tondo_aragonese
-				name_list_yamato = cn_pd_b_PHI_Tondo_yamato
+				name_list_yamato = cn_pd_b_dangtu_yamato
 			}
 		}
 
@@ -447,7 +447,7 @@ e_nusantara = {
 
 					color = { 245 200 32 }
 					cultural_names = {
-						name_list_yamato = cn_pd_b_PHI_Kandong_yamato
+						name_list_yamato = cn_pd_b_guantao_yamato
 					}
 				}
 				b_PHI_Nagparitan = {
@@ -1391,7 +1391,7 @@ e_nusantara = {
 					color = {61 100 45 }
 					cultural_names = {
 						name_list_han = cn_pd_b_taiwan_taipei_han
-						name_list_korean = cn_pd_b_taiwan_taipei_korean
+						name_list_korean = cn_pd_k_daibei_balhae
 						name_list_yamato = cn_pd_b_taiwan_taipei_yamato
 					}
 				}

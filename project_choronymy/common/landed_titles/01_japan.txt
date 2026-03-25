@@ -91,6 +91,11 @@ e_japan = {
 					
 					color = { 54 25 20 }
 				}
+				cultural_names = {
+					name_list_balhae = cn_pd_c_yamashiro_balhae
+					name_list_han = cn_pd_c_yamashiro_han
+					name_list_korean = cn_pd_c_yamashiro_balhae
+				}
 			}
 			
 			c_settsu = {
@@ -110,6 +115,11 @@ e_japan = {
 					province = 10600
 					
 					color = { 76 66 64 }
+				}
+				cultural_names = {
+					name_list_balhae = cn_pd_c_yamashiro_balhae
+					name_list_han = cn_pd_c_yamashiro_han
+					name_list_korean = cn_pd_c_yamashiro_balhae
 				}
 			}
 
@@ -136,6 +146,11 @@ e_japan = {
 					
 					color = { 172 151 150 }
 				}
+				cultural_names = {
+					name_list_balhae = cn_pd_c_yamashiro_balhae
+					name_list_han = cn_pd_c_yamashiro_han
+					name_list_korean = cn_pd_c_yamashiro_balhae
+				}
 			}
 
 			c_kawachi = {
@@ -156,6 +171,16 @@ e_japan = {
 					
 					color = { 160 5 5 }
 				}
+				cultural_names = {
+					name_list_balhae = cn_pd_c_yamashiro_balhae
+					name_list_han = cn_pd_c_yamashiro_han
+					name_list_korean = cn_pd_c_yamashiro_balhae
+				}
+			}
+			cultural_names = {
+				name_list_balhae = cn_pd_c_yamashiro_balhae
+				name_list_han = cn_pd_c_yamashiro_han
+				name_list_korean = cn_pd_c_yamashiro_balhae
 			}
 		}
 
@@ -196,6 +221,11 @@ e_japan = {
 					
 					color = { 134 60 51 }
 				}
+				cultural_names = {
+					name_list_balhae = cn_pd_c_yamashiro_balhae
+					name_list_han = cn_pd_c_yamashiro_han
+					name_list_korean = cn_pd_c_yamashiro_balhae
+				}
 			}
 
 			c_awa = {
@@ -221,6 +251,11 @@ e_japan = {
 					
 					color = { 183 27 48 }
 				}
+				cultural_names = {
+					name_list_balhae = cn_pd_c_yamashiro_balhae
+					name_list_han = cn_pd_c_yamashiro_han
+					name_list_korean = cn_pd_c_yamashiro_balhae
+				}
 			}
 
 			c_sanuki = {
@@ -240,6 +275,11 @@ e_japan = {
 					province = 10516
 					
 					color = { 226 129 148 }
+				}
+				cultural_names = {
+					name_list_balhae = cn_pd_c_yamashiro_balhae
+					name_list_han = cn_pd_c_yamashiro_han
+					name_list_korean = cn_pd_c_yamashiro_balhae
 				}
 			}
 
@@ -271,6 +311,11 @@ e_japan = {
 					
 					color = { 161 70 60 }
 				}
+				cultural_names = {
+					name_list_balhae = cn_pd_c_yamashiro_balhae
+					name_list_han = cn_pd_c_yamashiro_han
+					name_list_korean = cn_pd_c_yamashiro_balhae
+				}
 			}
 
 			c_kii = {
@@ -301,6 +346,11 @@ e_japan = {
 					
 					color = { 190 67 75 }
 				}
+				cultural_names = {
+					name_list_balhae = cn_pd_c_yamashiro_balhae
+					name_list_han = cn_pd_c_yamashiro_han
+					name_list_korean = cn_pd_c_yamashiro_balhae
+				}
 			}
 
 			c_awaji = {
@@ -311,6 +361,16 @@ e_japan = {
 					
 					color = { 140 86 89 }
 				}
+				cultural_names = {
+					name_list_balhae = cn_pd_c_yamashiro_balhae
+					name_list_han = cn_pd_c_yamashiro_han
+					name_list_korean = cn_pd_c_yamashiro_balhae
+				}
+			}
+			cultural_names = {
+				name_list_balhae = cn_pd_c_yamashiro_balhae
+				name_list_han = cn_pd_c_yamashiro_han
+				name_list_korean = cn_pd_c_yamashiro_balhae
 			}
 		}
 
@@ -692,6 +752,11 @@ e_japan = {
 					color = { 124 50 49 }
 				}
 			}
+		}
+		cultural_names = {
+			name_list_balhae = cn_pd_c_yamashiro_balhae
+			name_list_han = cn_pd_c_yamashiro_han
+			name_list_korean = cn_pd_c_yamashiro_balhae
 		}
 	}
 	
@@ -1566,6 +1631,11 @@ e_japan = {
 				}
 			}
 		}
+	}
+	cultural_names = {
+		name_list_balhae = cn_pd_e_japan_balhae
+		name_list_han = cn_pd_e_japan_han
+		name_list_korean = cn_pd_e_japan_balhae
 	}
 }
 
