@@ -8,6 +8,34 @@ title_files:
       rosetta: path/to/2233777492/common/landed_titles/00_landed_titles.txt
       immersive_toponyms: path/to/2255229872/common/landed_titles/00_landed_titles.txt
       more_cultural_names: path/to/2217534250/common/landed_titles/999_MoreCulturalNames.txt
+  japan:
+    vanilla: path/to/game/common/landed_titles/01_japan.txt
+    mods:
+      terra_nomina: path/to/3687727222/common/landed_titles/01_japan.txt
+  # japan_nobles:
+  #   vanilla: path/to/game/common/landed_titles/01_japan_noble_family.txt
+  # korea_nobles:
+  #   vanilla: path/to/game/common/landed_titles/01_korea_noble_family.txt
+  # other_nobles:
+  #   vanilla: path/to/game/common/landed_titles/01_other_noble_family.txt
+  china:
+    vanilla: path/to/game/common/landed_titles/02_china.txt
+    mods:
+      terra_nomina: path/to/3687727222/common/landed_titles/02_china.txt
+  seasia:
+    vanilla: path/to/game/common/landed_titles/03_seasia.txt
+    mods:
+      terra_nomina: path/to/3687727222/common/landed_titles/03_seasia.txt
+  # china_nobles:
+  #   vanilla: path/to/game/common/landed_titles/04_china_noble_families.txt
+  goryeo:
+    vanilla: path/to/game/common/landed_titles/05_goryeo.txt
+    mods:
+      terra_nomina: path/to/3687727222/common/landed_titles/05_goryeo.txt
+  philippines:
+    vanilla: path/to/game/common/landed_titles/06_philippines.txt
+    mods:
+      terra_nomina: path/to/3687727222/common/landed_titles/06_philippines.txt
 localization_files:
   vanilla: path/to/game/localization/english/titles_cultural_names_l_english.yml
   more_cultural_names: path/to/2217534250/localization/more-cultural-names_titles_cultural_names_l_english.yml
