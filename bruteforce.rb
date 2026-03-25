@@ -118,16 +118,18 @@ configuration['title_files'].each do |file_name, file_config|
   output_files[file_name] = output_file_path
 end
 
-localizations = configuration['localization_files'].transform_values do |file|
-  raise StandardError, "#{file} is not a file" unless File.file?(file)
-
-  puts "# READING LOCALIZATION AT #{file}"
-
+localizations = configuration['localization_files'].transform_values do |files|
   entries = {}
+  files = [files] unless files.is_a?(Array)
+  files.each do |file|
+    raise StandardError, "#{file} is not a file" unless File.file?(file)
 
-  File.readlines(file).each do |line|
-    if (match = LOCALIZATION_KEY_REGEXP.match(line))
-      entries[match[:key]] = match[:value]
+    puts "# READING LOCALIZATION AT #{file}"
+
+    File.readlines(file).each do |line|
+      if (match = LOCALIZATION_KEY_REGEXP.match(line))
+        entries[match[:key]] = match[:value]
+      end
     end
   end
 
