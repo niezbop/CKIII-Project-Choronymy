@@ -19,13 +19,16 @@ unless File.file?(configuration_file)
   exit(-1)
 end
 
-titles = {}
+titles = Hash.new { |h, k| h[k] = {} }
+stats = Hash.new(0)
 
 configuration = YAML.load_file(configuration_file)
 
-unless File.file?(configuration['title_files']['vanilla'])
-  puts "Vanilla title files #{configuration['title_files']['vanilla']} is not a file"
-  exit(-1)
+configuration['title_files'].map { |_, h| h['vanilla'] }.each do |vanilla_file|
+  unless File.file?(vanilla_file)
+    puts "Vanilla title files #{vanilla_file} is not a file"
+    exit(-1)
+  end
 end
 
 fallback_cultures = configuration['fallbacks'] || {}
@@ -42,8 +45,9 @@ end
 parsed_versions = {}
 
 # Read versions
-launcher_settings_path = configuration['title_files']['vanilla'].sub(/game.*$/,
-                                                                     File.join('launcher', 'launcher-settings.json'))
+launcher_settings_path = configuration['title_files']['base']['vanilla'].sub(/game.*$/,
+                                                                             File.join('launcher',
+                                                                                       'launcher-settings.json'))
 if File.file?(launcher_settings_path)
   puts "Reading vanilla version from #{launcher_settings_path}..."
   parsed_versions[:vanilla] = JSON.parse(File.read(launcher_settings_path))['rawVersion']
@@ -51,7 +55,7 @@ else
   puts "No file at #{launcher_settings_path}, skipping vanilla version parsing..."
 end
 
-configuration['title_files']['mods'].each do |source, file|
+configuration['title_files'].values.first['mods'].each do |source, file|
   descriptor_path = file.sub(/common.*/, 'descriptor.mod')
   puts "Reading #{source} version from #{descriptor_path}..."
   version_line = `grep "version=" #{descriptor_path} | grep -v supported_version`
@@ -75,39 +79,43 @@ fixlist = if File.file?(FIXLIST_FILE)
             {}
           end
 
+output_files = {}
+
 # Read mod titles
-configuration['title_files']['mods'].each do |source, file|
-  reader = LandedTitles::Reader.new(source, file)
+configuration['title_files'].each do |file_name, file_config|
+  puts "# READING #{file_name} entries"
+  file_config['mods'].each do |source, file|
+    reader = LandedTitles::Reader.new(source, file)
 
-  puts "# READING #{source} (#{file})..."
-  source_titles = {}
-  reader.read do |title|
-    (blocklist.dig(source, title.name) || []).each do |name_list_to_block|
-      if title.cultural_names.delete(name_list_to_block)
-        puts "\tBlocking #{name_list_to_block} for #{title.name} from #{source}"
+    puts "# READING #{source} (#{file})..."
+    source_titles = {}
+    reader.read do |title|
+      (blocklist.dig(source, title.name) || []).each do |name_list_to_block|
+        if title.cultural_names.delete(name_list_to_block)
+          puts "\tBlocking #{name_list_to_block} for #{title.name} from #{source}"
+        end
       end
+
+      fixlist.dig(source, 'culture_names')&.each do |name_list_to_fix, name_list_fixing|
+        if value = title.cultural_names.delete(name_list_to_fix)
+          puts "\tReplacing #{name_list_to_fix} with #{name_list_fixing} for #{title.name} from #{source}"
+          title.cultural_names[name_list_fixing] = value
+        end
+      end
+
+      source_titles[title.name] = title
     end
 
-    fixlist.dig(source, 'culture_names')&.each do |name_list_to_fix, name_list_fixing|
-      if value = title.cultural_names.delete(name_list_to_fix)
-        puts "\tReplacing #{name_list_to_fix} with #{name_list_fixing} for #{title.name} from #{source}"
-        title.cultural_names[name_list_fixing] = value
-      end
-    end
-
-    source_titles[title.name] = title
+    titles[source] = source_titles
+    puts "\tFound #{source_titles.keys.count} titles for #{source}"
+    puts "\t#{source_titles.reject { |_k, v| v.cultural_names.empty? }.count} of them have cultural names"
   end
 
-  titles[source] = source_titles
-  puts "\tFound #{source_titles.keys.count} titles for #{source}"
-  puts "\t#{source_titles.reject { |_k, v| v.cultural_names.empty? }.count} of them have cultural names"
+  output_file_name = file_config['mods'].map { |_source, path| File.basename(path) }.sort.last
+  output_file_path = File.join('target', 'common', 'landed_titles', output_file_name)
+  FileUtils.mkdir_p(File.dirname(output_file_path))
+  output_files[file_name] = output_file_path
 end
-
-output_file_name = configuration['title_files']['mods'].map { |_source, path| File.basename(path) }.sort.last
-output_file_path = File.join('target', 'common', 'landed_titles', output_file_name)
-FileUtils.mkdir_p(File.dirname(output_file_path))
-
-stats = Hash.new(0)
 
 localizations = configuration['localization_files'].transform_values do |file|
   raise StandardError, "#{file} is not a file" unless File.file?(file)
@@ -149,47 +157,50 @@ end
 localization_key_sources = {}
 to_localize = {}
 
-File.open(configuration['title_files']['vanilla'], 'r') do |vanilla_file|
-  reader = LandedTitles::Reader.new('vanilla', vanilla_file)
-  File.open(output_file_path, 'w') do |output_file|
-    puts "# WRITING output (#{output_file_path})..."
+configuration['title_files'].each do |file_name, file_config|
+  File.open(file_config['vanilla'], 'r') do |vanilla_file|
+    reader = LandedTitles::Reader.new('vanilla', vanilla_file)
+    output_file_path = output_files[file_name]
+    File.open(output_file_path, 'w') do |output_file|
+      puts "# WRITING output (#{output_file_path})..."
 
-    # Don't write cultural_names block now
-    reader.on_line_read { |line, reading_cultural_names| output_file.write(line) unless reading_cultural_names }
-    reader.read do |title|
-      # Aggregate all cultural names
-      cultural_names = # Inject fallback names at the top of the possibilities so that they're later merged over by proper ones
-        configuration['title_files']['mods']
-        .keys
-        .map { |source| titles.dig(source, title.name) } # Get title from source
-        .compact # Reject mods that don't have the title declared
-        .map(&:cultural_names) # Get the list of cultural names
-        .tap do |names|
-          names.reverse.map do |n|
-            get_fallbacks(n, fallback_cultures)
-          end.each { |fn| names.unshift(fn) }
-        end.reduce(title.cultural_names) { |aggregate, names| aggregate.merge(names) }
-        .sort_by { |k, _v| k }
+      # Don't write cultural_names block now
+      reader.on_line_read { |line, reading_cultural_names| output_file.write(line) unless reading_cultural_names }
+      reader.read do |title|
+        # Aggregate all cultural names
+        cultural_names = # Inject fallback names at the top of the possibilities so that they're later merged over by proper ones
+          file_config['mods']
+          .keys
+          .map { |source| titles.dig(source, title.name) } # Get title from source
+          .compact # Reject mods that don't have the title declared
+          .map(&:cultural_names) # Get the list of cultural names
+          .tap do |names|
+            names.reverse.map do |n|
+              get_fallbacks(n, fallback_cultures)
+            end.each { |fn| names.unshift(fn) }
+          end.reduce(title.cultural_names) { |aggregate, names| aggregate.merge(names) }
+          .sort_by { |k, _v| k }
 
-      if cultural_names.any?
-        # Start cultural_names declaration as it was skipped earlier
-        output_file.puts("#{title.offset}\tcultural_names = {")
-        cultural_names.each do |name_list, cultural_name|
-          # Simplify localization
-          localized_value = clean_value(get_localization_value(localizations, cultural_name.source,
-                                                               cultural_name.value))
-          localization_key = if localization_key_sources.has_key?(localized_value)
-                               localization_key_sources[localized_value]
-                             else
-                               key = localization_key(title, name_list)
-                               localization_key_sources[localized_value] = key
-                             end
+        if cultural_names.any?
+          # Start cultural_names declaration as it was skipped earlier
+          output_file.puts("#{title.offset}\tcultural_names = {")
+          cultural_names.each do |name_list, cultural_name|
+            # Simplify localization
+            localized_value = clean_value(get_localization_value(localizations, cultural_name.source,
+                                                                 cultural_name.value))
+            localization_key = if localization_key_sources.has_key?(localized_value)
+                                 localization_key_sources[localized_value]
+                               else
+                                 key = localization_key(title, name_list)
+                                 localization_key_sources[localized_value] = key
+                               end
 
-          output_file.puts("#{title.offset}\t\t#{name_list} = #{localization_key}")
-          to_localize[localization_key] ||= [cultural_name, localized_value]
-          stats[cultural_name.source] += 1
+            output_file.puts("#{title.offset}\t\t#{name_list} = #{localization_key}")
+            to_localize[localization_key] ||= [cultural_name, localized_value]
+            stats[cultural_name.source] += 1
+          end
+          output_file.puts(title.offset + "\t" + '}')
         end
-        output_file.puts(title.offset + "\t" + '}')
       end
     end
   end
