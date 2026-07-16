@@ -1560,13 +1560,13 @@ e_goryeo = {
 				    color = { 120 110 45 }
 					cultural_names = {
 						name_list_emishi = cn_pd_b_Goryeo_Donggye_Ulleung_emishi
-						name_list_han = cn_pd_b_Goryeo_Donggye_Ulleung_han
+						name_list_han = cn_pd_b_yulin_1_bodpa
 						name_list_yamato = cn_pd_b_Goryeo_Donggye_Ulleung_emishi
 					}
 				}
 				cultural_names = {
 					name_list_emishi = cn_pd_b_Goryeo_Donggye_Ulleung_emishi
-					name_list_han = cn_pd_b_Goryeo_Donggye_Ulleung_han
+					name_list_han = cn_pd_b_yulin_1_bodpa
 					name_list_yamato = cn_pd_b_Goryeo_Donggye_Ulleung_emishi
 				}
 			}
