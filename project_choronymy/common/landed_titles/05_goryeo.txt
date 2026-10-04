@@ -20,9 +20,10 @@ e_goryeo = {
 			}
 			custom_tooltip = {
 				text = unify_goryeo_decision_requirement_tt
-				NOT = { government_allows = administrative }
+				NOT = { government_has_mechanic = administrative }
 			}
 		}
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
 	}
 
 	# Ceremonial Liege/Regent in personal relation summary
@@ -55,7 +56,7 @@ e_goryeo = {
 	personal_relation_vassal = {
 		has_title = title:k_yongson_throne
 	}
-	
+
 	k_goguryeo = {
 		color = { 55 85 190 }
 
@@ -74,7 +75,7 @@ e_goryeo = {
 				}
 			}
 		}
-		
+
 		d_gaeseong = {
 			color = { 75 105 210 }
 
@@ -129,7 +130,7 @@ e_goryeo = {
 					name_list_yamato = cn_pd_b_Goryeo_Gaeseong_Gaeseong_emishi
 				}
 			}
-			
+
 			c_gokju = {
 				color = { 55 90 225 }
 
@@ -179,7 +180,7 @@ e_goryeo = {
 					name_list_yamato = cn_pd_b_Goryeo_Seohae_Gokju_emishi
 				}
 			}
-			
+
 			c_pyeongju = {
 				color = { 100 125 210 }
 
@@ -215,7 +216,7 @@ e_goryeo = {
 				name_list_yamato = cn_pd_b_Goryeo_Gaeseong_Gaeseong_emishi
 			}
 		}
-		
+
 		d_haeju = {
 			color = { 21 166 173 }
 
@@ -260,7 +261,7 @@ e_goryeo = {
 					name_list_yamato = cn_pd_b_Liao_Kaizhou_yamato
 				}
 			}
-			
+
 			c_hwangju = {
 				color = { 120 225 230 }
 
@@ -346,7 +347,7 @@ e_goryeo = {
 				name_list_yamato = cn_pd_b_Liao_Kaizhou_yamato
 			}
 		}
-		
+
 		d_gyoju = {
 			color = { 50 120 225 }
 
@@ -391,7 +392,7 @@ e_goryeo = {
 					name_list_yamato = cn_pd_b_Liao_Xingzhou_yamato
 				}
 			}
-			
+
 			c_inje = {
 				color = { 95 155 250 }
 
@@ -421,7 +422,7 @@ e_goryeo = {
 					name_list_yamato = cn_pd_b_Goryeo_Gyoju_Inje_emishi
 				}
 			}
-			
+
 			c_dongju = {
 				color = { 30 115 240 }
 
@@ -517,7 +518,7 @@ e_goryeo = {
 				name_list_yamato = cn_pd_b_Liao_Xingzhou_yamato
 			}
 		}
-		
+
 		d_yukju = {
 			color = { 30 40 145 }
 
@@ -592,7 +593,7 @@ e_goryeo = {
 					name_list_yamato = cn_pd_b_Liao_Yizhou_yamato
 				}
 			}
-			
+
 			c_gwiju = {
 				color = { 40 45 170 }
 
@@ -651,9 +652,9 @@ e_goryeo = {
 
 					color = { 30 35 220 }
 					cultural_names = {
-						name_list_emishi = cn_pd_c_suzhou_yamato
+						name_list_emishi = cn_pd_b_Liao_Suzhou2_yamato
 						name_list_han = cn_pd_b_Goryeo_Bukgye_Sukju_han
-						name_list_yamato = cn_pd_c_suzhou_yamato
+						name_list_yamato = cn_pd_b_Liao_Suzhou2_yamato
 					}
 				}
 				b_Goryeo_Bukgye_Wiju = {
@@ -678,12 +679,12 @@ e_goryeo = {
 				name_list_yamato = cn_pd_d_yukju_emishi
 			}
 		}
-		
+
 		d_bukgye = {
 			color = { 160 72 175 }
 
 			capital = c_seogyeong
-			
+
 			c_seogyeong = {
 				color = { 135 42 169 }
 
@@ -783,7 +784,7 @@ e_goryeo = {
 					name_list_yamato = cn_pd_b_Liao_Dongjing_yamato
 				}
 			}
-			
+
 			c_yeongwon = {
 				color = { 155 100 165 }
 
@@ -839,7 +840,7 @@ e_goryeo = {
 				name_list_yamato = cn_pd_b_beihai_yamato
 			}
 		}
-		
+
 		d_gwangju = {
 			color = { 115 172 174 }
 
@@ -976,14 +977,14 @@ e_goryeo = {
 			name_list_yamato = cn_pd_b_como_ilmenian
 		}
 	}
-	
+
 	k_silla = {
 		color = { 120 45 40 }
 
 		capital = c_gyeongju
 
 
-		can_create = {  
+		can_create = {
 			# Cannot be created by Goryeo after it is formed
 			custom_tooltip = {
 				text = unify_goryeo_decision_blocker_tt
@@ -995,7 +996,7 @@ e_goryeo = {
 				}
 			}
 		}
-		
+
 		d_gyeongju = {
 			color = { 135 60 55 }
 
@@ -1164,15 +1165,15 @@ e_goryeo = {
 				name_list_yamato = cn_pd_c_xingzhou_yamato
 			}
 		}
-		
+
 		d_jinju = {
 			color = { 52 15 8 }
 
 			capital = c_jinju
-			
+
 			c_jinju = {
 				color = { 70 35 28 }
-				
+
 				b_Goryeo_Gyeongsang_Jinju = {
 					province = 9981
 
@@ -1249,7 +1250,7 @@ e_goryeo = {
 					name_list_yamato = cn_pd_b_Goryeo_Gyeongsang_Ulju_emishi
 				}
 			}
-			
+
 			c_hamyang = {
 				color = { 70 55 50 }
 
@@ -1299,7 +1300,7 @@ e_goryeo = {
 					name_list_yamato = cn_pd_b_hanyang_yamato
 				}
 			}
-			
+
 			c_guemju = {
 				color = { 80 45 15 }
 
@@ -1335,7 +1336,7 @@ e_goryeo = {
 				name_list_yamato = cn_pd_b_Liao_Xinzhou_yamato
 			}
 		}
-		
+
 		d_donggye = {
 			color = { 178 69 17 }
 
@@ -1582,7 +1583,7 @@ e_goryeo = {
 			name_list_yamato = cn_pd_k_silla_emishi
 		}
 	}
-	
+
 	k_baekje = {
 		color = { 90 160 115 }
 
@@ -1601,7 +1602,7 @@ e_goryeo = {
 				}
 			}
 		}
-		
+
 		d_chungju = {
 			color = { 13 150 65 }
 
@@ -1777,7 +1778,7 @@ e_goryeo = {
 				name_list_yamato = cn_pd_c_zhongzhou_yamato
 			}
 		}
-		
+
 		d_naju = {
             color = { 25 100 5 }
 
@@ -1954,12 +1955,12 @@ e_goryeo = {
 				name_list_yamato = cn_pd_c_caizhou_yamato
 			}
 		}
-		
+
 		d_jeonju = {
 			color = { 30 90 70 }
 
 			capital = c_jeonju
-			
+
 			c_jeonju = {
 				color = { 50 110 90 }
 
@@ -1999,7 +2000,7 @@ e_goryeo = {
 					name_list_yamato = cn_pd_c_quanzhou_2_yamato
 				}
 			}
-			
+
 			c_jillye = {
 				color = { 25 65 40 }
 

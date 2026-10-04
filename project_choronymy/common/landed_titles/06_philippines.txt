@@ -8,6 +8,10 @@ e_nusantara = {
 
 	capital = c_PHI_tondo
 
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
 	k_lusung = {	#Luzon
 	   color = { 240 160 30 }
 
@@ -496,7 +500,7 @@ e_nusantara = {
 					}
 				}
 				cultural_names = {
-					name_list_han = cn_pd_c_PHI_ivatan_han
+					name_list_han = cn_pd_b_badong_buryat
 					name_list_korean = cn_pd_c_PHI_ivatan_korean
 					name_list_yamato = cn_pd_c_PHI_ivatan_yamato
 				}
