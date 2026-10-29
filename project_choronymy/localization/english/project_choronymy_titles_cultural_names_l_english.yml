@@ -3915,7 +3915,7 @@
  cn_pd_b_al-ushmunain_greek:0 "Hermoúpólis Megáli" # rosetta
  cn_pd_b_al-ushmunain_kurdish:0 "Uşmun" # immersive_toponyms
  cn_pd_b_al-ushmunain_roman:0 "Hermopolis Magna" # rosetta
- cn_pd_b_al-ushmunain_trojan:0 "cn_hermoupolis_megaaleh											name_list_roman = cn_hermopolis_magna" # terra_nomina
+ cn_pd_b_al-ushmunain_trojan:0 "cn_hermoupolis_megaaleh								name_list_roman = cn_hermopolis_magna" # terra_nomina
  cn_pd_b_al-wajh_afghan:0 "Wajeh" # immersive_toponyms
  cn_pd_b_al-wajh_andalusian:0 "Al-Wajh" # Al-Wajh - more_cultural_names
  cn_pd_b_al-wajh_assyrian:0 "Wājhān" # terra_nomina
@@ -27375,7 +27375,7 @@
  cn_pd_b_dungannon_korean:0 "Tŏngaenŏn" # Tŏngaenŏn - more_cultural_names
  cn_pd_b_dungannon_lithuanian:0 "Danganonas" # Danganonas - more_cultural_names
  cn_pd_b_dungannon_norse:0 "Rathgannon" # Rathgannon - more_cultural_names
- cn_pd_b_dungannon_roman:0 "Genanodunum" # terra_nomina
+ cn_pd_b_dungannon_roman:0 "Genannodunum" # terra_nomina
  cn_pd_b_dungannon_yamato:0 "Danganon" # Danganon - more_cultural_names
  cn_pd_b_dungunab_afar:0 "Dongonaab" # immersive_toponyms
  cn_pd_b_dungunab_andalusian:0 "Dūnjūnāb" # immersive_toponyms
