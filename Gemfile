@@ -8,5 +8,6 @@ group :development do
   gem 'erb'
   gem 'rubocop'
 
+  gem 'activerecord', '~> 8.1.4'
   gem 'sqlite3', '~> 2.9.6'
 end
