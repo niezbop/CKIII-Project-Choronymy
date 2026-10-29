@@ -7,4 +7,6 @@ source 'https://rubygems.org'
 group :development do
   gem 'erb'
   gem 'rubocop'
+
+  gem 'sqlite3', '~> 2.9.6'
 end
