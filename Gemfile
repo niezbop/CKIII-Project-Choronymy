@@ -10,4 +10,7 @@ group :development do
 
   gem 'activerecord', '~> 8.1.4'
   gem 'sqlite3', '~> 2.9.6'
+
+  # Fix ambiguity
+  gem 'stringio', '~> 3.2.0'
 end
