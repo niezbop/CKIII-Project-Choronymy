@@ -19,9 +19,6 @@ unless File.file?(configuration_file)
   exit(-1)
 end
 
-titles = Hash.new { |h, k| h[k] = {} }
-stats = Hash.new(0)
-
 configuration = YAML.load_file(configuration_file)
 
 configuration['title_files'].map { |_, h| h['vanilla'] }.each do |vanilla_file|
@@ -29,17 +26,6 @@ configuration['title_files'].map { |_, h| h['vanilla'] }.each do |vanilla_file|
     puts "Vanilla title files #{vanilla_file} is not a file"
     exit(-1)
   end
-end
-
-fallback_cultures = configuration['fallbacks'] || {}
-
-def get_fallbacks(cultural_names, fallback_cultures)
-  fallback_cultures.map do |name, fallback_name|
-    # Skip fallback if either the fallback culture is missing or the original is already defined
-    next nil if cultural_names.keys.include?(name) || !cultural_names.keys.include?(fallback_name)
-
-    [name, cultural_names[fallback_name]]
-  end.compact.to_h
 end
 
 parsed_versions = {}
@@ -65,21 +51,52 @@ end
 FileUtils.mkdir_p('target')
 File.write(File.join('target', 'parsed_versions.json'), JSON.pretty_generate(parsed_versions))
 
-blocklist = if File.file?(BLOCKLIST_FILE)
+BLOCKLIST = if File.file?(BLOCKLIST_FILE)
               puts "Reading blocklist at #{BLOCKLIST_FILE}..."
               YAML.load_file(BLOCKLIST_FILE)
             else
               {}
             end
 
-fixlist = if File.file?(FIXLIST_FILE)
+FIXLIST = if File.file?(FIXLIST_FILE)
             puts "Reading fixlist at #{FIXLIST_FILE}..."
             YAML.load_file(FIXLIST_FILE)
           else
             {}
           end
 
-output_files = {}
+def persist_title(title)
+  landed_title = LandedTitles::Title.find_or_create_by!(name: title.name)
+  title.cultural_names.each do |name_list, name|
+    landed_title.cultural_names.find_or_create_by!(
+      name_list:,
+      value: name.value,
+      source: name.source
+    )
+  end
+end
+
+def read_source_file(source, file)
+  reader = LandedTitles::Reader.new(source, file)
+
+  puts "# READING #{source} (#{file})..."
+  reader.read do |title|
+    (BLOCKLIST.dig(source, title.name) || []).each do |name_list_to_block|
+      if title.cultural_names.delete(name_list_to_block)
+        puts "\tBlocking #{name_list_to_block} for #{title.name} from #{source}"
+      end
+    end
+
+    FIXLIST.dig(source, 'culture_names')&.each do |name_list_to_fix, name_list_fixing|
+      if value = title.cultural_names.delete(name_list_to_fix)
+        puts "\tReplacing #{name_list_to_fix} with #{name_list_fixing} for #{title.name} from #{source}"
+        title.cultural_names[name_list_fixing] = value
+      end
+    end
+
+    persist_title(title)
+  end
+end
 
 LandedTitles::Persistence.setup(persist_to: 'tmp/titles.sqlite')
 
@@ -87,38 +104,6 @@ LandedTitles::Persistence.setup(persist_to: 'tmp/titles.sqlite')
 configuration['title_files'].each do |file_name, file_config|
   puts "# READING #{file_name} entries"
   file_config['mods'].each do |source, file|
-    reader = LandedTitles::Reader.new(source, file)
-
-    puts "# READING #{source} (#{file})..."
-    reader.read do |title|
-      (blocklist.dig(source, title.name) || []).each do |name_list_to_block|
-        if title.cultural_names.delete(name_list_to_block)
-          puts "\tBlocking #{name_list_to_block} for #{title.name} from #{source}"
-        end
-      end
-
-      fixlist.dig(source, 'culture_names')&.each do |name_list_to_fix, name_list_fixing|
-        if value = title.cultural_names.delete(name_list_to_fix)
-          puts "\tReplacing #{name_list_to_fix} with #{name_list_fixing} for #{title.name} from #{source}"
-          title.cultural_names[name_list_fixing] = value
-        end
-      end
-
-      landed_title = LandedTitles::Title.find_or_create_by!(name: title.name)
-      title.cultural_names.each do |name_list, name|
-        landed_title.cultural_names.find_or_create_by!(
-          name_list:,
-          value: name.value,
-          source: name.source
-        )
-      rescue StandardError => e
-        puts '=============================='
-        puts "Failed for #{title.name}, #{name_list}, #{name.inspect}"
-        puts e.message
-        puts '=============================='
-
-        exit(-1)
-      end
-    end
+    read_source_file(source, file)
   end
 end
