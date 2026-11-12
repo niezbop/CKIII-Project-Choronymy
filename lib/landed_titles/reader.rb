@@ -2,6 +2,26 @@
 
 module LandedTitles
   class Reader
+    class Title
+      attr_reader :name, :offset, :cultural_names
+
+      def initialize(name, offset)
+        @name = name
+        @offset = offset
+        @cultural_names = {}
+      end
+    end
+
+    class CulturalName
+      attr_reader :value, :comment, :source
+
+      def initialize(value, comment, source)
+        @value = value
+        @comment = comment
+        @source = source
+      end
+    end
+
     TITLE_NAME_REGEXP = /^(?<offset>\s*)(?<title>(?:h|e|k|d|c|b)_[\w\-']+)\s*=\s*\{/
     CULTURAL_NAMES_REGEXP = /^(?<offset>\s*)cultural_names/
     NAME_LIST_REGEXP = /(?<!#)(?<name_list>name_list_\w+)\s*=\s*(?<cultural_name>[^#]+)(?:\s*#\s*(?<comment>.+))?$/
@@ -39,7 +59,7 @@ module LandedTitles
         opened_blocks -= 1 if line.include?('}')
 
         if (match = TITLE_NAME_REGEXP.match(line))
-          inner_title = Title.new(match[:title], match[:offset])
+          inner_title = Reader::Title.new(match[:title], match[:offset])
           # Close block as @on_line_break won't get called later
           @on_line_read&.call(line, false)
           read_recursive(inner_title, file, &on_title_read)
@@ -51,7 +71,7 @@ module LandedTitles
           @on_line_read&.call(line, false)
           break
         elsif reading_cultural_names && (match = NAME_LIST_REGEXP.match(line))
-          title.cultural_names[match[:name_list]] = Title::CulturalName.new(
+          title.cultural_names[match[:name_list]] = Reader::CulturalName.new(
             match[:cultural_name].strip, match[:comment], name
           )
         end
