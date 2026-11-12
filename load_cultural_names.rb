@@ -65,12 +65,16 @@ FIXLIST = if File.file?(FIXLIST_FILE)
             {}
           end
 
+def sanitize_cultural_name(name)
+  name.delete('"')
+end
+
 def persist_title(title)
   landed_title = LandedTitles::Title.find_or_create_by!(name: title.name)
   title.cultural_names.each do |name_list, name|
     landed_title.cultural_names.find_or_create_by!(
       name_list:,
-      value: name.value,
+      value: sanitize_cultural_name(name.value),
       source: name.source
     )
   end
