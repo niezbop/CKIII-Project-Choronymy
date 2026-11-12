@@ -29,7 +29,27 @@ rosetta:
   d_york:
     - name_list_breton
 immersive_toponyms:
-  k_bene_israel:
-    - name_list_bavlim
-    - name_list_kochinim
-
+  b_suonnjel:
+    - name_list_carantanian
+  b_strand:
+    - name_list_carantanian
+  k_poland:
+    - name_list_roman
+  b_ust-katav:
+    - name_list_slovien
+  b_KUDA_MON:
+    - name_list_carantanian
+  b_beilu:
+    - name_list_merya
+  e_tartaria:
+    - name_list_anglo_saxon
+  b_sanda:
+    - name_list_pecheneg
+  e_maghreb:
+    - name_list_anglo_saxon
+  k_nubia:
+    - name_list_anglo_saxon
+  b_dagana:
+    - name_list_baranis
+  b_daporijo:
+    - name_list_zhangzhung
