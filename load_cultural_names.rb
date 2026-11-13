@@ -65,6 +65,7 @@ FIXLIST = if File.file?(FIXLIST_FILE)
             {}
           end
 
+#=== LOCALIZATION LOADING
 LOCALIZATIONS = configuration['localization_files'].transform_values do |files|
   entries = {}
   files = [files] unless files.is_a?(Array)
@@ -83,6 +84,7 @@ LOCALIZATIONS = configuration['localization_files'].transform_values do |files|
   entries
 end
 
+#=== FILES READING
 def get_localization_value(localizations, source, value)
   output = localizations.dig(source, value) ||
            localizations.dig('vanilla', value) ||
