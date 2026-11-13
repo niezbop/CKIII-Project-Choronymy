@@ -82,7 +82,7 @@ def get_cultural_names(title)
   landed_title = LandedTitles::Title.find_by_name(title.name)
 
   LandedTitles::CulturalName.where(title: landed_title)
-                            .select('cultural_names.*', "MIN(#{SOURCE_ORDERING}) AS source_rank")
+                            .select('cultural_names.*', "MIN(#{SOURCE_ORDERING}) AS source_rank") # Relies on SQLite quirk, wouldn't work in other databases
                             .group(:name_list)
 end
 
