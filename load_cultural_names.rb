@@ -97,7 +97,7 @@ end
 
 def sanitize_cultural_name(source, value)
   localized_value = get_localization_value(LOCALIZATIONS, source, value)
-  localized_value.strip.delete('"')
+  localized_value.delete('"').strip
 end
 
 def persist_title(title)
