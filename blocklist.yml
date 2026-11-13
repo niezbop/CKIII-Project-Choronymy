@@ -53,3 +53,14 @@ immersive_toponyms:
     - name_list_baranis
   b_daporijo:
     - name_list_zhangzhung
+terra_nomina:
+  d_kiev:
+    - name_list_russian
+  c_kiev:
+    - name_list_russian
+  b_kiev:
+    - name_list_russian
+  c_hohenau:
+    - name_list_roman
+  b_hohenau:
+    - name_list_roman
