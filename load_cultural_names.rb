@@ -65,8 +65,37 @@ FIXLIST = if File.file?(FIXLIST_FILE)
             {}
           end
 
-def sanitize_cultural_name(name)
-  name.delete('"')
+LOCALIZATIONS = configuration['localization_files'].transform_values do |files|
+  entries = {}
+  files = [files] unless files.is_a?(Array)
+  files.each do |file|
+    raise StandardError, "#{file} is not a file" unless File.file?(file)
+
+    puts "# READING LOCALIZATION AT #{file}"
+
+    File.readlines(file).each do |line|
+      if (match = LOCALIZATION_KEY_REGEXP.match(line))
+        entries[match[:key]] = match[:value]
+      end
+    end
+  end
+
+  entries
+end
+
+def get_localization_value(localizations, source, value)
+  output = localizations.dig(source, value) ||
+           localizations.dig('vanilla', value) ||
+           value
+
+  return output unless output.start_with?('cn_') && output != value
+
+  get_localization_value(localizations, output, source)
+end
+
+def sanitize_cultural_name(source, value)
+  localized_value = get_localization_value(LOCALIZATIONS, source, value)
+  localized_value.strip.delete('"')
 end
 
 def persist_title(title)
@@ -74,7 +103,7 @@ def persist_title(title)
   title.cultural_names.each do |name_list, name|
     landed_title.cultural_names.find_or_create_by!(
       name_list:,
-      value: sanitize_cultural_name(name.value),
+      value: sanitize_cultural_name(name.source, name.value),
       source: name.source
     )
   end
