@@ -83,8 +83,21 @@ module LandedTitles
     end
 
     def add_cultural_name(title, match)
+      cultural_name = match[:cultural_name]
+      # Some mod titles files can contain several definition per line
+      # Likely formatting issue, but needs to be handled
+      if cultural_name.include?('name_list_')
+        cultural_name, *rest = cultural_name.split(/(?=name_list_)/)
+
+        rest.each do |fragment|
+          sub_match = NAME_LIST_REGEXP.match(fragment)
+          raise StandardError if sub_match.nil?
+
+          add_cultural_name(title, sub_match)
+        end
+      end
       title.cultural_names[match[:name_list]] = Reader::CulturalName.new(
-        match[:cultural_name].strip, match[:comment], name
+        cultural_name.strip, match[:comment], name
       )
     end
   end
