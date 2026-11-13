@@ -84,6 +84,8 @@ module LandedTitles
 
     def add_cultural_name(title, match)
       cultural_name = match[:cultural_name]
+      # Some mod titles files can contain closing bracket on the line
+      cultural_name.delete!('}')
       # Some mod titles files can contain several definition per line
       # Likely formatting issue, but needs to be handled
       if cultural_name.include?('name_list_')
