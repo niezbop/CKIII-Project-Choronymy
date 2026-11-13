@@ -141,4 +141,5 @@ configuration['title_files'].each do |file_name, file_config|
   file_config['mods'].each do |source, file|
     read_source_file(source, file)
   end
+  read_source_file('vanilla', file_config['vanilla'])
 end
