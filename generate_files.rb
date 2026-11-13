@@ -121,3 +121,48 @@ configuration['title_files'].each_value do |file_config|
     end
   end
 end
+
+puts '### LOCALIZATION'
+
+output_localize_path = File.join('target', 'localization', 'english',
+                                 'project_choronymy_titles_cultural_names_l_english.yml')
+FileUtils.mkdir_p(File.dirname(output_localize_path))
+
+File.open(output_localize_path, 'w') do |file|
+  puts "# WRITING LOCALIZATION AT #{file.path}"
+  file.write("\uFEFF") # Set BOM
+  file.puts('l_english:')
+  localization_entries.sort_by { |k, _| k }.each do |key, cultural_name|
+    comment = if cultural_name.comment.nil? or cultural_name.comment.strip.empty?
+                cultural_name.source
+              else
+                [cultural_name.comment.strip, cultural_name.source].join(' - ')
+              end
+
+    file.puts(" #{key}:0 \"#{cultural_name.value}\" # #{comment}")
+  end
+end
+
+%w[french spanish].each do |locale|
+  localized_path = output_localize_path.gsub('english', locale)
+  FileUtils.mkdir_p(File.dirname(localized_path))
+  FileUtils.cp(output_localize_path, localized_path)
+  data = File.read(localized_path)
+  data = data.sub('l_english:', "l_#{locale}:")
+  File.open(localized_path, 'r+') { |file| file.write data }
+end
+
+puts '### STATS'
+stats.sort_by { |_k, v| v }.each do |k, v|
+  puts "• #{k}: #{v} entries"
+end
+
+File.write(File.join('target', 'stats.json'), JSON.pretty_generate(stats))
+
+puts '### ABOUT'
+template = ERB.new File.read('project_choronymy.about.erb')
+File.write('project_choronymy.about.txt', template.result)
+
+puts '===> Bruteforce process completed with success! You can run'
+puts "\tcp -r target/* project_choronymy"
+puts 'to propagate the changes'
