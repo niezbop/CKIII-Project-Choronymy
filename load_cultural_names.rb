@@ -92,7 +92,7 @@ def get_localization_value(localizations, source, value)
 
   return output unless output.start_with?('cn_') && output != value
 
-  get_localization_value(localizations, output, source)
+  get_localization_value(localizations, source, output)
 end
 
 def sanitize_cultural_name(source, value)
