@@ -71,9 +71,7 @@ module LandedTitles
           @on_line_read&.call(line, false)
           break
         elsif reading_cultural_names && (match = NAME_LIST_REGEXP.match(line))
-          title.cultural_names[match[:name_list]] = Reader::CulturalName.new(
-            match[:cultural_name].strip, match[:comment], name
-          )
+          add_cultural_name(title, match)
         end
 
         reading_cultural_names = true if CULTURAL_NAMES_REGEXP.match(line)
@@ -82,6 +80,12 @@ module LandedTitles
 
         reading_cultural_names = false if reading_cultural_names && opened_blocks < 2
       end
+    end
+
+    def add_cultural_name(title, match)
+      title.cultural_names[match[:name_list]] = Reader::CulturalName.new(
+        match[:cultural_name].strip, match[:comment], name
+      )
     end
   end
 end
