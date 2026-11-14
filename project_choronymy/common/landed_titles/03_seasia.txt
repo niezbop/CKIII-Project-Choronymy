@@ -742,6 +742,10 @@ e_suvarnabhumi = {
 				}
 			}
 		}
+		cultural_names = {
+			name_list_greek = cn_pd_k_pagan_greek
+			name_list_roman = cn_pd_k_pagan_roman
+		}
 	}
 	k_dvaravati = {
 		color = { 227 118 5 }

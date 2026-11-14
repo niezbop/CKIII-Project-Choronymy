@@ -362,7 +362,7 @@ e_goryeo = {
 					color = { 70 140 245 }
 					cultural_names = {
 						name_list_emishi = cn_pd_b_Liao_Xingzhou_yamato
-						name_list_han = cn_pd_c_thang_long_han
+						name_list_han = cn_pd_b_Goryeo_Gyoju_Gyoju_han
 						name_list_yamato = cn_pd_b_Liao_Xingzhou_yamato
 					}
 				}
@@ -388,7 +388,7 @@ e_goryeo = {
 				}
 				cultural_names = {
 					name_list_emishi = cn_pd_b_Liao_Xingzhou_yamato
-					name_list_han = cn_pd_c_thang_long_han
+					name_list_han = cn_pd_b_Goryeo_Gyoju_Gyoju_han
 					name_list_yamato = cn_pd_b_Liao_Xingzhou_yamato
 				}
 			}
@@ -514,7 +514,7 @@ e_goryeo = {
 			}
 			cultural_names = {
 				name_list_emishi = cn_pd_b_Liao_Xingzhou_yamato
-				name_list_han = cn_pd_c_thang_long_han
+				name_list_han = cn_pd_b_Goryeo_Gyoju_Gyoju_han
 				name_list_yamato = cn_pd_b_Liao_Xingzhou_yamato
 			}
 		}
