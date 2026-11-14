@@ -15,6 +15,11 @@ unless File.file?(configuration_file)
 end
 configuration = YAML.load_file(configuration_file)
 
+#=== CLEANUP
+puts '### FILE GENERATION'
+puts 'Removing previous files to prevent stale files remaining...'
+FileUtils.rm_rf('target')
+
 #=== STATS SETUP
 stats = Hash.new(0)
 
