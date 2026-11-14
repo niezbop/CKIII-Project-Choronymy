@@ -106,7 +106,8 @@ def persist_title(title)
     landed_title.cultural_names.find_or_create_by!(
       name_list:,
       value: sanitize_cultural_name(name.source, name.value),
-      source: name.source
+      source: name.source,
+      comment: name.comment
     )
   end
 end
