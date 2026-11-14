@@ -169,5 +169,5 @@ template = ERB.new File.read('project_choronymy.about.erb')
 File.write('project_choronymy.about.txt', template.result)
 
 puts '===> Bruteforce process completed with success! You can run'
-puts "\tcp -r target/* project_choronymy"
+puts "\trm -rf project_choronymy/common project_choronymy/localization; cp -r target/* project_choronymy"
 puts 'to propagate the changes'
