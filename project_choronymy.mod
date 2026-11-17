@@ -5,6 +5,6 @@ tags={
 	"Culture"
 }
 name="Project Choronymy"
-supported_version="1.20.*"
+supported_version="1.21.*"
 path="/Users/niezbop/Documents/Paradox Interactive/Crusader Kings III/mod/project_choronymy"
 remote_file_id="2901057259"
