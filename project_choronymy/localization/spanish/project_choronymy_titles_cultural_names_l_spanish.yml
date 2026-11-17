@@ -1087,6 +1087,7 @@
  cn_pd_b_aalkmar_roman:0 "Alcmarium" # rosetta
  cn_pd_b_aalkmar_tamil:0 "Alkmār" # Alkmār - more_cultural_names
  cn_pd_b_aalkmar_yamato:0 "Arukumaaru" # Arukumaaru - more_cultural_names
+ cn_pd_b_aalst_french:0 "Alost" # vanilla
  cn_pd_b_aanaarjavri_avar:0 "İnari Gölü" # İnari Gölü - more_cultural_names
  cn_pd_b_aanaarjavri_bavarian:0 "Ennerich" # immersive_toponyms
  cn_pd_b_aanaarjavri_bosnian:0 "Inarizero" # immersive_toponyms
@@ -2494,6 +2495,7 @@
  cn_pd_b_aigialos_kurdish:0 "Qaragaç" # immersive_toponyms
  cn_pd_b_aigialos_polabian:0 "Karagacz" # immersive_toponyms
  cn_pd_b_aigialos_roman:0 "Aegialus" # rosetta
+ cn_pd_b_aiguesmortes_occitan:0 "Aigas Mortas" # vanilla
  cn_pd_b_aila_afghan:0 "Elāt" # immersive_toponyms
  cn_pd_b_aila_alan:0 "Æylat" # immersive_toponyms
  cn_pd_b_aila_andalusian:0 "Īlāt" # rosetta
@@ -2661,14 +2663,12 @@
  cn_pd_b_airag_han:0 "Àilāgé" # immersive_toponyms
  cn_pd_b_aire_andalusian:0 "Ar' al-Lyz" # rosetta
  cn_pd_b_aire_anglo_saxon:0 "Æra" # immersive_toponyms
- cn_pd_b_aire_aragonese:0 "Arrás" # terra_nomina
  cn_pd_b_aire_breton:0 "Alaer" # immersive_toponyms
  cn_pd_b_aire_catalan:0 "Aira" # Aira - more_cultural_names
  cn_pd_b_aire_cisalpine:0 "Atura" # rosetta
  cn_pd_b_aire_dutch:0 "Ariën" # rosetta
  cn_pd_b_aire_frankish:0 "Arras" # terra_nomina
  cn_pd_b_aire_french:0 "Aire" # immersive_toponyms
- cn_pd_b_aire_greek:0 "Nemetokénna" # terra_nomina
  cn_pd_b_aire_roman:0 "Aturum" # rosetta
  cn_pd_b_airkhan_avar:0 "Erhan" # immersive_toponyms
  cn_pd_b_airkhan_bosnian:0 "Airhan" # immersive_toponyms
@@ -2717,6 +2717,7 @@
  cn_pd_b_aix_latgalian:0 "Eksa" # Eksa - more_cultural_names
  cn_pd_b_aix_lithuanian:0 "Eksas" # Eksas - more_cultural_names
  cn_pd_b_aix_roman:0 "Aquae Sextiae" # rosetta
+ cn_pd_b_aizpute_bavarian:0 "Hasenpoth" # vanilla
  cn_pd_b_aj_bogd_avar:0 "Ajbogd" # immersive_toponyms
  cn_pd_b_aj_bogd_bosnian:0 "Adžbogd" # immersive_toponyms
  cn_pd_b_aj_bogd_buryat:0 "Aj Bogd" # immersive_toponyms
@@ -3778,8 +3779,8 @@
  cn_pd_b_al-qaryatan_avar:0 "Qaryatayn" # immersive_toponyms
  cn_pd_b_al-qaryatan_bosnian:0 "Karatino" # immersive_toponyms
  cn_pd_b_al-qaryatan_cisalpine:0 "Caratino" # immersive_toponyms
+ cn_pd_b_al-qaryatan_dutch:0 "Cariatein" # vanilla
  cn_pd_b_al-qaryatan_egyptian:0 "el-Qaryatayn" # rosetta
- cn_pd_b_al-qaryatan_frankish:0 "Cariatein" # rosetta
  cn_pd_b_al-qaryatan_georgian:0 "K'arat'ini" # immersive_toponyms
  cn_pd_b_al-qaryatan_greek:0 "Názala" # rosetta
  cn_pd_b_al-qaryatan_kurdish:0 "Qaratîn" # immersive_toponyms
@@ -6745,12 +6746,12 @@
  cn_pd_b_ar-rusafa_avar:0 "Resafi" # immersive_toponyms
  cn_pd_b_ar-rusafa_bavarian:0 "Sergiople" # rosetta
  cn_pd_b_ar-rusafa_cisalpine:0 "Sergiopoli" # rosetta
+ cn_pd_b_ar-rusafa_dutch:0 "Sergiopolis" # vanilla
  cn_pd_b_ar-rusafa_frankish:0 "Sergeople" # rosetta
  cn_pd_b_ar-rusafa_georgian:0 "Rasap'i" # immersive_toponyms
  cn_pd_b_ar-rusafa_german:0 "Sergiopel" # immersive_toponyms
  cn_pd_b_ar-rusafa_kurdish:0 "Resafî" # immersive_toponyms
  cn_pd_b_ar-rusafa_late_norman:0 "Raslafe" # terra_nomina
- cn_pd_b_ar-rusafa_roman:0 "Sergiopolis" # rosetta
  cn_pd_b_ar-rusafa_trojan:0 "Rhesápha" # terra_nomina
  cn_pd_b_araban_afghan:0 "Qale‎" # immersive_toponyms
  cn_pd_b_araban_alan:0 "Araban" # immersive_toponyms
@@ -7054,7 +7055,7 @@
  cn_pd_b_ardnamurchon_french:0 "Promontoire" # immersive_toponyms
  cn_pd_b_ardnamurchon_frisian:0 "Skerpebaai" # immersive_toponyms
  cn_pd_b_ardnamurchon_gaelic:0 "Àird nam Murchan" # rosetta
- cn_pd_b_ardnamurchon_norse:0 "Mýlarsund" # rosetta
+ cn_pd_b_ardnamurchon_icelandic:0 "Mýlarsund" # vanilla
  cn_pd_b_ardnamurchon_roman:0 "Ardnamurcho" # terra_nomina
  cn_pd_b_arendall_anglo_saxon:0 "Arental" # Arental - more_cultural_names
  cn_pd_b_arendall_bosnian:0 "Orlinaja" # immersive_toponyms
@@ -7431,7 +7432,7 @@
  cn_pd_b_arles_greek:0 "Áreláte" # Áreláte - more_cultural_names
  cn_pd_b_arles_latgalian:0 "Arla" # Arla - more_cultural_names
  cn_pd_b_arles_lithuanian:0 "Arlis" # Arlis - more_cultural_names
- cn_pd_b_arles_roman:0 "Arelate" # rosetta
+ cn_pd_b_arlon_bavarian:0 "Arel" # vanilla
  cn_pd_b_armabil_afghan:0 "Armabīl" # immersive_toponyms
  cn_pd_b_armabil_andalusian:0 "Armabil" # immersive_toponyms
  cn_pd_b_armabil_assamese:0 "Āramābila" # immersive_toponyms
@@ -7551,37 +7552,8 @@
  cn_pd_b_arnsberg_roman:0 "Arensperga" # rosetta
  cn_pd_b_arnsberg_russian:0 "Aren'" # immersive_toponyms
  cn_pd_b_arnsberg_yamato:0 "Arunsuberuku" # Arunsuberuku - more_cultural_names
- cn_pd_b_arnstein_andalusian:0 "Kfīdlīnbūrġ" # Kfīdlīnbūrġ - more_cultural_names
- cn_pd_b_arnstein_anglo_saxon:0 "Earnestan" # rosetta
- cn_pd_b_arnstein_armenian:0 "Kvedlinbowrg" # Kvedlinbowrg - more_cultural_names
- cn_pd_b_arnstein_bavarian:0 "Quedlinbërc" # Quedlinbërc - more_cultural_names
- cn_pd_b_arnstein_bosnian:0 "Kvedlinburg" # Kvedlinburg - more_cultural_names
- cn_pd_b_arnstein_cisalpine:0 "Arnoste" # immersive_toponyms
- cn_pd_b_arnstein_czech:0 "Kvedlinburk" # Kvedlinburk - more_cultural_names
- cn_pd_b_arnstein_danish:0 "Ørnsten" # rosetta
- cn_pd_b_arnstein_dutch:0 "Aarsteen" # rosetta
- cn_pd_b_arnstein_english:0 "Quedlinburg" # Quedlinburg - more_cultural_names
- cn_pd_b_arnstein_french:0 "Quedlinbourg" # Quedlinbourg - more_cultural_names
- cn_pd_b_arnstein_frisian:0 "Ernesten" # rosetta
- cn_pd_b_arnstein_galician:0 "Quedlimburgo" # Quedlimburgo - more_cultural_names
- cn_pd_b_arnstein_georgian:0 "K’vedlinburgi" # K’vedlinburgi - more_cultural_names
- cn_pd_b_arnstein_han:0 "Kuídélínbăo" # Kuídélínbăo - more_cultural_names
- cn_pd_b_arnstein_hindustani:0 "Kudlinabarg" # Kudlinabarg - more_cultural_names
- cn_pd_b_arnstein_ilmenian:0 "Kviedlinburh" # Kviedlinburh - more_cultural_names
- cn_pd_b_arnstein_korean:0 "Keubedeullinbureukeu" # Keubedeullinbureukeu - more_cultural_names
- cn_pd_b_arnstein_latgalian:0 "Arnštejna" # immersive_toponyms
- cn_pd_b_arnstein_lithuanian:0 "Kvedlinburgas" # Kvedlinburgas - more_cultural_names
- cn_pd_b_arnstein_norse:0 "Arasteinn" # rosetta
- cn_pd_b_arnstein_old_saxon:0 "Arnesten" # rosetta
- cn_pd_b_arnstein_outremer:0 "Arnestin" # immersive_toponyms
- cn_pd_b_arnstein_polabian:0 "Arnsztyn" # immersive_toponyms
- cn_pd_b_arnstein_prussian:0 "Arnšteinas" # immersive_toponyms
- cn_pd_b_arnstein_roman:0 "Arnstanacum" # rosetta
- cn_pd_b_arnstein_swedish:0 "Örnsten" # rosetta
- cn_pd_b_arnstein_yamato:0 "Kuveedorinburuku" # Kuveedorinburuku - more_cultural_names
  cn_pd_b_arnswalde_alan:0 "Starogard-Gdan’skij" # Starogard-Gdan’skij - more_cultural_names
  cn_pd_b_arnswalde_andalusian:0 "Stārūġarād Ġarānskī" # Stārūġarād Ġarānskī - more_cultural_names
- cn_pd_b_arnswalde_bavarian:0 "Arnswalde" # immersive_toponyms
  cn_pd_b_arnswalde_bosnian:0 "Starogród" # Starogród - more_cultural_names
  cn_pd_b_arnswalde_chuvash:0 "Starogard-Gdanskij" # Starogard-Gdanskij - more_cultural_names
  cn_pd_b_arnswalde_cisalpine:0 "L'Ostio" # immersive_toponyms
@@ -7637,8 +7609,10 @@
  cn_pd_b_arran_danish:0 "Herrey" # rosetta
  cn_pd_b_arran_english:0 "Arane" # Arane - more_cultural_names
  cn_pd_b_arran_gaelic:0 "Eilean Arain" # rosetta
+ cn_pd_b_arran_icelandic:0 "Hereyjar" # vanilla
  cn_pd_b_arran_late_norman:0 "Aran" # terra_nomina
  cn_pd_b_arran_roman:0 "Arania" # rosetta
+ cn_pd_b_arras_dutch:0 "Atrecht" # vanilla
  cn_pd_b_arsamosata_afghan:0 "Arsamūsa" # immersive_toponyms
  cn_pd_b_arsamosata_alan:0 "Armosota" # immersive_toponyms
  cn_pd_b_arsamosata_andalusian:0 "Mamurat al-Eaziz" # rosetta
@@ -8005,10 +7979,8 @@
  cn_pd_b_as-sus_assamese:0 "Śūśa" # immersive_toponyms
  cn_pd_b_as-sus_assyrian:0 "Shūsh" # terra_nomina
  cn_pd_b_as-sus_avar:0 "Şuş" # immersive_toponyms
- cn_pd_b_as-sus_frankish:0 "Suse" # rosetta
  cn_pd_b_as-sus_gond:0 "Šuš" # immersive_toponyms
  cn_pd_b_as-sus_greek:0 "Soúsa" # rosetta
- cn_pd_b_as-sus_roman:0 "Susa" # rosetta
  cn_pd_b_as-sus_trojan:0 "Seléukeia Eulaíos" # terra_nomina
  cn_pd_b_as-suwaida-hauran_afghan:0 "Šahbā" # immersive_toponyms
  cn_pd_b_as-suwaida-hauran_alan:0 "Šaxba" # immersive_toponyms
@@ -8046,6 +8018,7 @@
  cn_pd_b_as-suwaydiya_bavarian:0 "Suada" # immersive_toponyms
  cn_pd_b_as-suwaydiya_bosnian:0 "Suvajda" # immersive_toponyms
  cn_pd_b_as-suwaydiya_breton:0 "St. Simeon" # terra_nomina
+ cn_pd_b_as-suwaydiya_dutch:0 "St Symeon" # vanilla
  cn_pd_b_as-suwaydiya_frankish:0 "Port Bonnel" # rosetta
  cn_pd_b_as-suwaydiya_greek:0 "Rhósós" # rosetta
  cn_pd_b_as-suwaydiya_kurdish:0 "Suwaydâ" # immersive_toponyms
@@ -9257,11 +9230,11 @@
  cn_pd_b_aviovara_czech:0 "Kiuljavka" # immersive_toponyms
  cn_pd_b_aviovara_danish:0 "Kollefjord" # rosetta
  cn_pd_b_aviovara_estonian:0 "Kilivuono" # immersive_toponyms
+ cn_pd_b_aviovara_icelandic:0 "Kyllifjörðr" # vanilla
  cn_pd_b_aviovara_ilmenian:0 "Kyulyavka" # immersive_toponyms
  cn_pd_b_aviovara_latgalian:0 "Gilevuodni" # immersive_toponyms
  cn_pd_b_aviovara_lithuanian:0 "Gilevuodnis" # immersive_toponyms
  cn_pd_b_aviovara_norse:0 "Kollefjörður" # rosetta
- cn_pd_b_aviovara_norwegian:0 "Kyllifjörðr" # rosetta
  cn_pd_b_aviovara_polabian:0 "Kiuljawka" # immersive_toponyms
  cn_pd_b_aviovara_sami:0 "Gilevuodna" # immersive_toponyms
  cn_pd_b_avis_bavarian:0 "Awis" # immersive_toponyms
@@ -9652,7 +9625,7 @@
  cn_pd_b_baalbak_bavarian:0 "Balbeck" # immersive_toponyms
  cn_pd_b_baalbak_bosnian:0 "Heliopol" # immersive_toponyms
  cn_pd_b_baalbak_cisalpine:0 "Eliopoli" # immersive_toponyms
- cn_pd_b_baalbak_frankish:0 "Balbec" # rosetta
+ cn_pd_b_baalbak_dutch:0 "Balbec" # vanilla
  cn_pd_b_baalbak_georgian:0 "Balbeki" # immersive_toponyms
  cn_pd_b_baalbak_ilmenian:0 "Geliopol" # immersive_toponyms
  cn_pd_b_baalbak_trojan:0 "Heliópolis Libánesia" # terra_nomina
@@ -11984,6 +11957,7 @@
  cn_pd_b_bath_frankish:0 "Ba" # rosetta
  cn_pd_b_bath_frisian:0 "Bathum" # rosetta
  cn_pd_b_bath_georgian:0 "Bati" # Bati - more_cultural_names
+ cn_pd_b_bath_greek:0 "Aquae Sulis" # vanilla
  cn_pd_b_bath_han:0 "Bāsī" # Bāsī - more_cultural_names
  cn_pd_b_bath_kannada:0 "Bāt" # Bāt - more_cultural_names
  cn_pd_b_bath_korean:0 "Paseu" # Paseu - more_cultural_names
@@ -11992,7 +11966,6 @@
  cn_pd_b_bath_lithuanian:0 "Batas" # Batas - more_cultural_names
  cn_pd_b_bath_marathi:0 "Baath" # Baath - more_cultural_names
  cn_pd_b_bath_norse:0 "Bað" # rosetta
- cn_pd_b_bath_roman:0 "Aquae Sulis" # rosetta
  cn_pd_b_bath_suebi:0 "Badum" # Badum - more_cultural_names
  cn_pd_b_bath_tamil:0 "Pāt" # Pāt - more_cultural_names
  cn_pd_b_bath_yamato:0 "Baasu" # Baasu - more_cultural_names
@@ -12318,6 +12291,7 @@
  cn_pd_b_bazoh_assamese:0 "Bājōha" # immersive_toponyms
  cn_pd_b_bazoh_avar:0 "Bazoh" # immersive_toponyms
  cn_pd_b_bazoh_kurdish:0 "Bâzoh" # immersive_toponyms
+ cn_pd_b_beaucaire_occitan:0 "Belcaire" # vanilla
  cn_pd_b_beaugency_andalusian:0 "Būjīnsi" # rosetta
  cn_pd_b_beaugency_anglo_saxon:0 "Balgentiac" # immersive_toponyms
  cn_pd_b_beaugency_armenian:0 "Božansi" # Božansi - more_cultural_names
@@ -13502,22 +13476,6 @@
  cn_pd_b_besancon_lithuanian:0 "Bezansonas" # Bezansonas - more_cultural_names
  cn_pd_b_besancon_outremer:0 "Besançon" # immersive_toponyms
  cn_pd_b_besancon_roman:0 "Vesontio" # rosetta
- cn_pd_b_besensheim_andalusian:0 "Lūrš" # Lūrš - more_cultural_names
- cn_pd_b_besensheim_bavarian:0 "Lors" # Lors - more_cultural_names
- cn_pd_b_besensheim_bosnian:0 "Lorš" # Lorš - more_cultural_names
- cn_pd_b_besensheim_bulgarian:0 "Lorsh" # Lorsh - more_cultural_names
- cn_pd_b_besensheim_cisalpine:0 "Bensenzia" # immersive_toponyms
- cn_pd_b_besensheim_czech:0 "Benšov" # immersive_toponyms
- cn_pd_b_besensheim_danish:0 "Bensheim" # immersive_toponyms
- cn_pd_b_besensheim_dutch:0 "Benshem" # immersive_toponyms
- cn_pd_b_besensheim_french:0 "Bensham" # immersive_toponyms
- cn_pd_b_besensheim_han:0 "Luòěrshī" # Luòěrshī - more_cultural_names
- cn_pd_b_besensheim_hunnic:0 "Lorş" # Lorş - more_cultural_names
- cn_pd_b_besensheim_polabian:0 "Benszynów" # immersive_toponyms
- cn_pd_b_besensheim_roman:0 "Basinus" # rosetta
- cn_pd_b_besensheim_tajik:0 "Lorș" # Lorș - more_cultural_names
- cn_pd_b_besensheim_visigothic:0 "Baisanahaims" # terra_nomina
- cn_pd_b_besensheim_yamato:0 "Rorushiyu" # Rorushiyu - more_cultural_names
  cn_pd_b_beshbalik_avar:0 "Basboluk" # Basboluk - more_cultural_names
  cn_pd_b_beshbalik_bodpa:0 "Beitang" # immersive_toponyms
  cn_pd_b_beshbalik_bosnian:0 "Bišbalyk" # Bišbalyk - more_cultural_names
@@ -13599,6 +13557,7 @@
  cn_pd_b_bethen_mogyer:0 "Bereňvaru" # immersive_toponyms
  cn_pd_b_bethen_roman:0 "Bethaniae ad Oderam" # rosetta
  cn_pd_b_bethen_vlach:0 "Berun" # immersive_toponyms
+ cn_pd_b_bethune_dutch:0 "Betun" # vanilla
  cn_pd_b_betla_afghan:0 "Betālā" # immersive_toponyms
  cn_pd_b_betla_assamese:0 "Bētalā" # immersive_toponyms
  cn_pd_b_betla_avar:0 "Betla" # immersive_toponyms
@@ -14580,6 +14539,8 @@
  cn_pd_b_bisandugu_akan:0 "Bissandugu" # immersive_toponyms
  cn_pd_b_bisandugu_andalusian:0 "Bisāndūghū" # immersive_toponyms
  cn_pd_b_bisandugu_baranis:0 "Bissandougou" # immersive_toponyms
+ cn_pd_b_bischofstein_bavarian:0 "Bischofstein" # vanilla
+ cn_pd_b_bischofstein_polabian:0 "Bisztynek" # vanilla
  cn_pd_b_bischofswerda_andalusian:0 "Bīšūfsfīrdā" # Bīšūfsfīrdā - more_cultural_names
  cn_pd_b_bischofswerda_avar:0 "Bišofsverda" # Bišofsverda - more_cultural_names
  cn_pd_b_bischofswerda_bavarian:0 "Bischofswerda" # Bischofswerda - more_cultural_names
@@ -15677,6 +15638,7 @@
  cn_pd_b_boubo_akan:0 "Bubo" # immersive_toponyms
  cn_pd_b_boubo_andalusian:0 "al-Būbū" # immersive_toponyms
  cn_pd_b_boubo_baranis:0 "Boubo" # immersive_toponyms
+ cn_pd_b_bouchain_dutch:0 "Boesem" # vanilla
  cn_pd_b_bouda_andalusian:0 "al-Būda" # immersive_toponyms
  cn_pd_b_bouda_aragonese:0 "Budian" # immersive_toponyms
  cn_pd_b_bouda_baranis:0 "Bouda" # immersive_toponyms
@@ -16980,6 +16942,7 @@
  cn_pd_b_buipe_akan:0 "Buipe" # immersive_toponyms
  cn_pd_b_buipe_andalusian:0 "al-Buybi" # immersive_toponyms
  cn_pd_b_buipe_baranis:0 "Bouibe" # immersive_toponyms
+ cn_pd_b_buis_occitan:0 "Lo Buis" # vanilla
  cn_pd_b_bukhara_afghan:0 "Bohara" # rosetta
  cn_pd_b_bukhara_alan:0 "Buhara" # Buhara - more_cultural_names
  cn_pd_b_bukhara_andalusian:0 "Bukhārā" # rosetta
@@ -18138,19 +18101,6 @@
  cn_pd_b_camacha_polabian:0 "Kamacza" # immersive_toponyms
  cn_pd_b_camacha_roman:0 "Camachus" # rosetta
  cn_pd_b_camacha_trojan:0 "Kámachos" # terra_nomina
- cn_pd_b_camaldoli_andalusian:0 "al-Dūli" # immersive_toponyms
- cn_pd_b_camaldoli_bavarian:0 "Kammerdolitz" # immersive_toponyms
- cn_pd_b_camaldoli_bosnian:0 "Kamaldice" # immersive_toponyms
- cn_pd_b_camaldoli_cisalpine:0 "Camaldoli" # Camaldoli - more_cultural_names
- cn_pd_b_camaldoli_french:0 "Dolignan" # immersive_toponyms
- cn_pd_b_camaldoli_greek:0 "Kamaldolis" # immersive_toponyms
- cn_pd_b_camaldoli_han:0 "Kămăěrduōlì" # Kămăěrduōlì - more_cultural_names
- cn_pd_b_camaldoli_hungarian:0 "Kamáldaróc" # immersive_toponyms
- cn_pd_b_camaldoli_ilmenian:0 "Kamalditse" # immersive_toponyms
- cn_pd_b_camaldoli_mogyer:0 "Kamaldaroç" # immersive_toponyms
- cn_pd_b_camaldoli_roman:0 "Popium" # rosetta
- cn_pd_b_camaldoli_vlach:0 "Camaldolul" # immersive_toponyms
- cn_pd_b_camaldoli_yamato:0 "Kamarudori" # Kamarudori - more_cultural_names
  cn_pd_b_camarda_albanian:0 "Kamarda" # immersive_toponyms
  cn_pd_b_camarda_andalusian:0 "Bulikuru" # rosetta
  cn_pd_b_camarda_bavarian:0 "Kammerdan" # immersive_toponyms
@@ -18310,6 +18260,7 @@
  cn_pd_b_campulung_vlach:0 "Câmpulung" # Câmpulung - more_cultural_names
  cn_pd_b_campulung_yamato:0 "Kunpurungu" # Kunpurungu - more_cultural_names
  cn_pd_b_canavese_andalusian:0 "Sūsa" # rosetta
+ cn_pd_b_canavese_aragonese:0 "Susa" # Susa - more_cultural_names
  cn_pd_b_canavese_armenian:0 "Sowza" # Sowza - more_cultural_names
  cn_pd_b_canavese_basque:0 "Canavesa" # immersive_toponyms
  cn_pd_b_canavese_bavarian:0 "Hanfengau" # immersive_toponyms
@@ -18317,6 +18268,7 @@
  cn_pd_b_canavese_breton:0 "Sousa" # Sousa - more_cultural_names
  cn_pd_b_canavese_czech:0 "Súsy" # Súsy - more_cultural_names
  cn_pd_b_canavese_danish:0 "Kanenbjerg" # immersive_toponyms
+ cn_pd_b_canavese_frankish:0 "Suse" # rosetta
  cn_pd_b_canavese_greek:0 "Segousion" # Segousion - more_cultural_names
  cn_pd_b_canavese_hungarian:0 "Szúsza" # Szúsza - more_cultural_names
  cn_pd_b_canavese_lithuanian:0 "Susas" # Susas - more_cultural_names
@@ -18681,6 +18633,7 @@
  cn_pd_b_carmona_han:0 "Kăěrmònà" # Kăěrmònà - more_cultural_names
  cn_pd_b_carmona_roman:0 "Carmo" # rosetta
  cn_pd_b_carmona_yamato:0 "Karumona" # Karumona - more_cultural_names
+ cn_pd_b_carpentras_occitan:0 "Carpentràs" # vanilla
  cn_pd_b_carrick_bavarian:0 "Karrick" # immersive_toponyms
  cn_pd_b_carrick_english:0 "Carryk" # Carryk - more_cultural_names
  cn_pd_b_carrick_frankish:0 "Caric" # terra_nomina
@@ -18727,20 +18680,6 @@
  cn_pd_b_casel_hunnic:0 "Kastailō" # terra_nomina
  cn_pd_b_casel_polabian:0 "Kozłów" # immersive_toponyms
  cn_pd_b_casel_roman:0 "Cassella" # rosetta
- cn_pd_b_casentino_andalusian:0 "Kāzzintinu" # rosetta
- cn_pd_b_casentino_bavarian:0 "Kassentin" # immersive_toponyms
- cn_pd_b_casentino_bosnian:0 "Kasentinov" # immersive_toponyms
- cn_pd_b_casentino_cisalpine:0 "Casentino" # Casentino - more_cultural_names
- cn_pd_b_casentino_danish:0 "Kassundardal" # terra_nomina
- cn_pd_b_casentino_french:0 "Casentine" # immersive_toponyms
- cn_pd_b_casentino_greek:0 "Mevanióla" # rosetta
- cn_pd_b_casentino_hungarian:0 "Kesznyővár" # immersive_toponyms
- cn_pd_b_casentino_mogyer:0 "Kesňövaru" # immersive_toponyms
- cn_pd_b_casentino_norse:0 "Kássundardalr" # terra_nomina
- cn_pd_b_casentino_polabian:0 "Kasentinów" # immersive_toponyms
- cn_pd_b_casentino_roman:0 "Mevaniola" # rosetta
- cn_pd_b_casentino_vlach:0 "Casentin" # immersive_toponyms
- cn_pd_b_casentino_yamato:0 "Kazentiino" # Kazentiino - more_cultural_names
  cn_pd_b_caslav_andalusian:0 "Tšāslāf" # Tšāslāf - more_cultural_names
  cn_pd_b_caslav_avar:0 "Çeslak" # immersive_toponyms
  cn_pd_b_caslav_bavarian:0 "Tschaslau" # rosetta
@@ -18911,8 +18850,8 @@
  cn_pd_b_castletown_dutch:0 "Kasteelstaad" # immersive_toponyms
  cn_pd_b_castletown_english:0 "Castletown" # Castletown - more_cultural_names
  cn_pd_b_castletown_french:0 "Chateau-Ville" # immersive_toponyms
+ cn_pd_b_castletown_icelandic:0 "Hólmatún" # vanilla
  cn_pd_b_castletown_late_norman:0 "Châtelbourg" # terra_nomina
- cn_pd_b_castletown_norse:0 "Hólmatún" # rosetta
  cn_pd_b_castletown_roman:0 "Castellum Monapum" # rosetta
  cn_pd_b_castletown_scottish:0 "Castletoun" # rosetta
  cn_pd_b_castrogiovanni_albanian:0 "Kastërjani" # immersive_toponyms
@@ -19160,21 +19099,6 @@
  cn_pd_b_ceneta_polabian:0 "Centawa" # immersive_toponyms
  cn_pd_b_ceneta_roman:0 "Opitergium" # rosetta
  cn_pd_b_ceneta_vlach:0 "Ceneda" # immersive_toponyms
- cn_pd_b_cento_andalusian:0 "Tshintu" # rosetta
- cn_pd_b_cento_bavarian:0 "Zänt" # immersive_toponyms
- cn_pd_b_cento_bosnian:0 "Čento" # immersive_toponyms
- cn_pd_b_cento_cisalpine:0 "Nonantola" # Nonantola - more_cultural_names
- cn_pd_b_cento_czech:0 "Centov" # immersive_toponyms
- cn_pd_b_cento_french:0 "Cento" # immersive_toponyms
- cn_pd_b_cento_greek:0 "Kénton" # rosetta
- cn_pd_b_cento_han:0 "Nuònātuōlā" # Nuònātuōlā - more_cultural_names
- cn_pd_b_cento_hungarian:0 "Csentevásár" # immersive_toponyms
- cn_pd_b_cento_ilmenian:0 "Tsentov" # immersive_toponyms
- cn_pd_b_cento_mogyer:0 "Çentevašar" # immersive_toponyms
- cn_pd_b_cento_polabian:0 "Centow" # immersive_toponyms
- cn_pd_b_cento_roman:0 "Centum" # rosetta
- cn_pd_b_cento_yamato:0 "Nonantora" # Nonantora - more_cultural_names
- cn_pd_b_cento_yemeni:0 "Nūnātūlā" # Nūnātūlā - more_cultural_names
  cn_pd_b_central_jbl_quzlum_afghan:0 "Šalatayn" # immersive_toponyms
  cn_pd_b_central_jbl_quzlum_andalusian:0 "Shalātayn" # immersive_toponyms
  cn_pd_b_central_jbl_quzlum_avar:0 "Şalatin" # immersive_toponyms
@@ -21362,6 +21286,8 @@
  cn_pd_b_chortolisy_pommeranian:0 "Czartolesy" # immersive_toponyms
  cn_pd_b_chortolisy_roman:0 "Alexandropolis" # rosetta
  cn_pd_b_chortolisy_vlach:0 "Pulînî" # immersive_toponyms
+ cn_pd_b_christburg_bavarian:0 "Christburg" # vanilla
+ cn_pd_b_christburg_polabian:0 "Dzierzgoń" # vanilla
  cn_pd_b_christchurch_anglo_saxon:0 "Tweoxneam" # rosetta
  cn_pd_b_christchurch_bavarian:0 "Christuskirche" # immersive_toponyms
  cn_pd_b_christchurch_cisalpine:0 "Cattedrale di Cristo" # Cattedrale di Cristo - more_cultural_names
@@ -23169,6 +23095,7 @@
  cn_pd_b_cres_norse:0 "Kærs" # terra_nomina
  cn_pd_b_cres_roman:0 "Crepsa" # rosetta
  cn_pd_b_cres_trojan:0 "Ápsyrtis" # terra_nomina
+ cn_pd_b_crest_occitan:0 "Crèst" # vanilla
  cn_pd_b_cridus_afghan:0 "Qirab" # immersive_toponyms
  cn_pd_b_cridus_alan:0 "Kridos" # immersive_toponyms
  cn_pd_b_cridus_andalusian:0 "Kawnus" # rosetta
@@ -24335,6 +24262,7 @@
  cn_pd_b_darlington_tamil:0 "Țārlińțaņ" # Țārlińțaņ - more_cultural_names
  cn_pd_b_darlington_telugu:0 "Dārlińg Țan" # Dārlińg Țan - more_cultural_names
  cn_pd_b_darlington_yamato:0 "Daarin Ton" # Daarin Ton - more_cultural_names
+ cn_pd_b_darlowo_bavarian:0 "Rügenwalde" # vanilla
  cn_pd_b_darmashan_afghan:0 "Darmašan" # immersive_toponyms
  cn_pd_b_darmashan_andalusian:0 "Darmashan" # immersive_toponyms
  cn_pd_b_darmashan_assamese:0 "Daramāśāna" # immersive_toponyms
@@ -24403,17 +24331,6 @@
  cn_pd_b_dasmenda_ilmenian:0 "Dashmenka" # immersive_toponyms
  cn_pd_b_dasmenda_kurdish:0 "Quskâlen" # immersive_toponyms
  cn_pd_b_dasmenda_polabian:0 "Daszmienka" # immersive_toponyms
- cn_pd_b_dassel_anglo_saxon:0 "Dæssel" # terra_nomina
- cn_pd_b_dassel_bavarian:0 "Corvey" # Corvey - more_cultural_names
- cn_pd_b_dassel_bosnian:0 "Desna" # immersive_toponyms
- cn_pd_b_dassel_cisalpine:0 "Dassiglia" # immersive_toponyms
- cn_pd_b_dassel_czech:0 "Desná" # immersive_toponyms
- cn_pd_b_dassel_danish:0 "Dassing" # immersive_toponyms
- cn_pd_b_dassel_dutch:0 "Dassel" # immersive_toponyms
- cn_pd_b_dassel_hunnic:0 "Þasila" # terra_nomina
- cn_pd_b_dassel_latgalian:0 "Dassela" # immersive_toponyms
- cn_pd_b_dassel_lithuanian:0 "Daselas" # immersive_toponyms
- cn_pd_b_dassel_roman:0 "Dasla" # rosetta
  cn_pd_b_datong_afghan:0 "Yulak" # immersive_toponyms
  cn_pd_b_datong_assamese:0 "Julaka" # immersive_toponyms
  cn_pd_b_datong_avar:0 "Yulaq" # immersive_toponyms
@@ -24421,6 +24338,7 @@
  cn_pd_b_datong_han:0 "Dàtóng" # Dàtóng - more_cultural_names
  cn_pd_b_datong_kirati:0 "Julak" # immersive_toponyms
  cn_pd_b_datong_qiang:0 "Dàtōng" # immersive_toponyms
+ cn_pd_b_daugavgriva_bavarian:0 "Dünamünde" # vanilla
  cn_pd_b_daugavpils_ashkenazi:0 "Denenburg" # Denenburg - more_cultural_names
  cn_pd_b_daugavpils_avar:0 "Dagarcik" # immersive_toponyms
  cn_pd_b_daugavpils_bavarian:0 "Dünaburg" # rosetta
@@ -24772,7 +24690,6 @@
  cn_pd_b_deggendorf_latgalian:0 "Degendorfa" # immersive_toponyms
  cn_pd_b_deggendorf_lithuanian:0 "Degendorfas" # Degendorfas - more_cultural_names
  cn_pd_b_deggendorf_polabian:0 "Tiechonyn" # immersive_toponyms
- cn_pd_b_deggendorf_roman:0 "Brodentia" # rosetta
  cn_pd_b_deggendorf_russian:0 "Tekhonin" # immersive_toponyms
  cn_pd_b_deggendorf_vlach:0 "Techonin" # immersive_toponyms
  cn_pd_b_deggendorf_yamato:0 "Deggendorufu" # Deggendorufu - more_cultural_names
@@ -25109,13 +25026,13 @@
  cn_pd_b_derby_english:0 "Darbye" # Darbye - more_cultural_names
  cn_pd_b_derby_frankish:0 "Dèrby" # rosetta
  cn_pd_b_derby_greek:0 "Derouíntio" # rosetta
+ cn_pd_b_derby_icelandic:0 "Djuraby" # vanilla
  cn_pd_b_derby_latgalian:0 "Dãrbi" # Dãrbi - more_cultural_names
  cn_pd_b_derby_lithuanian:0 "Derbis" # Derbis - more_cultural_names
  cn_pd_b_derby_norse:0 "Djúrabý" # rosetta
  cn_pd_b_derby_old_saxon:0 "Tierby" # rosetta
  cn_pd_b_derby_roman:0 "Derventio Coritanorum" # rosetta
  cn_pd_b_derby_suebi:0 "Tiorabit" # rosetta
- cn_pd_b_derby_swedish:0 "Djuraby" # rosetta
  cn_pd_b_derdoin_afghan:0 "Dērdoīn" # immersive_toponyms
  cn_pd_b_derdoin_assamese:0 "Dāraḍōina" # immersive_toponyms
  cn_pd_b_derdoin_avar:0 "Derden" # immersive_toponyms
@@ -25164,10 +25081,10 @@
  cn_pd_b_derry_gujarati:0 "Derī" # Derī - more_cultural_names
  cn_pd_b_derry_han:0 "Délĭ" # Délĭ - more_cultural_names
  cn_pd_b_derry_hindustani:0 "Londendri" # Londendri - more_cultural_names
+ cn_pd_b_derry_icelandic:0 "Úlfkelsfjörðr" # vanilla
  cn_pd_b_derry_ilmenian:0 "Dery" # Dery - more_cultural_names
  cn_pd_b_derry_korean:0 "Teri" # Teri - more_cultural_names
  cn_pd_b_derry_lithuanian:0 "Deris" # Deris - more_cultural_names
- cn_pd_b_derry_norse:0 "Úlfkelsfjörðr" # rosetta
  cn_pd_b_derry_roman:0 "Deria" # rosetta
  cn_pd_b_derry_tamil:0 "Țerri" # Țerri - more_cultural_names
  cn_pd_b_derry_telugu:0 "Derrī" # Derrī - more_cultural_names
@@ -25721,6 +25638,7 @@
  cn_pd_b_dijon_marathi:0 "Dijaan" # Dijaan - more_cultural_names
  cn_pd_b_dijon_roman:0 "Castrum Divionense" # rosetta
  cn_pd_b_dijon_tamil:0 "Țijāņ" # Țijāņ - more_cultural_names
+ cn_pd_b_diksmuide_french:0 "Dixmude" # vanilla
  cn_pd_b_dikutateni_akan:0 "Dikutateni" # immersive_toponyms
  cn_pd_b_dikutateni_andalusian:0 "Dikutātini" # immersive_toponyms
  cn_pd_b_dikutateni_baranis:0 "Dikoutateni" # immersive_toponyms
@@ -26466,9 +26384,9 @@
  cn_pd_b_dornoch_french:0 "Dornoque" # immersive_toponyms
  cn_pd_b_dornoch_gaelic:0 "Dòrnach" # rosetta
  cn_pd_b_dornoch_han:0 "Duōnuòhè" # Duōnuòhè - more_cultural_names
+ cn_pd_b_dornoch_icelandic:0 "Hjálmundalr" # vanilla
  cn_pd_b_dornoch_ilmenian:0 "Dornokh" # Dornokh - more_cultural_names
  cn_pd_b_dornoch_korean:0 "Toreunokeu" # Toreunokeu - more_cultural_names
- cn_pd_b_dornoch_norse:0 "Hjálmundalr" # rosetta
  cn_pd_b_dornoch_pictish:0 "Dirnfeth" # rosetta
  cn_pd_b_dornoch_roman:0 "Dornodunum" # rosetta
  cn_pd_b_dornoch_scottish:0 "Dornach" # rosetta
@@ -26646,6 +26564,7 @@
  cn_pd_b_doti_avar:0 "Doti" # immersive_toponyms
  cn_pd_b_doti_bodpa:0 "Duoti" # immersive_toponyms
  cn_pd_b_doti_han:0 "Duōdì" # immersive_toponyms
+ cn_pd_b_douai_dutch:0 "Dowaai" # vanilla
  cn_pd_b_doudleby_avar:0 "Düdkö" # immersive_toponyms
  cn_pd_b_doudleby_bavarian:0 "Teindles" # rosetta
  cn_pd_b_doudleby_bosnian:0 "Duljebi" # Duljebi - more_cultural_names
@@ -26705,6 +26624,7 @@
  cn_pd_b_downpatrick_french:0 "Patricebourg" # immersive_toponyms
  cn_pd_b_downpatrick_frisian:0 "Patriksburg" # immersive_toponyms
  cn_pd_b_downpatrick_han:0 "Tángpàtèlĭkè" # Tángpàtèlĭkè - more_cultural_names
+ cn_pd_b_downpatrick_icelandic:0 "Strangafjörðr" # vanilla
  cn_pd_b_downpatrick_ilmenian:0 "Daŭnpatryk" # Daŭnpatryk - more_cultural_names
  cn_pd_b_downpatrick_korean:0 "Taunpaeteurik" # Taunpaeteurik - more_cultural_names
  cn_pd_b_downpatrick_norse:0 "Strangfjœrðr" # rosetta
@@ -26853,6 +26773,7 @@
  cn_pd_b_dreux_occitan:0 "Dreux" # Dreux - more_cultural_names
  cn_pd_b_dreux_roman:0 "Durocassium" # rosetta
  cn_pd_b_dreux_yamato:0 "Doruu" # Doruu - more_cultural_names
+ cn_pd_b_drezdenko_bavarian:0 "Driesen" # vanilla
  cn_pd_b_dreznik_albanian:0 "Drezhniku" # immersive_toponyms
  cn_pd_b_dreznik_andalusian:0 "Diriznik" # immersive_toponyms
  cn_pd_b_dreznik_avar:0 "Dežövaru" # immersive_toponyms
@@ -26873,12 +26794,10 @@
  cn_pd_b_driesen_cisalpine:0 "Dresena" # immersive_toponyms
  cn_pd_b_driesen_czech:0 "Drezno" # immersive_toponyms
  cn_pd_b_driesen_danish:0 "Drisen" # immersive_toponyms
- cn_pd_b_driesen_dutch:0 "Driesen" # immersive_toponyms
  cn_pd_b_driesen_greek:0 "Biélen" # Biélen - more_cultural_names
  cn_pd_b_driesen_han:0 "Wéilún" # Wéilún - more_cultural_names
  cn_pd_b_driesen_ilmenian:0 "Vilen" # rosetta
  cn_pd_b_driesen_latgalian:0 "Drīzene" # immersive_toponyms
- cn_pd_b_driesen_lithuanian:0 "Vielenė" # Vielenė - more_cultural_names
  cn_pd_b_driesen_polabian:0 "Wieleń" # Wieleń - more_cultural_names
  cn_pd_b_driesen_pommeranian:0 "Wieléń" # Wieléń - more_cultural_names
  cn_pd_b_driesen_prussian:0 "Drezdenkas" # immersive_toponyms
@@ -27319,6 +27238,7 @@
  cn_pd_b_dundalk_french:0 "Fort Dalga" # immersive_toponyms
  cn_pd_b_dundalk_georgian:0 "Dandolk’i" # Dandolk’i - more_cultural_names
  cn_pd_b_dundalk_han:0 "Dèngduōkè" # Dèngduōkè - more_cultural_names
+ cn_pd_b_dundalk_icelandic:0 "Kerlíngafjörðr" # vanilla
  cn_pd_b_dundalk_korean:0 "Tŏndokeu" # Tŏndokeu - more_cultural_names
  cn_pd_b_dundalk_lithuanian:0 "Dandolkas" # Dandolkas - more_cultural_names
  cn_pd_b_dundalk_norse:0 "Kerlingfjorðr" # rosetta
@@ -27494,6 +27414,7 @@
  cn_pd_b_duqm_portuguese:0 "Ducme" # rosetta
  cn_pd_b_duqm_roman:0 "Cosara" # rosetta
  cn_pd_b_duqm_trojan:0 "Serápidis" # terra_nomina
+ cn_pd_b_durbe_bavarian:0 "Durben" # vanilla
  cn_pd_b_durdzukia_afghan:0 "Durunak" # immersive_toponyms
  cn_pd_b_durdzukia_alan:0 "Durdzukia" # immersive_toponyms
  cn_pd_b_durdzukia_andalusian:0 "Durdzukiya" # immersive_toponyms
@@ -27552,6 +27473,7 @@
  cn_pd_b_durham_english:0 "Duram" # Duram - more_cultural_names
  cn_pd_b_durham_gaelic:0 "Dunelm" # rosetta
  cn_pd_b_durham_greek:0 "Ouinóuia" # rosetta
+ cn_pd_b_durham_icelandic:0 "Úlfreksfjörðr" # vanilla
  cn_pd_b_durham_lithuanian:0 "Daramas" # Daramas - more_cultural_names
  cn_pd_b_durham_norse:0 "Dunhólmr" # rosetta
  cn_pd_b_durham_roman:0 "Vinovia" # rosetta
@@ -27571,8 +27493,8 @@
  cn_pd_b_durness_danish:0 "Dyrnes" # rosetta
  cn_pd_b_durness_dutch:0 "Durnzee" # immersive_toponyms
  cn_pd_b_durness_french:0 "Durine" # immersive_toponyms
+ cn_pd_b_durness_icelandic:0 "Dýrnes" # vanilla
  cn_pd_b_durness_lithuanian:0 "Dernesas" # Dernesas - more_cultural_names
- cn_pd_b_durness_norse:0 "Dýrnes" # rosetta
  cn_pd_b_durness_roman:0 "Cerva" # terra_nomina
  cn_pd_b_durness_yamato:0 "Daanesu" # Daanesu - more_cultural_names
  cn_pd_b_durovka_anglo_saxon:0 "Durōwca" # immersive_toponyms
@@ -28394,6 +28316,7 @@
  cn_pd_b_ely_greek:0 "Hília" # rosetta
  cn_pd_b_ely_gujarati:0 "Elī" # Elī - more_cultural_names
  cn_pd_b_ely_han:0 "Yīlì" # Yīlì - more_cultural_names
+ cn_pd_b_ely_icelandic:0 "Linn" # vanilla
  cn_pd_b_ely_korean:0 "Illi" # Illi - more_cultural_names
  cn_pd_b_ely_lithuanian:0 "Ilis" # Ilis - more_cultural_names
  cn_pd_b_ely_norse:0 "Eley" # rosetta
@@ -28413,7 +28336,6 @@
  cn_pd_b_embrun_cisalpine:0 "Ambruno" # rosetta
  cn_pd_b_embrun_danish:0 "Ambrunnúr" # immersive_toponyms
  cn_pd_b_embrun_greek:0 "Ebródounon" # rosetta
- cn_pd_b_embrun_roman:0 "Eburodunum" # rosetta
  cn_pd_b_emden_andalusian:0 "Imdn" # Imdn - more_cultural_names
  cn_pd_b_emden_anglo_saxon:0 "Eamuþum" # Eamuþum - more_cultural_names
  cn_pd_b_emden_avar:0 "Èmden" # Èmden - more_cultural_names
@@ -28978,6 +28900,7 @@
  cn_pd_b_euspena_roman:0 "Euspena" # rosetta
  cn_pd_b_euspena_yamato:0 "Kangaru" # Kangaru - more_cultural_names
  cn_pd_b_eusutur_emishi:0 "Esutoru" # more_cultural_names
+ cn_pd_b_eutin_polabian:0 "Utin" # vanilla
  cn_pd_b_everstein_anglo_saxon:0 "Eversten" # Eversten - more_cultural_names
  cn_pd_b_everstein_bavarian:0 "Everstein" # Everstein - more_cultural_names
  cn_pd_b_everstein_bosnian:0 "Everštejn" # immersive_toponyms
@@ -30287,6 +30210,7 @@
  cn_pd_b_firuzkuh_persian:0 "Fīrūzkūh" # Fīrūzkūh - more_cultural_names
  cn_pd_b_firuzkuh_roman:0 "Artusia" # rosetta
  cn_pd_b_firuzkuh_zaghawa:0 "Fīrūz Kūh" # Fīrūz Kūh - more_cultural_names
+ cn_pd_b_fischhausen_bavarian:0 "Fischhausen" # vanilla
  cn_pd_b_fishabur_afghan:0 "Pešabīr" # immersive_toponyms
  cn_pd_b_fishabur_alan:0 "Fišxabur" # immersive_toponyms
  cn_pd_b_fishabur_andalusian:0 "Fishkhabur" # immersive_toponyms
@@ -30324,24 +30248,6 @@
  cn_pd_b_fjarlandi_norse:0 "Leikvangir" # rosetta
  cn_pd_b_fjarlandi_old_saxon:0 "Hermannswerk" # terra_nomina
  cn_pd_b_fjarlandi_roman:0 "Arminiovercum" # terra_nomina
- cn_pd_b_florentiola_andalusian:0 "Būbīū" # Būbīū - more_cultural_names
- cn_pd_b_florentiola_armenian:0 "Bobio" # Bobio - more_cultural_names
- cn_pd_b_florentiola_baranis:0 "al-Fajawr" # immersive_toponyms
- cn_pd_b_florentiola_bavarian:0 "Florenz an der Arda" # immersive_toponyms
- cn_pd_b_florentiola_bosnian:0 "Cvetna" # immersive_toponyms
- cn_pd_b_florentiola_cisalpine:0 "Bobi" # Bobi - more_cultural_names
- cn_pd_b_florentiola_czech:0 "Plodnýhrad" # immersive_toponyms
- cn_pd_b_florentiola_french:0 "Fioreanville" # immersive_toponyms
- cn_pd_b_florentiola_greek:0 "Fidíntia" # rosetta
- cn_pd_b_florentiola_han:0 "Bóbĭào" # Bóbĭào - more_cultural_names
- cn_pd_b_florentiola_hungarian:0 "Gazdagrét" # immersive_toponyms
- cn_pd_b_florentiola_ilmenian:0 "Bobia" # Bobia - more_cultural_names
- cn_pd_b_florentiola_italian:0 "Bobbio" # Bobbio - more_cultural_names
- cn_pd_b_florentiola_mogyer:0 "Gazdagret" # immersive_toponyms
- cn_pd_b_florentiola_polabian:0 "Płodnygród" # immersive_toponyms
- cn_pd_b_florentiola_roman:0 "Fidentia Iulia" # rosetta
- cn_pd_b_florentiola_russian:0 "Plodovitgrad" # immersive_toponyms
- cn_pd_b_florentiola_vlach:0 "Cetatea Mare" # immersive_toponyms
  cn_pd_b_floridsdorf_anglo_saxon:0 "Floridsþörp" # Floridsþörp - more_cultural_names
  cn_pd_b_floridsdorf_avar:0 "Florianfalva" # immersive_toponyms
  cn_pd_b_floridsdorf_bavarian:0 "Fluridsduaf" # rosetta
@@ -31814,6 +31720,7 @@
  cn_pd_b_gatsuurgazar_han:0 "Jisūjiāzhāěr" # immersive_toponyms
  cn_pd_b_gatsuurgazar_ilmenian:0 "Gatsurino" # immersive_toponyms
  cn_pd_b_gatsuurgazar_turkish:0 "Gasmanlı" # immersive_toponyms
+ cn_pd_b_gaujiena_bavarian:0 "Adsel" # vanilla
  cn_pd_b_gauldala_bavarian:0 "Holtdalen" # rosetta
  cn_pd_b_gauldala_bosnian:0 "Gaudalov" # immersive_toponyms
  cn_pd_b_gauldala_danish:0 "Holtålen" # rosetta
@@ -32073,6 +31980,7 @@
  cn_pd_b_geluo_bodpa:0 "Gyelao" # immersive_toponyms
  cn_pd_b_geluo_buryat:0 "Khiloo" # immersive_toponyms
  cn_pd_b_geluo_jurchen:0 "Golo" # immersive_toponyms
+ cn_pd_b_gembloux_dutch:0 "Gembloers" # vanilla
  cn_pd_b_geme_akan:0 "Gemé" # immersive_toponyms
  cn_pd_b_geme_andalusian:0 "al-Ghīm" # immersive_toponyms
  cn_pd_b_geme_baranis:0 "Geme" # immersive_toponyms
@@ -32811,7 +32719,7 @@
  cn_pd_b_glencoe_french:0 "Glencoue" # immersive_toponyms
  cn_pd_b_glencoe_frisian:0 "Stienbultdoarp" # immersive_toponyms
  cn_pd_b_glencoe_gaelic:0 "Gleann Comhann" # rosetta
- cn_pd_b_glencoe_norse:0 "Dysjarstaðr" # rosetta
+ cn_pd_b_glencoe_icelandic:0 "Dysjarstaðr" # vanilla
  cn_pd_b_glencoe_roman:0 "Vallis Coa" # terra_nomina
  cn_pd_b_glenelg_anglo_saxon:0 "Glænelg" # immersive_toponyms
  cn_pd_b_glenelg_bavarian:0 "Glennheim" # immersive_toponyms
@@ -34819,12 +34727,12 @@
  cn_pd_b_guovdageaidnu_bulgarian:0 "Oksansk" # immersive_toponyms
  cn_pd_b_guovdageaidnu_danish:0 "Oksfjorden" # rosetta
  cn_pd_b_guovdageaidnu_finnish:0 "Kautokeino" # Kautokeino # Or Koutokeino - more_cultural_names
+ cn_pd_b_guovdageaidnu_icelandic:0 "Yxnafjörðr" # vanilla
  cn_pd_b_guovdageaidnu_ilmenian:0 "Këutukeynu" # Këutukeynu - more_cultural_names
  cn_pd_b_guovdageaidnu_karelian:0 "Akasvuono" # immersive_toponyms
  cn_pd_b_guovdageaidnu_latgalian:0 "Eksfjorda" # immersive_toponyms
  cn_pd_b_guovdageaidnu_lithuanian:0 "Eksfjordas" # immersive_toponyms
  cn_pd_b_guovdageaidnu_norse:0 "Oksfjörður" # rosetta
- cn_pd_b_guovdageaidnu_norwegian:0 "Yxnafjörðr" # rosetta
  cn_pd_b_guovdageaidnu_sami:0 "Guovdageainnu" # Guovdageainnu - more_cultural_names
  cn_pd_b_gurage_afar:0 "Guraagee" # immersive_toponyms
  cn_pd_b_gurage_andalusian:0 "Ghuraji" # immersive_toponyms
@@ -36595,6 +36503,7 @@
  cn_pd_b_hedeby_french:0 "Silesville" # immersive_toponyms
  cn_pd_b_hedeby_georgian:0 "Hedebiu" # Hedebiu - more_cultural_names
  cn_pd_b_hedeby_han:0 "Hèdébĭ" # Hèdébĭ - more_cultural_names
+ cn_pd_b_hedeby_icelandic:0 "Heiðabyr" # vanilla
  cn_pd_b_hedeby_ilmenian:0 "Chiedebiu" # Chiedebiu - more_cultural_names
  cn_pd_b_hedeby_latgalian:0 "Hedebis" # immersive_toponyms
  cn_pd_b_hedeby_polabian:0 "Ełdiba" # immersive_toponyms
@@ -38534,10 +38443,10 @@
  cn_pd_b_husavik_gaelic:0 "Cuan Dachaigh" # immersive_toponyms
  cn_pd_b_husavik_georgian:0 "Husavik’i" # Husavik’i - more_cultural_names
  cn_pd_b_husavik_greek:0 "Choúsabik" # Choúsabik - more_cultural_names
+ cn_pd_b_husavik_icelandic:0 "Húsavík" # vanilla
  cn_pd_b_husavik_ilmenian:0 "Chusavik" # Chusavik - more_cultural_names
  cn_pd_b_husavik_latgalian:0 "Husavika" # immersive_toponyms
  cn_pd_b_husavik_lithuanian:0 "Husavikas" # Husavikas - more_cultural_names
- cn_pd_b_husavik_norse:0 "Húsavík" # rosetta
  cn_pd_b_husavik_norwegian:0 "Husvik" # rosetta
  cn_pd_b_husavik_old_saxon:0 "Husowik" # Husowik - more_cultural_names
  cn_pd_b_husavik_polabian:0 "Chusawik" # immersive_toponyms
@@ -39970,7 +39879,7 @@
  cn_pd_b_islay_danish:0 "Il" # rosetta
  cn_pd_b_islay_dutch:0 "Eilandegouw" # immersive_toponyms
  cn_pd_b_islay_frankish:0 "Iselaie" # terra_nomina
- cn_pd_b_islay_norse:0 "Íl" # rosetta
+ cn_pd_b_islay_icelandic:0 "Íl" # vanilla
  cn_pd_b_islay_roman:0 "Epidium" # rosetta
  cn_pd_b_issenjau_afghan:0 "Issenjān" # immersive_toponyms
  cn_pd_b_issenjau_assamese:0 "Isēnajā" # immersive_toponyms
@@ -41904,6 +41813,8 @@
  cn_pd_b_joha_afar:0 "Jowha" # immersive_toponyms
  cn_pd_b_joha_andalusian:0 "Juha" # immersive_toponyms
  cn_pd_b_joha_daju:0 "Ǧoha" # immersive_toponyms
+ cn_pd_b_johannisburg_bavarian:0 "Johannisburg" # vanilla
+ cn_pd_b_johannisburg_polabian:0 "Pisz" # vanilla
  cn_pd_b_joinville_alan:0 "Žoinvili" # Žoinvili - more_cultural_names
  cn_pd_b_joinville_andalusian:0 "Juinfil" # rosetta
  cn_pd_b_joinville_anglo_saxon:0 "Iōhannesborc" # immersive_toponyms
@@ -42196,6 +42107,7 @@
  cn_pd_b_jurbarkas_estonian:0 "Joora" # immersive_toponyms
  cn_pd_b_jurbarkas_frankish:0 "Cheorcernburc" # Cheorcernburc - more_cultural_names
  cn_pd_b_jurbarkas_greek:0 "Georgiópolis Litouaníkas" # rosetta
+ cn_pd_b_jurbarkas_icelandic:0 "Georgsborg" # vanilla
  cn_pd_b_jurbarkas_ilmenian:0 "Yurbarkas" # rosetta
  cn_pd_b_jurbarkas_latgalian:0 "Jurbarka" # Jurbarka - more_cultural_names
  cn_pd_b_jurbarkas_lithuanian:0 "Jurbarkas" # immersive_toponyms
@@ -42690,6 +42602,7 @@
  cn_pd_b_kaisereia_vepsian:0 "Kaiseri" # Kaiseri - more_cultural_names
  cn_pd_b_kaiserslautern_anglo_saxon:0 "Lutoran" # Lutoran - more_cultural_names
  cn_pd_b_kaiserslautern_bavarian:0 "Loutern" # Loutern - more_cultural_names
+ cn_pd_b_kaiserslautern_bosnian:0 "Lutra" # immersive_toponyms
  cn_pd_b_kaiserslautern_cisalpine:0 "Cesaralutra" # immersive_toponyms
  cn_pd_b_kaiserslautern_czech:0 "Císařská Lautra" # immersive_toponyms
  cn_pd_b_kaiserslautern_danish:0 "Kæsarreinsa" # rosetta
@@ -42753,6 +42666,7 @@
  cn_pd_b_kakisalmi_greek:0 "Koréla" # rosetta
  cn_pd_b_kakisalmi_han:0 "Pŭlĭàojiāoěrsīkè" # Pŭlĭàojiāoěrsīkè - more_cultural_names
  cn_pd_b_kakisalmi_hungarian:0 "Priozerszk" # Priozerszk - more_cultural_names
+ cn_pd_b_kakisalmi_icelandic:0 "Kexholm" # vanilla
  cn_pd_b_kakisalmi_ilmenian:0 "Korela" # rosetta
  cn_pd_b_kakisalmi_korean:0 "Peuriojereuseukeu" # Peuriojereuseukeu - more_cultural_names
  cn_pd_b_kakisalmi_latgalian:0 "Kiakisalmi" # immersive_toponyms
@@ -42763,7 +42677,6 @@
  cn_pd_b_kakisalmi_prussian:0 "Kiakisalmis" # immersive_toponyms
  cn_pd_b_kakisalmi_roman:0 "Corela" # rosetta
  cn_pd_b_kakisalmi_sami:0 "Gägisalmi" # rosetta
- cn_pd_b_kakisalmi_swedish:0 "Kexholm" # rosetta
  cn_pd_b_kakisalmi_yamato:0 "Puriozerusuku" # Puriozerusuku - more_cultural_names
  cn_pd_b_kaklouma_afghan:0 "Dalaymān" # immersive_toponyms
  cn_pd_b_kaklouma_alan:0 "Kakloman" # immersive_toponyms
@@ -43222,6 +43135,7 @@
  cn_pd_b_kamichly_kul_ilmenian:0 "Kamichli" # immersive_toponyms
  cn_pd_b_kamichly_kul_polabian:0 "Kamiczli" # immersive_toponyms
  cn_pd_b_kamichly_kul_turkish:0 "Kamiçli" # immersive_toponyms
+ cn_pd_b_kamien_bavarian:0 "Cammin" # vanilla
  cn_pd_b_kamisa_afghan:0 "Qamisa" # immersive_toponyms
  cn_pd_b_kamisa_alan:0 "Kamisa" # immersive_toponyms
  cn_pd_b_kamisa_avar:0 "Qamisan" # immersive_toponyms
@@ -44031,11 +43945,11 @@
  cn_pd_b_karasjohka_english:0 "Karasjok" # Karasjok - more_cultural_names
  cn_pd_b_karasjohka_estonian:0 "Kárášjohka" # Kárášjohka - more_cultural_names
  cn_pd_b_karasjohka_finnish:0 "Kaarasjoki" # Kaarasjoki - more_cultural_names
+ cn_pd_b_karasjohka_icelandic:0 "Fossangr" # vanilla
  cn_pd_b_karasjohka_ilmenian:0 "Karasyok" # Karasyok - more_cultural_names
  cn_pd_b_karasjohka_latgalian:0 "Karasjoki" # immersive_toponyms
  cn_pd_b_karasjohka_lithuanian:0 "Karasjokis" # immersive_toponyms
  cn_pd_b_karasjohka_norse:0 "Þórsanger" # rosetta
- cn_pd_b_karasjohka_norwegian:0 "Fossangr" # rosetta
  cn_pd_b_karasjohka_polabian:0 "Karasowo" # immersive_toponyms
  cn_pd_b_karasjohka_roman:0 "Torsanga" # rosetta
  cn_pd_b_karasjohka_sami:0 "Kárášjoga" # Kárášjoga - more_cultural_names
@@ -45256,6 +45170,7 @@
  cn_pd_b_kehan_han:0 "Kèhán" # immersive_toponyms
  cn_pd_b_kehan_kurdish:0 "Keghan" # immersive_toponyms
  cn_pd_b_kehan_turkish:0 "Keğan" # immersive_toponyms
+ cn_pd_b_keila_bavarian:0 "Kegel" # vanilla
  cn_pd_b_keitele_bavarian:0 "Kettil" # immersive_toponyms
  cn_pd_b_keitele_bosnian:0 "Kečener" # immersive_toponyms
  cn_pd_b_keitele_danish:0 "Kettile" # immersive_toponyms
@@ -46857,6 +46772,7 @@
  cn_pd_b_kiev_gujarati:0 "Kyīva" # Kyīva - more_cultural_names
  cn_pd_b_kiev_han:0 "Jīfŭ" # Jīfŭ - more_cultural_names
  cn_pd_b_kiev_hindustani:0 "Kiw" # Kiw - more_cultural_names
+ cn_pd_b_kiev_icelandic:0 "Könugarðr" # vanilla
  cn_pd_b_kiev_ilmenian:0 "Kíjev" # rosetta
  cn_pd_b_kiev_italian:0 "Chiovia" # terra_nomina
  cn_pd_b_kiev_kannada:0 "Kīv" # Kīv - more_cultural_names
@@ -47269,11 +47185,11 @@
  cn_pd_b_kirkwall_greek:0 "Kérkouol" # Kérkouol - more_cultural_names
  cn_pd_b_kirkwall_gujarati:0 "Kirkavŏla" # Kirkavŏla - more_cultural_names
  cn_pd_b_kirkwall_han:0 "Kēkèwòěr" # Kēkèwòěr - more_cultural_names
+ cn_pd_b_kirkwall_icelandic:0 "Kirkjuvágr" # vanilla
  cn_pd_b_kirkwall_kannada:0 "Kirkvāl" # Kirkvāl - more_cultural_names
  cn_pd_b_kirkwall_korean:0 "Kŏkeuwŏl" # Kŏkeuwŏl - more_cultural_names
  cn_pd_b_kirkwall_latgalian:0 "Kērkvola" # immersive_toponyms
  cn_pd_b_kirkwall_lithuanian:0 "Kerkvolas" # Kerkvolas - more_cultural_names
- cn_pd_b_kirkwall_norse:0 "Kirkjuvágr" # rosetta
  cn_pd_b_kirkwall_norwegian:0 "Kyrkjevaag" # rosetta
  cn_pd_b_kirkwall_polabian:0 "Cierkówska" # immersive_toponyms
  cn_pd_b_kirkwall_roman:0 "Carcoviaca" # rosetta
@@ -47342,6 +47258,7 @@
  cn_pd_b_kirtipur_tamil:0 "Kīrttipūr" # Kīrttipūr - more_cultural_names
  cn_pd_b_kirtipur_turkish:0 "Kirtibur" # immersive_toponyms
  cn_pd_b_kirtipur_yamato:0 "Kirutipuru" # Kirutipuru - more_cultural_names
+ cn_pd_b_kirumpaa_bavarian:0 "Kirrumpäh" # vanilla
  cn_pd_b_kish-rudbar_afghan:0 "Kīš-e Rūdbār" # immersive_toponyms
  cn_pd_b_kish-rudbar_andalusian:0 "Kīsh-i Rūdbār" # immersive_toponyms
  cn_pd_b_kish-rudbar_assamese:0 "Kiśēha Rudābara" # immersive_toponyms
@@ -48041,7 +47958,6 @@
  cn_pd_b_koloberd_greek:0 "Artáles" # rosetta
  cn_pd_b_koloberd_roman:0 "Artales" # rosetta
  cn_pd_b_koloberd_trojan:0 "Khorzéne" # terra_nomina
- cn_pd_b_kolobrzeg_anglo_saxon:0 "Cammin" # Cammin - more_cultural_names
  cn_pd_b_kolobrzeg_bosnian:0 "Kamien" # Kamien - more_cultural_names
  cn_pd_b_kolobrzeg_cisalpine:0 "Camina" # immersive_toponyms
  cn_pd_b_kolobrzeg_danish:0 "Kammin" # rosetta
@@ -48845,6 +48761,7 @@
  cn_pd_b_koskul_avar:0 "Qoskul" # immersive_toponyms
  cn_pd_b_koskul_han:0 "Kēsīkùěr" # immersive_toponyms
  cn_pd_b_koskul_kurdish:0 "Koskul" # immersive_toponyms
+ cn_pd_b_koslin_bavarian:0 "Köslin" # vanilla
  cn_pd_b_kosoge_afar:0 "Wasakhaysan" # immersive_toponyms
  cn_pd_b_kosoge_andalusian:0 "Kushī" # immersive_toponyms
  cn_pd_b_kosoge_daju:0 "Qoše" # immersive_toponyms
@@ -48927,7 +48844,6 @@
  cn_pd_b_kostschin_pommeranian:0 "Kòscérzëno" # Kòscérzëno - more_cultural_names
  cn_pd_b_kostschin_prussian:0 "Kostšynas" # immersive_toponyms
  cn_pd_b_kostschin_roman:0 "Regianum" # rosetta
- cn_pd_b_koszalin_bavarian:0 "Köslin" # rosetta
  cn_pd_b_koszalin_bosnian:0 "Koszalin" # Koszalin - more_cultural_names
  cn_pd_b_koszalin_cisalpine:0 "Cossalini" # immersive_toponyms
  cn_pd_b_koszalin_czech:0 "Košalin" # Košalin - more_cultural_names
@@ -49468,6 +49384,7 @@
  cn_pd_b_kreusnach_hunnic:0 "Krûsinaha" # terra_nomina
  cn_pd_b_kreusnach_ilmenian:0 "Kzhizhanovek" # immersive_toponyms
  cn_pd_b_kreusnach_polabian:0 "Krojzowice" # immersive_toponyms
+ cn_pd_b_kreuz_anglo_saxon:0 "Arnswalde" # Arnswalde - more_cultural_names
  cn_pd_b_kreuz_bosnian:0 "Choszczno" # Choszczno - more_cultural_names
  cn_pd_b_kreuz_cisalpine:0 "Viellena" # immersive_toponyms
  cn_pd_b_kreuz_czech:0 "Chošczno" # Chošczno - more_cultural_names
@@ -49476,9 +49393,9 @@
  cn_pd_b_kreuz_french:0 "Viélen" # immersive_toponyms
  cn_pd_b_kreuz_ilmenian:0 "Khoshchno" # rosetta
  cn_pd_b_kreuz_latgalian:0 "Veleńa" # immersive_toponyms
+ cn_pd_b_kreuz_lithuanian:0 "Vielenė" # immersive_toponyms
  cn_pd_b_kreuz_norse:0 "Arnsvœllr" # rosetta
  cn_pd_b_kreuz_norwegian:0 "Arnsvoll" # rosetta
- cn_pd_b_kreuz_polabian:0 "Stargard" # Stargard - more_cultural_names
  cn_pd_b_kreuz_pommeranian:0 "Chòsczno" # Chòsczno - more_cultural_names
  cn_pd_b_kreuz_roman:0 "Crusis" # rosetta
  cn_pd_b_kreuz_swedish:0 "Arnsvall" # rosetta
@@ -50087,6 +50004,7 @@
  cn_pd_b_kulmbach_swedish:0 "Kulmbäk" # immersive_toponyms
  cn_pd_b_kulmbach_vlach:0 "Culma" # immersive_toponyms
  cn_pd_b_kulmbach_yamato:0 "Kurumu Baha" # Kurumu Baha - more_cultural_names
+ cn_pd_b_kulmsee_bavarian:0 "Kulmsee" # vanilla
  cn_pd_b_kulris_avar:0 "Qulris" # immersive_toponyms
  cn_pd_b_kulris_bodpa:0 "Kulris" # immersive_toponyms
  cn_pd_b_kulris_han:0 "Kùlǐsī" # immersive_toponyms
@@ -50841,6 +50759,7 @@
  cn_pd_b_kypsela_hungarian:0 "Küpszela" # immersive_toponyms
  cn_pd_b_kypsela_norse:0 "Kypsalr" # terra_nomina
  cn_pd_b_kypsela_roman:0 "Cypsela" # rosetta
+ cn_pd_b_kysos_turkish:0 "Çeşme" # vanilla
  cn_pd_b_kytkol_afghan:0 "Kitgol" # immersive_toponyms
  cn_pd_b_kytkol_assamese:0 "Kiṭakala" # immersive_toponyms
  cn_pd_b_kytkol_avar:0 "Kyt-Qöl" # immersive_toponyms
@@ -51257,9 +51176,9 @@
  cn_pd_b_ladoga_danish:0 "Aldogaborg" # rosetta
  cn_pd_b_ladoga_estonian:0 "Laatokka" # rosetta
  cn_pd_b_ladoga_greek:0 "Palió Ladóga" # rosetta
+ cn_pd_b_ladoga_icelandic:0 "Aldeigjuborg" # vanilla
  cn_pd_b_ladoga_ilmenian:0 "Staraya Ladoga" # rosetta
  cn_pd_b_ladoga_latgalian:0 "Lādoga" # immersive_toponyms
- cn_pd_b_ladoga_norse:0 "Aldeigjuborg" # rosetta
  cn_pd_b_ladoga_polabian:0 "Ładoga" # Ładoga - more_cultural_names
  cn_pd_b_ladoga_roman:0 "Vetus Ladoga" # rosetta
  cn_pd_b_ladoi_afghan:0 "Ladoī" # immersive_toponyms
@@ -51998,21 +51917,6 @@
  cn_pd_b_larijan_avar:0 "Lerican" # immersive_toponyms
  cn_pd_b_larijan_georgian:0 "Larijan" # immersive_toponyms
  cn_pd_b_larijan_greek:0 "Laritzán" # immersive_toponyms
- cn_pd_b_larino_albanian:0 "Larinu" # immersive_toponyms
- cn_pd_b_larino_andalusian:0 "Lārinu" # rosetta
- cn_pd_b_larino_bavarian:0 "Larinen" # immersive_toponyms
- cn_pd_b_larino_bosnian:0 "Larinov" # immersive_toponyms
- cn_pd_b_larino_cisalpine:0 "Larino" # Larino - more_cultural_names
- cn_pd_b_larino_french:0 "Larìne" # immersive_toponyms
- cn_pd_b_larino_greek:0 "Larinón" # rosetta
- cn_pd_b_larino_han:0 "Lālĭnuò" # Lālĭnuò - more_cultural_names
- cn_pd_b_larino_hungarian:0 "Larína" # immersive_toponyms
- cn_pd_b_larino_ilmenian:0 "Laryna" # Laryna - more_cultural_names
- cn_pd_b_larino_korean:0 "Narino" # Narino - more_cultural_names
- cn_pd_b_larino_polabian:0 "Larinow" # immersive_toponyms
- cn_pd_b_larino_roman:0 "Larinum" # rosetta
- cn_pd_b_larino_vlach:0 "Larina" # immersive_toponyms
- cn_pd_b_larino_yamato:0 "Rarii No" # Rarii No - more_cultural_names
  cn_pd_b_larissa_albanian:0 "Larisa" # Larisa - more_cultural_names
  cn_pd_b_larissa_andalusian:0 "Lārysā" # rosetta
  cn_pd_b_larissa_aragonese:0 "Lárisa" # Lárisa - more_cultural_names
@@ -52298,6 +52202,7 @@
  cn_pd_b_le_puy_korean:0 "Neupiangbeulle" # Neupiangbeulle - more_cultural_names
  cn_pd_b_le_puy_roman:0 "Anicium Vellavorum" # rosetta
  cn_pd_b_le_puy_yamato:0 "Rupyui An Vure" # Rupyui An Vure - more_cultural_names
+ cn_pd_b_le_quesnoy_dutch:0 "Kiezenet" # vanilla
  cn_pd_b_leal_armenian:0 "Lihowla" # Lihowla - more_cultural_names
  cn_pd_b_leal_avar:0 "Lihula" # immersive_toponyms
  cn_pd_b_leal_bavarian:0 "Leal" # Leal - more_cultural_names
@@ -52339,7 +52244,6 @@
  cn_pd_b_lebedos_polabian:0 "Łebed" # immersive_toponyms
  cn_pd_b_lebedos_roman:0 "Lebedus" # rosetta
  cn_pd_b_lebedos_yamato:0 "Rebedosu" # Rebedosu - more_cultural_names
- cn_pd_b_lebno_bavarian:0 "Lauenburg" # rosetta
  cn_pd_b_lebno_bosnian:0 "Lebno" # immersive_toponyms
  cn_pd_b_lebno_cisalpine:0 "Leborca" # immersive_toponyms
  cn_pd_b_lebno_danish:0 "Lauenborg" # rosetta
@@ -52351,6 +52255,7 @@
  cn_pd_b_lebno_norse:0 "Hlænborg" # rosetta
  cn_pd_b_lebno_pommeranian:0 "Lãbórg" # Lãbórg - more_cultural_names
  cn_pd_b_lebno_roman:0 "Leoburgum" # rosetta
+ cn_pd_b_lebork_bavarian:0 "Lauenburg" # vanilla
  cn_pd_b_lebus_andalusian:0 "Lībūs" # Lībūs - more_cultural_names
  cn_pd_b_lebus_armenian:0 "Lebows" # Lebows - more_cultural_names
  cn_pd_b_lebus_avar:0 "Lebuş" # immersive_toponyms
@@ -52910,6 +52815,7 @@
  cn_pd_b_lerma_greek:0 "Lérma" # immersive_toponyms
  cn_pd_b_lerma_occitan:0 "Lèrma" # immersive_toponyms
  cn_pd_b_lerma_roman:0 "Mancellus" # rosetta
+ cn_pd_b_les_baux_occitan:0 "Lei Bauç" # vanilla
  cn_pd_b_leshan_2_avar:0 "Luşan" # immersive_toponyms
  cn_pd_b_leshan_2_bai:0 "Luóshàng" # immersive_toponyms
  cn_pd_b_leshan_2_bodpa:0 "Lhoshang" # immersive_toponyms
@@ -53086,6 +52992,7 @@
  cn_pd_b_lewis_french:0 "Lévis" # immersive_toponyms
  cn_pd_b_lewis_gaelic:0 "Eilean Leòdhais" # rosetta
  cn_pd_b_lewis_han:0 "Liúyìsī" # Liúyìsī - more_cultural_names
+ cn_pd_b_lewis_icelandic:0 "Ljóðhús" # vanilla
  cn_pd_b_lewis_ilmenian:0 "L’yuis" # L’yuis - more_cultural_names
  cn_pd_b_lewis_korean:0 "Nuiseu" # Nuiseu - more_cultural_names
  cn_pd_b_lewis_late_norman:0 "Louais" # terra_nomina
@@ -53561,6 +53468,7 @@
  cn_pd_b_limerick_gujarati:0 "Limarika" # Limarika - more_cultural_names
  cn_pd_b_limerick_han:0 "Lìmòlĭkè" # Lìmòlĭkè - more_cultural_names
  cn_pd_b_limerick_hindustani:0 "Limrik" # Limrik - more_cultural_names
+ cn_pd_b_limerick_icelandic:0 "Hlymrek" # vanilla
  cn_pd_b_limerick_ilmenian:0 "Limieryk" # Limieryk - more_cultural_names
  cn_pd_b_limerick_kannada:0 "Limarik" # Limarik - more_cultural_names
  cn_pd_b_limerick_korean:0 "Imŏrik" # Imŏrik - more_cultural_names
@@ -53568,7 +53476,6 @@
  cn_pd_b_limerick_latgalian:0 "Limerika" # Limerika - more_cultural_names
  cn_pd_b_limerick_lithuanian:0 "Limerikas" # Limerikas - more_cultural_names
  cn_pd_b_limerick_norse:0 "Hlymrekr" # rosetta
- cn_pd_b_limerick_norwegian:0 "Hlymrek" # rosetta
  cn_pd_b_limerick_old_saxon:0 "Limerīc" # immersive_toponyms
  cn_pd_b_limerick_roman:0 "Limnivicum" # rosetta
  cn_pd_b_limerick_sinhala:0 "Limirek" # Limirek - more_cultural_names
@@ -54532,7 +54439,6 @@
  cn_pd_b_lobdaburg_lithuanian:0 "Lobdaburgas" # immersive_toponyms
  cn_pd_b_lobdaburg_polabian:0 "Jani" # rosetta
  cn_pd_b_lobdaburg_roman:0 "Athenae ad Salam" # rosetta
- cn_pd_b_lobez_anglo_saxon:0 "Naugard" # Naugard - more_cultural_names
  cn_pd_b_lobez_bosnian:0 "Novŭgorodŭ" # Novŭgorodŭ - more_cultural_names
  cn_pd_b_lobez_bulgarian:0 "Nowogard" # Nowogard - more_cultural_names
  cn_pd_b_lobez_cisalpine:0 "Lobesa" # immersive_toponyms
@@ -54988,6 +54894,7 @@
  cn_pd_b_lons_le_saunier_outremer:0 "Lons-le-Saunier" # immersive_toponyms
  cn_pd_b_lons_le_saunier_roman:0 "Ledo Salinarius" # rosetta
  cn_pd_b_lons_le_saunier_yamato:0 "Ron Ru Sonie" # Ron Ru Sonie - more_cultural_names
+ cn_pd_b_loon_french:0 "Looz" # vanilla
  cn_pd_b_lopadion_afghan:0 "Ulubād" # immersive_toponyms
  cn_pd_b_lopadion_alan:0 "Lopadion" # immersive_toponyms
  cn_pd_b_lopadion_andalusian:0 "Uwlubat" # immersive_toponyms
@@ -55118,24 +55025,6 @@
  cn_pd_b_lotzen_lithuanian:0 "Leičių pilis" # rosetta
  cn_pd_b_lotzen_polabian:0 "Lec" # rosetta
  cn_pd_b_lotzen_roman:0 "Lecca" # rosetta
- cn_pd_b_loudun_andalusian:0 "Lūdān" # immersive_toponyms
- cn_pd_b_loudun_aragonese:0 "Lodoña" # immersive_toponyms
- cn_pd_b_loudun_basque:0 "Ludune" # immersive_toponyms
- cn_pd_b_loudun_bavarian:0 "Loding" # immersive_toponyms
- cn_pd_b_loudun_bosnian:0 "Fontevro" # Fontevro - more_cultural_names
- cn_pd_b_loudun_breton:0 "Loudun" # immersive_toponyms
- cn_pd_b_loudun_bulgarian:0 "Fontevro'" # Fontevro' - more_cultural_names
- cn_pd_b_loudun_catalan:0 "Llaudú" # immersive_toponyms
- cn_pd_b_loudun_cisalpine:0 "Luduno" # rosetta
- cn_pd_b_loudun_danish:0 "Lodinge" # immersive_toponyms
- cn_pd_b_loudun_french:0 "Fontevraud-l'Abbaye" # Fontevraud-l'Abbaye - more_cultural_names
- cn_pd_b_loudun_greek:0 "Fontevrō" # Fontevrō - more_cultural_names
- cn_pd_b_loudun_han:0 "Fēngtèfū" # Fēngtèfū - more_cultural_names
- cn_pd_b_loudun_hunnic:0 "Fontewro" # Fontewro - more_cultural_names
- cn_pd_b_loudun_late_norman:0 "Lodun" # terra_nomina
- cn_pd_b_loudun_occitan:0 "Laudun" # rosetta
- cn_pd_b_loudun_roman:0 "Lodunum" # rosetta
- cn_pd_b_loudun_yamato:0 "Fuontovu" # Fuontovu - more_cultural_names
  cn_pd_b_loulan_afghan:0 "Lulān" # immersive_toponyms
  cn_pd_b_loulan_assamese:0 "Rurāna" # immersive_toponyms
  cn_pd_b_loulan_avar:0 "Lulan" # immersive_toponyms
@@ -55846,7 +55735,6 @@
  cn_pd_b_lure_anglo_saxon:0 "Lyders" # immersive_toponyms
  cn_pd_b_lure_bavarian:0 "Lüders" # rosetta
  cn_pd_b_lure_bosnian:0 "Lurečko" # immersive_toponyms
- cn_pd_b_lure_cisalpine:0 "Lutra" # immersive_toponyms
  cn_pd_b_lure_dutch:0 "Luders" # immersive_toponyms
  cn_pd_b_lure_french:0 "Luthre" # Luthre - more_cultural_names
  cn_pd_b_lure_frisian:0 "Lûders" # immersive_toponyms
@@ -56935,7 +56823,6 @@
  cn_pd_b_malboden_hunnic:0 "Malabauda" # terra_nomina
  cn_pd_b_malboden_ilmenian:0 "Mabiož" # Mabiož - more_cultural_names
  cn_pd_b_malboden_korean:0 "Moboeju" # Moboeju - more_cultural_names
- cn_pd_b_malboden_roman:0 "Bagacum" # rosetta
  cn_pd_b_malboden_yamato:0 "Mobuuju" # Mobuuju - more_cultural_names
  cn_pd_b_maldon_anglo_saxon:0 "Mældun" # rosetta
  cn_pd_b_maldon_bavarian:0 "Malberg" # immersive_toponyms
@@ -58628,6 +58515,7 @@
  cn_pd_b_meaux_han:0 "Mòchéng" # Mòchéng - more_cultural_names
  cn_pd_b_meaux_roman:0 "Iantinum Meldorum" # rosetta
  cn_pd_b_meaux_yamato:0 "Moo" # Moo - more_cultural_names
+ cn_pd_b_mechelen_french:0 "Malines" # vanilla
  cn_pd_b_mecheria_andalusian:0 "al-Mašriyyah" # al-Mašriyyah - more_cultural_names
  cn_pd_b_mecheria_aragonese:0 "Mèchria" # immersive_toponyms
  cn_pd_b_mecheria_asturleonese:0 "Méchria" # immersive_toponyms
@@ -58750,16 +58638,6 @@
  cn_pd_b_medinadelcampo_sephardi:0 "Mota" # immersive_toponyms
  cn_pd_b_medinadelcampo_suebi:0 "La Mota" # immersive_toponyms
  cn_pd_b_medinadelcampo_visigothic:0 "Motta" # immersive_toponyms
- cn_pd_b_medinadepomar_andalusian:0 "al-Madinat" # rosetta
- cn_pd_b_medinadepomar_aragonese:0 "Medina de Pomar" # Medina de Pomar - more_cultural_names
- cn_pd_b_medinadepomar_basque:0 "Pomarko Medina" # Pomarko Medina - more_cultural_names
- cn_pd_b_medinadepomar_bavarian:0 "Pommar" # immersive_toponyms
- cn_pd_b_medinadepomar_catalan:0 "Medina de Pumà" # immersive_toponyms
- cn_pd_b_medinadepomar_cisalpine:0 "Pomara" # immersive_toponyms
- cn_pd_b_medinadepomar_french:0 "Pomâr" # immersive_toponyms
- cn_pd_b_medinadepomar_galician:0 "Pomar" # immersive_toponyms
- cn_pd_b_medinadepomar_portuguese:0 "Medina do Pomar" # rosetta
- cn_pd_b_medinadepomar_roman:0 "Segontia Paramica" # rosetta
  cn_pd_b_medoc_alan:0 "Medok" # Medok - more_cultural_names
  cn_pd_b_medoc_andalusian:0 "Miduk" # rosetta
  cn_pd_b_medoc_aragonese:0 "El Médoc" # immersive_toponyms
@@ -58774,7 +58652,6 @@
  cn_pd_b_medoc_han:0 "Méiduōkè" # Méiduōkè - more_cultural_names
  cn_pd_b_medoc_occitan:0 "Medoc" # Medoc - more_cultural_names
  cn_pd_b_medoc_outremer:0 "Médoc" # immersive_toponyms
- cn_pd_b_medoc_roman:0 "Noviomagus" # rosetta
  cn_pd_b_medoc_yamato:0 "Medotsuku" # Medotsuku - more_cultural_names
  cn_pd_b_medog_afghan:0 "Mēdog" # immersive_toponyms
  cn_pd_b_medog_assamese:0 "Mēḍaga" # immersive_toponyms
@@ -59462,6 +59339,7 @@
  cn_pd_b_mezieres_frisian:0 "Masier" # immersive_toponyms
  cn_pd_b_mezieres_occitan:0 "Mézières" # Mézières - more_cultural_names
  cn_pd_b_mezieres_roman:0 "Maceriae" # rosetta
+ cn_pd_b_mezotne_bavarian:0 "Mesothen" # vanilla
  cn_pd_b_mglin_andalusian:0 "Mġlīn" # Mġlīn - more_cultural_names
  cn_pd_b_mglin_anglo_saxon:0 "Moglintūn" # immersive_toponyms
  cn_pd_b_mglin_avar:0 "Magulin" # immersive_toponyms
@@ -59512,7 +59390,6 @@
  cn_pd_b_miaochuan_buryat:0 "Meuchan" # immersive_toponyms
  cn_pd_b_miaochuan_jurchen:0 "Miyoochuwan" # immersive_toponyms
  cn_pd_b_miastko_bavarian:0 "Rummelsburg" # rosetta
- cn_pd_b_miastko_bosnian:0 "Mjastko" # immersive_toponyms
  cn_pd_b_miastko_cisalpine:0 "Miesco" # immersive_toponyms
  cn_pd_b_miastko_czech:0 "Městko" # immersive_toponyms
  cn_pd_b_miastko_danish:0 "Rommlasborg" # rosetta
@@ -60565,37 +60442,6 @@
  cn_pd_b_mombasa_east_bantu:0 "Mwita" # immersive_toponyms
  cn_pd_b_mombasa_galician:0 "Mombaça" # Mombaça - more_cultural_names
  cn_pd_b_momunofu_yamato:0 "Motoyoshi" # more_cultural_names
- cn_pd_b_monaco_akan:0 "Monako" # Monako - more_cultural_names
- cn_pd_b_monaco_andalusian:0 "Munaku" # rosetta
- cn_pd_b_monaco_aragonese:0 "Múnegu" # Múnegu - more_cultural_names
- cn_pd_b_monaco_asturleonese:0 "Mónacu" # Mónacu - more_cultural_names
- cn_pd_b_monaco_bavarian:0 "Harkesburg" # immersive_toponyms
- cn_pd_b_monaco_bengali:0 "Monāko" # Monāko - more_cultural_names
- cn_pd_b_monaco_carthaginian:0 "Mwnqw" # Mwnqw - more_cultural_names
- cn_pd_b_monaco_castilian:0 "Mónaco" # Mónaco - more_cultural_names
- cn_pd_b_monaco_catalan:0 "Mònaco" # Mònaco - more_cultural_names
- cn_pd_b_monaco_cisalpine:0 "Monegh" # Monegh - more_cultural_names
- cn_pd_b_monaco_frankish:0 "Monègue" # rosetta
- cn_pd_b_monaco_gaelic:0 "Monacó" # Monacó - more_cultural_names
- cn_pd_b_monaco_georgian:0 "Monak’o" # Monak’o - more_cultural_names
- cn_pd_b_monaco_greek:0 "Mónoikos" # rosetta
- cn_pd_b_monaco_gujarati:0 "Moněko" # Moněko - more_cultural_names
- cn_pd_b_monaco_han:0 "Mānàgē" # Mānàgē - more_cultural_names
- cn_pd_b_monaco_hindustani:0 "Monaiko" # Monaiko - more_cultural_names
- cn_pd_b_monaco_hungarian:0 "Monakó" # immersive_toponyms
- cn_pd_b_monaco_late_norman:0 "Mouorge" # terra_nomina
- cn_pd_b_monaco_latgalian:0 "Monaks" # Monaks - more_cultural_names
- cn_pd_b_monaco_lithuanian:0 "Monakas" # Monakas - more_cultural_names
- cn_pd_b_monaco_lombard:0 "Mònacu" # Mònacu - more_cultural_names
- cn_pd_b_monaco_marathi:0 "Moneko" # Moneko - more_cultural_names
- cn_pd_b_monaco_norse:0 "Mónakó" # Mónakó - more_cultural_names
- cn_pd_b_monaco_polabian:0 "Mònakò" # Mònakò - more_cultural_names
- cn_pd_b_monaco_roman:0 "Albium Intimilium" # rosetta
- cn_pd_b_monaco_sinhala:0 "Monākō" # Monākō - more_cultural_names
- cn_pd_b_monaco_vepsian:0 "Monak" # Monak - more_cultural_names
- cn_pd_b_monaco_wolof:0 "Monaako" # Monaako - more_cultural_names
- cn_pd_b_monaco_yemeni:0 "Munaqqu" # immersive_toponyms
- cn_pd_b_monaco_yoruba:0 "Mónakò" # Mónakò - more_cultural_names
  cn_pd_b_monastir_andalusian:0 "al-Munastīr" # rosetta
  cn_pd_b_monastir_baranis:0 "Munastir" # Munastir - more_cultural_names
  cn_pd_b_monastir_cisalpine:0 "Ruspina" # immersive_toponyms
@@ -61570,12 +61416,10 @@
  cn_pd_b_moutiers_andalusian:0 "Mutirs" # rosetta
  cn_pd_b_moutiers_basque:0 "Monasterioa" # immersive_toponyms
  cn_pd_b_moutiers_bavarian:0 "Münster im Tarent" # immersive_toponyms
- cn_pd_b_moutiers_catalan:0 "Moustiers" # Moustiers - more_cultural_names
  cn_pd_b_moutiers_cisalpine:0 "Monastero" # rosetta
  cn_pd_b_moutiers_danish:0 "Klostertorp" # immersive_toponyms
  cn_pd_b_moutiers_greek:0 "Darantasía" # immersive_toponyms
  cn_pd_b_moutiers_outremer:0 "Moûtiers" # immersive_toponyms
- cn_pd_b_moutiers_roman:0 "Darantasia" # rosetta
  cn_pd_b_moyar_afghan:0 "Moyār" # immersive_toponyms
  cn_pd_b_moyar_assamese:0 "Mōẏāra" # immersive_toponyms
  cn_pd_b_moyar_avar:0 "Moyar" # immersive_toponyms
@@ -61877,6 +61721,7 @@
  cn_pd_b_mull_frankish:0 "Meulle" # terra_nomina
  cn_pd_b_mull_french:0 "Muile" # immersive_toponyms
  cn_pd_b_mull_gaelic:0 "An t-Eilean Muileach" # rosetta
+ cn_pd_b_mull_icelandic:0 "Mýl" # vanilla
  cn_pd_b_mull_roman:0 "Maleus" # rosetta
  cn_pd_b_mullaitivu_afghan:0 "Mulādūwa" # immersive_toponyms
  cn_pd_b_mullaitivu_assamese:0 "Mullāiṭibhu" # immersive_toponyms
@@ -64895,7 +64740,6 @@
  cn_pd_b_nimes_kannada:0 "Nims" # Nims - more_cultural_names
  cn_pd_b_nimes_korean:0 "Im" # Im - more_cultural_names
  cn_pd_b_nimes_lithuanian:0 "Nimas" # Nimas - more_cultural_names
- cn_pd_b_nimes_roman:0 "Nemausus" # rosetta
  cn_pd_b_nimes_swedish:0 "Nimäs" # immersive_toponyms
  cn_pd_b_nimes_tamil:0 "Nīmes" # Nīmes - more_cultural_names
  cn_pd_b_nimes_telugu:0 "Nīm" # Nīm - more_cultural_names
@@ -65074,6 +64918,7 @@
  cn_pd_b_niumi_akan:0 "Niomi" # immersive_toponyms
  cn_pd_b_niumi_andalusian:0 "al-Nūmī" # immersive_toponyms
  cn_pd_b_niumi_baranis:0 "Nioumi" # immersive_toponyms
+ cn_pd_b_nivelles_dutch:0 "Nijvel" # vanilla
  cn_pd_b_niya_afghan:0 "Niya" # immersive_toponyms
  cn_pd_b_niya_assamese:0 "Niẏāma" # immersive_toponyms
  cn_pd_b_niya_avar:0 "Niye" # immersive_toponyms
@@ -65457,6 +65302,7 @@
  cn_pd_b_norwich_greek:0 "Oúenta Ikénoros" # rosetta
  cn_pd_b_norwich_gujarati:0 "Norvicha" # Norvicha - more_cultural_names
  cn_pd_b_norwich_han:0 "Nuòlĭjī" # Nuòlĭjī - more_cultural_names
+ cn_pd_b_norwich_icelandic:0 "Jarnamóða" # vanilla
  cn_pd_b_norwich_ilmenian:0 "Norydž" # Norydž - more_cultural_names
  cn_pd_b_norwich_kannada:0 "Nārvic" # Nārvic - more_cultural_names
  cn_pd_b_norwich_kirghiz:0 "Norvič" # Norvič - more_cultural_names
@@ -65487,6 +65333,7 @@
  cn_pd_b_noteborg_greek:0 "Oréska" # rosetta
  cn_pd_b_noteborg_han:0 "Shénlìxièlìbăo" # Shénlìxièlìbăo - more_cultural_names
  cn_pd_b_noteborg_hunnic:0 "Şlisselburg" # Şlisselburg - more_cultural_names
+ cn_pd_b_noteborg_icelandic:0 "Nöteborg" # vanilla
  cn_pd_b_noteborg_ilmenian:0 "Orekhov" # rosetta
  cn_pd_b_noteborg_karluk:0 "Orşek" # immersive_toponyms
  cn_pd_b_noteborg_korean:0 "Silriselburekeu" # Silriselburekeu - more_cultural_names
@@ -65497,7 +65344,6 @@
  cn_pd_b_noteborg_roman:0 "Oresca" # rosetta
  cn_pd_b_noteborg_russian:0 "Oreshek" # rosetta
  cn_pd_b_noteborg_slovien:0 "Šlisseľburg" # Šlisseľburg - more_cultural_names
- cn_pd_b_noteborg_swedish:0 "Nöteborg" # Nöteborg - more_cultural_names
  cn_pd_b_noteborg_yamato:0 "Shiyuritsuseriburuku" # Shiyuritsuseriburuku - more_cultural_names
  cn_pd_b_notse_akan:0 "Notsé" # immersive_toponyms
  cn_pd_b_notse_andalusian:0 "Nuatiyah" # immersive_toponyms
@@ -65566,6 +65412,7 @@
  cn_pd_b_novgorod_estonian:0 "Uusilinna" # rosetta
  cn_pd_b_novgorod_greek:0 "Neápolis Megáli" # rosetta
  cn_pd_b_novgorod_hungarian:0 "Velikij Novgorod" # rosetta
+ cn_pd_b_novgorod_icelandic:0 "Holmgarðr" # vanilla
  cn_pd_b_novgorod_khanty:0 "Ilmenia" # Ilmenia - more_cultural_names
  cn_pd_b_novgorod_latgalian:0 "Jaunagarda" # immersive_toponyms
  cn_pd_b_novgorod_lithuanian:0 "Naugardas" # rosetta
@@ -65696,6 +65543,7 @@
  cn_pd_b_nowen_polabian:0 "Nowe" # Nowe - more_cultural_names
  cn_pd_b_nowen_pommeranian:0 "Nowé" # Nowé - more_cultural_names
  cn_pd_b_nowen_roman:0 "Nauovia" # rosetta
+ cn_pd_b_nowogard_bavarian:0 "Naugard" # vanilla
  cn_pd_b_nowogrodziec_avar:0 "Uygradişka" # immersive_toponyms
  cn_pd_b_nowogrodziec_bavarian:0 "Naumburg" # rosetta
  cn_pd_b_nowogrodziec_bosnian:0 "Novŭgorodĭtsĭ" # Novŭgorodĭtsĭ - more_cultural_names
@@ -65902,6 +65750,7 @@
  cn_pd_b_nurmashiir_avar:0 "Nurmeşir" # immersive_toponyms
  cn_pd_b_nurmashiir_greek:0 "Mikadái" # rosetta
  cn_pd_b_nurmashiir_roman:0 "Micadae" # rosetta
+ cn_pd_b_nurmekund_bavarian:0 "Normegunde" # vanilla
  cn_pd_b_nurnberg_alan:0 "Nûrnberg" # Nûrnberg - more_cultural_names
  cn_pd_b_nurnberg_albanian:0 "Nyrëmberg" # Nyrëmberg - more_cultural_names
  cn_pd_b_nurnberg_andalusian:0 "Nūrnberġ" # Nūrnberġ - more_cultural_names
@@ -66144,6 +65993,7 @@
  cn_pd_b_nykopung_polabian:0 "Niuczieping" # immersive_toponyms
  cn_pd_b_nykopung_roman:0 "Nicopia" # rosetta
  cn_pd_b_nykopung_suebi:0 "Niuwikoufing" # Niuwikoufing - more_cultural_names
+ cn_pd_b_nyons_occitan:0 "Nions" # vanilla
  cn_pd_b_nysa_anglo_saxon:0 "Neisse" # Neisse - more_cultural_names
  cn_pd_b_nysa_avar:0 "Nişafüred" # immersive_toponyms
  cn_pd_b_nysa_bosnian:0 "Nisa" # Nisa - more_cultural_names
@@ -66539,10 +66389,10 @@
  cn_pd_b_ohcejohka_breton:0 "Ohcejohka" # Ohcejohka - more_cultural_names
  cn_pd_b_ohcejohka_english:0 "Utsjoki" # Utsjoki - more_cultural_names
  cn_pd_b_ohcejohka_han:0 "Wūcíyāojī" # Wūcíyāojī - more_cultural_names
+ cn_pd_b_ohcejohka_icelandic:0 "Vargey" # vanilla
  cn_pd_b_ohcejohka_ilmenian:0 "Utsyoki" # Utsyoki - more_cultural_names
  cn_pd_b_ohcejohka_korean:0 "Ucheuyoki" # Ucheuyoki - more_cultural_names
  cn_pd_b_ohcejohka_lithuanian:0 "Utsjokis" # immersive_toponyms
- cn_pd_b_ohcejohka_norse:0 "Vargey" # rosetta
  cn_pd_b_ohcejohka_norwegian:0 "Varðey" # rosetta
  cn_pd_b_ohcejohka_roman:0 "Varangria" # rosetta
  cn_pd_b_ohcejohka_yamato:0 "Utsuyoki" # Utsuyoki - more_cultural_names
@@ -66781,10 +66631,10 @@
  cn_pd_b_olavinlinna_danish:0 "Olavsborg" # rosetta
  cn_pd_b_olavinlinna_estonian:0 "Olavinlinna" # immersive_toponyms
  cn_pd_b_olavinlinna_greek:0 "Néa Akrópolis" # rosetta
+ cn_pd_b_olavinlinna_icelandic:0 "Olofsborg" # vanilla
  cn_pd_b_olavinlinna_lithuanian:0 "Olavinlina" # immersive_toponyms
  cn_pd_b_olavinlinna_norse:0 "Óláfsborg" # rosetta
  cn_pd_b_olavinlinna_roman:0 "Arx Nova" # rosetta
- cn_pd_b_olavinlinna_swedish:0 "Olofsborg" # rosetta
  cn_pd_b_olawa_anglo_saxon:0 "Ohlau" # Ohlau - more_cultural_names
  cn_pd_b_olawa_avar:0 "Olahapati" # immersive_toponyms
  cn_pd_b_olawa_bosnian:0 "Olava" # Olava - more_cultural_names
@@ -68082,6 +67932,7 @@
  cn_pd_b_otefan_akan:0 "Otefan" # immersive_toponyms
  cn_pd_b_otefan_andalusian:0 "Aṭṭifān" # immersive_toponyms
  cn_pd_b_otefan_baranis:0 "Outefan" # immersive_toponyms
+ cn_pd_b_otepaa_bavarian:0 "Odenpäh" # vanilla
  cn_pd_b_otgontenger_avar:0 "Ötügen" # Ötügen - more_cultural_names
  cn_pd_b_otgontenger_bosnian:0 "Otogonsk" # immersive_toponyms
  cn_pd_b_otgontenger_buryat:0 "Otgontenger" # immersive_toponyms
@@ -68157,6 +68008,8 @@
  cn_pd_b_ouasada_greek:0 "Ouásada" # rosetta
  cn_pd_b_ouasada_kurdish:0 "Bustândîr" # immersive_toponyms
  cn_pd_b_ouasada_roman:0 "Vasada" # rosetta
+ cn_pd_b_oudenaarde_french:0 "Audenarde" # vanilla
+ cn_pd_b_oudenburg_french:0 "Oudenbourg" # vanilla
  cn_pd_b_oulu_bavarian:0 "Ulenburg" # immersive_toponyms
  cn_pd_b_oulu_bosnian:0 "Ulejevo" # immersive_toponyms
  cn_pd_b_oulu_danish:0 "Uleaaborg" # rosetta
@@ -68450,6 +68303,7 @@
  cn_pd_b_paidangaran_greek:0 "Tága" # rosetta
  cn_pd_b_paidangaran_roman:0 "Taga" # rosetta
  cn_pd_b_paidangaran_trojan:0 "Beilagánon" # terra_nomina
+ cn_pd_b_paide_bavarian:0 "Weißenstein" # vanilla
  cn_pd_b_paijala_bavarian:0 "Tuschendorf" # immersive_toponyms
  cn_pd_b_paijala_bosnian:0 "Tusula" # immersive_toponyms
  cn_pd_b_paijala_danish:0 "Tusby" # rosetta
@@ -68738,7 +68592,6 @@
  cn_pd_b_panemune_lithuanian:0 "Panemunė" # Panemunė - more_cultural_names
  cn_pd_b_panemune_norse:0 "Yfirmemel" # rosetta
  cn_pd_b_panemune_polabian:0 "Poniemuń" # rosetta
- cn_pd_b_panemune_roman:0 "Chronopolis" # rosetta
  cn_pd_b_pangani_afar:0 "Fangaani" # immersive_toponyms
  cn_pd_b_pangani_andalusian:0 "Banjānī" # immersive_toponyms
  cn_pd_b_pangani_baranis:0 "Bangani" # immersive_toponyms
@@ -70756,21 +70609,6 @@
  cn_pd_b_pishkek_mogyer:0 "Pişpek" # terra_nomina
  cn_pd_b_pishkek_roman:0 "Pisphecum" # rosetta
  cn_pd_b_pishkek_turkish:0 "Bişkek" # immersive_toponyms
- cn_pd_b_pistorja_andalusian:0 "Bistūyya" # rosetta
- cn_pd_b_pistorja_aragonese:0 "Pistoya" # Pistoya - more_cultural_names
- cn_pd_b_pistorja_bavarian:0 "Pister" # immersive_toponyms
- cn_pd_b_pistorja_bosnian:0 "Pištora" # immersive_toponyms
- cn_pd_b_pistorja_cisalpine:0 "Pistoia" # Pistoia - more_cultural_names
- cn_pd_b_pistorja_czech:0 "Pistorija" # immersive_toponyms
- cn_pd_b_pistorja_danish:0 "Pistoaborg" # terra_nomina
- cn_pd_b_pistorja_frankish:0 "Pistoie" # rosetta
- cn_pd_b_pistorja_greek:0 "Pistórion" # rosetta
- cn_pd_b_pistorja_hungarian:0 "Pisztória" # immersive_toponyms
- cn_pd_b_pistorja_ilmenian:0 "Pistoriya" # immersive_toponyms
- cn_pd_b_pistorja_mogyer:0 "Pistoria" # immersive_toponyms
- cn_pd_b_pistorja_norse:0 "Pistóaborg" # terra_nomina
- cn_pd_b_pistorja_roman:0 "Pistorium" # rosetta
- cn_pd_b_pistorja_vlach:0 "Pistoriu" # immersive_toponyms
  cn_pd_b_pitesti_avar:0 "Tepe" # immersive_toponyms
  cn_pd_b_pitesti_bavarian:0 "Piteschti" # rosetta
  cn_pd_b_pitesti_bosnian:0 "Pitešt" # Pitešt - more_cultural_names
@@ -71154,6 +70992,7 @@
  cn_pd_b_pokrovsk_roman:0 "Omophoriopolis" # rosetta
  cn_pd_b_pokrovsk_trojan:0 "Omophorión" # terra_nomina
  cn_pd_b_pokrovsk_yamato:0 "Pokurōshiku" # Pokurōshiku - more_cultural_names
+ cn_pd_b_polanow_bavarian:0 "Pollnow" # vanilla
  cn_pd_b_polavaram_afghan:0 "Polāwārām" # immersive_toponyms
  cn_pd_b_polavaram_assamese:0 "Pōlābhārāma" # immersive_toponyms
  cn_pd_b_polavaram_avar:0 "Polavaram" # immersive_toponyms
@@ -71198,6 +71037,7 @@
  cn_pd_b_policastro_polabian:0 "Buszow" # immersive_toponyms
  cn_pd_b_policastro_roman:0 "Buxentum" # rosetta
  cn_pd_b_policastro_vlach:0 "Busenti" # immersive_toponyms
+ cn_pd_b_police_bavarian:0 "Pölitz" # vanilla
  cn_pd_b_polonnaruwa_afghan:0 "Pulāṭisipur" # immersive_toponyms
  cn_pd_b_polonnaruwa_assamese:0 "Pulāthisipurā" # immersive_toponyms
  cn_pd_b_polonnaruwa_avar:0 "Pulatisibur" # immersive_toponyms
@@ -71380,6 +71220,7 @@
  cn_pd_b_ponferrada_roman:0 "Interamnium Flavium" # rosetta
  cn_pd_b_ponferrada_visigothic:0 "Ferrata" # immersive_toponyms
  cn_pd_b_ponferrada_yamato:0 "Ponferaada" # Ponferaada - more_cultural_names
+ cn_pd_b_pont_saint_esprit_occitan:0 "Lo Pònt Sant Esperit" # vanilla
  cn_pd_b_pontarlier_andalusian:0 "Buntarlir" # immersive_toponyms
  cn_pd_b_pontarlier_aragonese:0 "Pontejos" # immersive_toponyms
  cn_pd_b_pontarlier_bavarian:0 "Bünterlin" # rosetta
@@ -71815,6 +71656,7 @@
  cn_pd_b_prachen_vlach:0 "Prăcheni" # immersive_toponyms
  cn_pd_b_prades_andalusian:0 "Beradesh" # rosetta
  cn_pd_b_prades_basque:0 "Iprades" # immersive_toponyms
+ cn_pd_b_prades_cisalpine:0 "Prati" # immersive_toponyms
  cn_pd_b_prades_greek:0 "Pradas" # immersive_toponyms
  cn_pd_b_prades_norse:0 "Prádes" # immersive_toponyms
  cn_pd_b_prades_roman:0 "Ad Septimum Decimum" # rosetta
@@ -71832,6 +71674,7 @@
  cn_pd_b_prades_rossello_han:0 "Pŭlādé" # Pŭlādé - more_cultural_names
  cn_pd_b_prades_rossello_norse:0 "Rósadálúr" # immersive_toponyms
  cn_pd_b_prades_rossello_portuguese:0 "Rossilhão" # immersive_toponyms
+ cn_pd_b_prades_rossello_roman:0 "Prata" # rosetta
  cn_pd_b_prades_rossello_sephardi:0 "Ruslun" # immersive_toponyms
  cn_pd_b_prades_rossello_visigothic:0 "Rosceliona" # immersive_toponyms
  cn_pd_b_prades_rossello_yamato:0 "Puraado" # Puraado - more_cultural_names
@@ -71882,33 +71725,6 @@
  cn_pd_b_pratishthana_marathi:0 "Pratisthāna" # Pratisthāna - more_cultural_names
  cn_pd_b_pratishthana_roman:0 "Baethana" # rosetta
  cn_pd_b_pratishthana_trojan:0 "Baithána" # terra_nomina
- cn_pd_b_prato_andalusian:0 "Bratu" # rosetta
- cn_pd_b_prato_bavarian:0 "Praden" # immersive_toponyms
- cn_pd_b_prato_bengali:0 "Prāto" # Prāto - more_cultural_names
- cn_pd_b_prato_bosnian:0 "Prat" # immersive_toponyms
- cn_pd_b_prato_cisalpine:0 "Prato" # Prato - more_cultural_names
- cn_pd_b_prato_czech:0 "Pratkovce" # immersive_toponyms
- cn_pd_b_prato_danish:0 "Pratuborg" # terra_nomina
- cn_pd_b_prato_french:0 "Prati" # immersive_toponyms
- cn_pd_b_prato_georgian:0 "P’rat’o" # P’rat’o - more_cultural_names
- cn_pd_b_prato_greek:0 "Práton" # rosetta
- cn_pd_b_prato_gujarati:0 "Prāțo" # Prāțo - more_cultural_names
- cn_pd_b_prato_han:0 "Pŭlātuō" # Pŭlātuō - more_cultural_names
- cn_pd_b_prato_hungarian:0 "Patkósd" # immersive_toponyms
- cn_pd_b_prato_ilmenian:0 "Prata" # Prata - more_cultural_names
- cn_pd_b_prato_kannada:0 "Prāțō" # Prāțō - more_cultural_names
- cn_pd_b_prato_korean:0 "Peurato" # Peurato - more_cultural_names
- cn_pd_b_prato_lithuanian:0 "Pratas" # Pratas - more_cultural_names
- cn_pd_b_prato_lombard:0 "Pratu" # Pratu - more_cultural_names
- cn_pd_b_prato_marathi:0 "Praato" # Praato - more_cultural_names
- cn_pd_b_prato_mogyer:0 "Patkošd" # immersive_toponyms
- cn_pd_b_prato_norse:0 "Prató" # Prató - more_cultural_names
- cn_pd_b_prato_polabian:0 "Pratkowce" # immersive_toponyms
- cn_pd_b_prato_roman:0 "Pratum" # rosetta
- cn_pd_b_prato_russian:0 "Pratkovtse" # immersive_toponyms
- cn_pd_b_prato_sinhala:0 "Præțō" # Præțō - more_cultural_names
- cn_pd_b_prato_vlach:0 "Pratul" # immersive_toponyms
- cn_pd_b_prato_yamato:0 "Puraato" # Puraato - more_cultural_names
  cn_pd_b_pravia_andalusian:0 "Brafiyya" # rosetta
  cn_pd_b_pravia_aragonese:0 "Pravia" # Pravia - more_cultural_names
  cn_pd_b_pravia_basque:0 "Prabia" # Prabia - more_cultural_names
@@ -72097,6 +71913,7 @@
  cn_pd_b_pristina_vepsian:0 "Prištin" # Prištin - more_cultural_names
  cn_pd_b_pristina_vlach:0 "Priștina" # rosetta
  cn_pd_b_pristina_yamato:0 "Purishutina" # Purishutina - more_cultural_names
+ cn_pd_b_privas_occitan:0 "Privàs" # vanilla
  cn_pd_b_prizren_albanian:0 "Prizreni" # Prizreni - more_cultural_names
  cn_pd_b_prizren_andalusian:0 "Brīzren" # Brīzren - more_cultural_names
  cn_pd_b_prizren_avar:0 "Pürzeyn" # Pürzeyn - more_cultural_names
@@ -74247,6 +74064,7 @@
  cn_pd_b_ramsey_french:0 "Ramseille" # immersive_toponyms
  cn_pd_b_ramsey_frisian:0 "Hrameseg" # Hrameseg - more_cultural_names
  cn_pd_b_ramsey_gaelic:0 "Rhumsaa" # rosetta
+ cn_pd_b_ramsey_icelandic:0 "Hramsá" # vanilla
  cn_pd_b_ramsey_late_norman:0 "Ramessie" # terra_nomina
  cn_pd_b_ramsey_lithuanian:0 "Ramsis" # Ramsis - more_cultural_names
  cn_pd_b_ramsey_norse:0 "Hramsa" # rosetta
@@ -75239,10 +75057,10 @@
  cn_pd_b_reval_greek:0 "Lyndánissa" # rosetta
  cn_pd_b_reval_han:0 "Tălín" # Tălín - more_cultural_names
  cn_pd_b_reval_hungarian:0 "Talinny" # Talinny - more_cultural_names
+ cn_pd_b_reval_icelandic:0 "Rafala" # vanilla
  cn_pd_b_reval_karelian:0 "Kesoniemi" # Kesoniemi - more_cultural_names
  cn_pd_b_reval_khanty:0 "Lyndanisse" # Lyndanisse - more_cultural_names
  cn_pd_b_reval_korean:0 "T'allin" # T'allin - more_cultural_names
- cn_pd_b_reval_norse:0 "Rafala" # rosetta
  cn_pd_b_reval_polabian:0 "Tallin" # Tallin - more_cultural_names
  cn_pd_b_reval_polish:0 "Rewel" # rosetta
  cn_pd_b_reval_roman:0 "Lyndanissa" # rosetta
@@ -75586,17 +75404,13 @@
  cn_pd_b_riga_andalusian:0 "Rīğā" # Rīğā - more_cultural_names
  cn_pd_b_riga_avar:0 "Riga" # immersive_toponyms
  cn_pd_b_riga_bavarian:0 "Riege" # immersive_toponyms
- cn_pd_b_riga_carthaginian:0 "Ríga" # Ríga - more_cultural_names
  cn_pd_b_riga_egyptian:0 "Rīgā" # Rīgā - more_cultural_names
  cn_pd_b_riga_estonian:0 "Riia" # Riia - more_cultural_names
  cn_pd_b_riga_finnish:0 "Riika" # Riika - more_cultural_names
  cn_pd_b_riga_gaelic:0 "Ríge" # Ríge - more_cultural_names
- cn_pd_b_riga_greek:0 "Rigái" # rosetta
  cn_pd_b_riga_han:0 "Lĭjiā" # Lĭjiā - more_cultural_names
  cn_pd_b_riga_irish:0 "Rīga" # Rīga - more_cultural_names
  cn_pd_b_riga_khmer:0 "Riigia" # Riigia - more_cultural_names
- cn_pd_b_riga_latgalian:0 "Ryga" # rosetta
- cn_pd_b_riga_roman:0 "Rigae" # rosetta
  cn_pd_b_riga_tamil:0 "Rīkā" # Rīkā - more_cultural_names
  cn_pd_b_rigar_afghan:0 "Rigār" # immersive_toponyms
  cn_pd_b_rigar_andalusian:0 "Ryghar" # terra_nomina
@@ -75926,6 +75740,7 @@
  cn_pd_b_rodoy_polabian:0 "Rodoi" # immersive_toponyms
  cn_pd_b_rodoy_roman:0 "Insula Rubra" # terra_nomina
  cn_pd_b_rodoy_sami:0 "Ruovada" # Ruovada - more_cultural_names
+ cn_pd_b_roermond_french:0 "Ruremonde" # vanilla
  cn_pd_b_roeselare_andalusian:0 "Ruslārih" # rosetta
  cn_pd_b_roeselare_anglo_saxon:0 "Rollāre" # immersive_toponyms
  cn_pd_b_roeselare_bavarian:0 "Roslar" # immersive_toponyms
@@ -75987,35 +75802,6 @@
  cn_pd_b_rojhan_greek:0 "Panássa" # rosetta
  cn_pd_b_rojhan_han:0 "Luōrán" # immersive_toponyms
  cn_pd_b_rojhan_roman:0 "Panassa" # rosetta
- cn_pd_b_roma_albanian:0 "Romë" # Romë - more_cultural_names
- cn_pd_b_roma_ancient_egyptian:0 "Herem" # Herem - more_cultural_names
- cn_pd_b_roma_andalusian:0 "Rūma" # rosetta
- cn_pd_b_roma_armenian:0 "Hrom" # Hrom - more_cultural_names
- cn_pd_b_roma_ashkenazi:0 "Roym" # Roym - more_cultural_names
- cn_pd_b_roma_bashkir:0 "Rim" # Rim - more_cultural_names
- cn_pd_b_roma_basque:0 "Erroma" # Erroma - more_cultural_names
- cn_pd_b_roma_beja:0 "Arome" # Arome - more_cultural_names
- cn_pd_b_roma_bengali:0 "Romā" # Romā - more_cultural_names
- cn_pd_b_roma_burmese:0 "Rauma" # Rauma - more_cultural_names
- cn_pd_b_roma_carantanian:0 "Rimŭ" # Rimŭ - more_cultural_names
- cn_pd_b_roma_carthaginian:0 "Rewm'" # Rewm' - more_cultural_names
- cn_pd_b_roma_english:0 "Rome" # rosetta
- cn_pd_b_roma_georgian:0 "Romi" # Romi - more_cultural_names
- cn_pd_b_roma_greek:0 "Rómi" # rosetta
- cn_pd_b_roma_han:0 "Luómă" # Luómă - more_cultural_names
- cn_pd_b_roma_hungarian:0 "Róma" # rosetta
- cn_pd_b_roma_ilmenian:0 "Rime" # Rime - more_cultural_names
- cn_pd_b_roma_khwarezmian:0 "Frum" # Frum - more_cultural_names
- cn_pd_b_roma_korean:0 "Noma" # Noma - more_cultural_names
- cn_pd_b_roma_lombard:0 "Romma" # Romma - more_cultural_names
- cn_pd_b_roma_norse:0 "Rómaborg" # rosetta
- cn_pd_b_roma_pictish:0 "Yn Raue" # Yn Raue - more_cultural_names
- cn_pd_b_roma_polabian:0 "Rzim" # Rzim - more_cultural_names
- cn_pd_b_roma_polish:0 "Rzym" # rosetta
- cn_pd_b_roma_sinhala:0 "Rōmaya" # Rōmaya - more_cultural_names
- cn_pd_b_roma_slovien:0 "Rím" # rosetta
- cn_pd_b_roma_vietnamese:0 "Rôma" # Rôma - more_cultural_names
- cn_pd_b_roma_yoruba:0 "Rómù" # Rómù - more_cultural_names
  cn_pd_b_roman_andalusian:0 "Rūmān" # Rūmān - more_cultural_names
  cn_pd_b_roman_anglo_saxon:0 "Rumān" # immersive_toponyms
  cn_pd_b_roman_armenian:0 "Ŕoman" # Ŕoman - more_cultural_names
@@ -76487,9 +76273,9 @@
  cn_pd_b_rounala_bosnian:0 "Tromsa" # immersive_toponyms
  cn_pd_b_rounala_danish:0 "Tromsø" # rosetta
  cn_pd_b_rounala_estonian:0 "Tromssa" # immersive_toponyms
+ cn_pd_b_rounala_icelandic:0 "Trums" # vanilla
  cn_pd_b_rounala_latgalian:0 "Trumse" # immersive_toponyms
  cn_pd_b_rounala_lithuanian:0 "Trumsė" # immersive_toponyms
- cn_pd_b_rounala_norse:0 "Trums" # rosetta
  cn_pd_b_rounala_roman:0 "Tromsonda" # rosetta
  cn_pd_b_rounala_sami:0 "Romsa" # immersive_toponyms
  cn_pd_b_rounala_swedish:0 "Tromsö" # rosetta
@@ -77583,6 +77369,7 @@
  cn_pd_b_saint_omer_occitan:0 "Saint-Omer" # Saint-Omer - more_cultural_names
  cn_pd_b_saint_omer_roman:0 "Tarvenna" # rosetta
  cn_pd_b_saint_omer_saxon:0 "Sint Omaars" # Sint Omaars - more_cultural_names
+ cn_pd_b_saint_pol_dutch:0 "Sint-Pols" # vanilla
  cn_pd_b_saint_pourcain_andalusian:0 "Sāntbursin" # rosetta
  cn_pd_b_saint_pourcain_aragonese:0 "San Porciano" # immersive_toponyms
  cn_pd_b_saint_pourcain_basque:0 "Donapurtzain" # immersive_toponyms
@@ -77917,6 +77704,7 @@
  cn_pd_b_salmydessus_russian:0 "Salmidess" # rosetta
  cn_pd_b_salmydessus_trojan:0 "Salmydessós" # terra_nomina
  cn_pd_b_salmydessus_vlach:0 "Salmidesia" # Salmidesia - more_cultural_names
+ cn_pd_b_salon_occitan:0 "Selon" # vanilla
  cn_pd_b_sals_poveret_avar:0 "Bulatyq" # immersive_toponyms
  cn_pd_b_sals_poveret_bosnian:0 "Poltavka" # immersive_toponyms
  cn_pd_b_sals_poveret_buryat:0 "Bulatyk" # immersive_toponyms
@@ -79441,10 +79229,10 @@
  cn_pd_b_scalloway_french:0 "Lervique" # immersive_toponyms
  cn_pd_b_scalloway_frisian:0 "Skaldewâge" # immersive_toponyms
  cn_pd_b_scalloway_gaelic:0 "Batin Môrtaigh" # rosetta
+ cn_pd_b_scalloway_icelandic:0 "Skálavágr" # vanilla
  cn_pd_b_scalloway_ilmenian:0 "Skallouey" # Skallouey - more_cultural_names
  cn_pd_b_scalloway_latgalian:0 "Šalovaja" # immersive_toponyms
  cn_pd_b_scalloway_lithuanian:0 "Šalovaias" # immersive_toponyms
- cn_pd_b_scalloway_norse:0 "Skálavágr" # rosetta
  cn_pd_b_scalloway_norwegian:0 "Skalavik" # rosetta
  cn_pd_b_scalloway_polabian:0 "Szałowoi" # immersive_toponyms
  cn_pd_b_scalloway_roman:0 "Scallovidia" # rosetta
@@ -81488,6 +81276,7 @@
  cn_pd_b_shergarh_qiang:0 "Bùěrkùdá" # immersive_toponyms
  cn_pd_b_shergarh_roman:0 "Peucelaotis" # rosetta
  cn_pd_b_shergarh_trojan:0 "Peukelâitis" # terra_nomina
+ cn_pd_b_shertogenbosch_french:0 "Bois-le-Duc" # vanilla
  cn_pd_b_shey_afghan:0 "Šey" # immersive_toponyms
  cn_pd_b_shey_assamese:0 "Śē" # immersive_toponyms
  cn_pd_b_shey_avar:0 "Şey" # immersive_toponyms
@@ -83178,10 +82967,10 @@
  cn_pd_b_skye_gaelic:0 "An t-Eilean Sgitheanach" # rosetta
  cn_pd_b_skye_greek:0 "Skái" # Skái - more_cultural_names
  cn_pd_b_skye_han:0 "Sīkăi" # Sīkăi - more_cultural_names
+ cn_pd_b_skye_icelandic:0 "Skíð" # vanilla
  cn_pd_b_skye_korean:0 "Seukai" # Seukai - more_cultural_names
  cn_pd_b_skye_late_norman:0 "Esquie" # terra_nomina
  cn_pd_b_skye_lithuanian:0 "Skajus" # Skajus - more_cultural_names
- cn_pd_b_skye_norse:0 "Skíð" # rosetta
  cn_pd_b_skye_outremer:0 "Scye" # immersive_toponyms
  cn_pd_b_skye_roman:0 "Scitis" # rosetta
  cn_pd_b_skye_yamato:0 "Sukai" # Sukai - more_cultural_names
@@ -83343,29 +83132,6 @@
  cn_pd_b_slonim_lithuanian:0 "Slanimas" # rosetta
  cn_pd_b_slonim_polabian:0 "Słonim" # Słonim - more_cultural_names
  cn_pd_b_slonim_roman:0 "Slonimum" # rosetta
- cn_pd_b_slupsk_andalusian:0 "Swubsk" # Swubsk - more_cultural_names
- cn_pd_b_slupsk_anglo_saxon:0 "Stolp" # Stolp - more_cultural_names
- cn_pd_b_slupsk_armenian:0 "Slowpsk" # Slowpsk - more_cultural_names
- cn_pd_b_slupsk_avar:0 "Slupsk" # Slupsk - more_cultural_names
- cn_pd_b_slupsk_bengali:0 "Slāpaska" # Slāpaska - more_cultural_names
- cn_pd_b_slupsk_cisalpine:0 "Stolpia" # immersive_toponyms
- cn_pd_b_slupsk_czech:0 "Sloup" # Sloup - more_cultural_names
- cn_pd_b_slupsk_french:0 "Stolpe" # immersive_toponyms
- cn_pd_b_slupsk_georgian:0 "Slup’sk’i" # Slup’sk’i - more_cultural_names
- cn_pd_b_slupsk_greek:0 "Souoúpsk" # Souoúpsk - more_cultural_names
- cn_pd_b_slupsk_gujarati:0 "Slupska" # Slupska - more_cultural_names
- cn_pd_b_slupsk_han:0 "Sīwŭpŭsīkè" # Sīwŭpŭsīkè - more_cultural_names
- cn_pd_b_slupsk_hindustani:0 "Salaupask" # Salaupask - more_cultural_names
- cn_pd_b_slupsk_kannada:0 "Sluphsk" # Sluphsk - more_cultural_names
- cn_pd_b_slupsk_korean:0 "Seuupseukeu" # Seuupseukeu - more_cultural_names
- cn_pd_b_slupsk_lithuanian:0 "Slupskas" # rosetta
- cn_pd_b_slupsk_marathi:0 "Slaaps" # Slaaps - more_cultural_names
- cn_pd_b_slupsk_polabian:0 "Stolpsk" # Stolpsk - more_cultural_names
- cn_pd_b_slupsk_pommeranian:0 "Stôlpsk" # rosetta
- cn_pd_b_slupsk_sinhala:0 "Slapsk" # Slapsk - more_cultural_names
- cn_pd_b_slupsk_tamil:0 "Calamask" # Calamask - more_cultural_names
- cn_pd_b_slupsk_telugu:0 "Salupamsk" # Salupamsk - more_cultural_names
- cn_pd_b_slupsk_yamato:0 "Suupusuku" # Suupusuku - more_cultural_names
  cn_pd_b_slutsk_avar:0 "Suluklu" # immersive_toponyms
  cn_pd_b_slutsk_bavarian:0 "Sluzk" # rosetta
  cn_pd_b_slutsk_bosnian:0 "Sluck" # immersive_toponyms
@@ -84843,6 +84609,7 @@
  cn_pd_b_stargad_pommeranian:0 "Gòlnowò" # Gòlnowò - more_cultural_names
  cn_pd_b_stargad_roman:0 "Golnovia" # rosetta
  cn_pd_b_stargad_yamato:0 "Gorenyufu" # Gorenyufu - more_cultural_names
+ cn_pd_b_stargard_bavarian:0 "Stargard" # vanilla
  cn_pd_b_starodub-on-the-klyazma_avar:0 "Eskimezarlik" # immersive_toponyms
  cn_pd_b_starodub-on-the-klyazma_bavarian:0 "Alteeiche an der Kljasma" # immersive_toponyms
  cn_pd_b_starodub-on-the-klyazma_bosnian:0 "Starodubŭ na Kläzĭmě" # Starodubŭ na Kläzĭmě - more_cultural_names
@@ -84880,6 +84647,7 @@
  cn_pd_b_starodub_norse:0 "Stjáraðyb" # rosetta
  cn_pd_b_starodub_pommeranian:0 "Starydąb" # immersive_toponyms
  cn_pd_b_starodub_vlach:0 "Stejarbătrân" # immersive_toponyms
+ cn_pd_b_stavelot_bavarian:0 "Stablo" # vanilla
  cn_pd_b_staveren_anglo_saxon:0 "Stæferan" # Stæferan - more_cultural_names
  cn_pd_b_staveren_avar:0 "Staveren" # Staveren - more_cultural_names
  cn_pd_b_staveren_catalan:0 "Starum" # Starum - more_cultural_names
@@ -85185,6 +84953,7 @@
  cn_pd_b_stolby_han:0 "Sītuō" # immersive_toponyms
  cn_pd_b_stolby_ilmenian:0 "Stolby" # immersive_toponyms
  cn_pd_b_stolby_polabian:0 "Słupy" # immersive_toponyms
+ cn_pd_b_stolp_bavarian:0 "Stolp" # vanilla
  cn_pd_b_stolsheimen_bavarian:0 "Stölsheim" # immersive_toponyms
  cn_pd_b_stolsheimen_bosnian:0 "Stolpova" # immersive_toponyms
  cn_pd_b_stolsheimen_danish:0 "Flåm" # rosetta
@@ -85364,6 +85133,8 @@
  cn_pd_b_strumica_hungarian:0 "Sztrumica" # rosetta
  cn_pd_b_strumica_roman:0 "Tiberiopolis" # rosetta
  cn_pd_b_strumica_vlach:0 "Strumița" # immersive_toponyms
+ cn_pd_b_stuhm_bavarian:0 "Stuhm" # vanilla
+ cn_pd_b_stuhm_polabian:0 "Sztum" # vanilla
  cn_pd_b_stwerap_afghan:0 "Šātrāb" # immersive_toponyms
  cn_pd_b_stwerap_assamese:0 "Śatarābī" # immersive_toponyms
  cn_pd_b_stwerap_avar:0 "Şatrap" # immersive_toponyms
@@ -85937,6 +85708,7 @@
  cn_pd_b_surgut_tamil:0 "Carkuț" # Carkuț - more_cultural_names
  cn_pd_b_surgut_yamato:0 "Suruguto" # Suruguto - more_cultural_names
  cn_pd_b_suriya_assyrian:0 "Hanāsīr" # terra_nomina
+ cn_pd_b_suriya_dutch:0 "Seriana" # vanilla
  cn_pd_b_suriya_late_norman:0 "Chanasir" # terra_nomina
  cn_pd_b_suriya_trojan:0 "Anasártha" # terra_nomina
  cn_pd_b_susa_frankish:0 "Sousse" # rosetta
@@ -86238,6 +86010,7 @@
  cn_pd_b_swetakapura_han:0 "Sīwéitǎkǎpǔlā" # immersive_toponyms
  cn_pd_b_swetakapura_roman:0 "Nanigaena" # rosetta
  cn_pd_b_swetakapura_trojan:0 "Nanigāínē" # terra_nomina
+ cn_pd_b_swidwin_bavarian:0 "Schivelbein" # vanilla
  cn_pd_b_swinoujscie_andalusian:0 "Weltaba" # Weltaba - more_cultural_names
  cn_pd_b_swinoujscie_anglo_saxon:0 "Wollin" # Wollin - more_cultural_names
  cn_pd_b_swinoujscie_bosnian:0 "Wolyn" # Wolyn - more_cultural_names
@@ -87646,6 +87419,7 @@
  cn_pd_b_talmont_greek:0 "Talamoúndos" # immersive_toponyms
  cn_pd_b_talmont_occitan:0 "Talmont" # Talmont - more_cultural_names
  cn_pd_b_talmont_roman:0 "Talamundus" # rosetta
+ cn_pd_b_talsi_bavarian:0 "Talsen" # vanilla
  cn_pd_b_talta_avar:0 "Talta" # immersive_toponyms
  cn_pd_b_tam_giang_avar:0 "Tamcan" # immersive_toponyms
  cn_pd_b_tam_giang_bai:0 "Tánjiāng" # immersive_toponyms
@@ -87986,7 +87760,6 @@
  cn_pd_b_taranto_hungarian:0 "Tarantó" # immersive_toponyms
  cn_pd_b_taranto_lithuanian:0 "Tarantas" # Tarantas - more_cultural_names
  cn_pd_b_taranto_pommeranian:0 "Tardenów" # immersive_toponyms
- cn_pd_b_taranto_roman:0 "Tarentum" # rosetta
  cn_pd_b_taranto_sicilian:0 "Tàrantu" # rosetta
  cn_pd_b_taranto_visigothic:0 "Tarentu" # rosetta
  cn_pd_b_tarascon_andalusian:0 "Tarashkūn" # rosetta
@@ -89184,8 +88957,8 @@
  cn_pd_b_the_uists_danish:0 "Ivist" # rosetta
  cn_pd_b_the_uists_french:0 "Uise" # immersive_toponyms
  cn_pd_b_the_uists_han:0 "Yóuyīsīt" # Yóuyīsīt - more_cultural_names
+ cn_pd_b_the_uists_icelandic:0 "Ívist" # vanilla
  cn_pd_b_the_uists_late_norman:0 "Ouystes" # terra_nomina
- cn_pd_b_the_uists_norse:0 "Ívist" # rosetta
  cn_pd_b_the_uists_roman:0 "Uistus" # rosetta
  cn_pd_b_thebeshellas_albanian:0 "Teba" # Teba - more_cultural_names
  cn_pd_b_thebeshellas_andalusian:0 "al-Uqsur" # rosetta
@@ -89434,8 +89207,8 @@
  cn_pd_b_thurso_danish:0 "Tyrsaa" # rosetta
  cn_pd_b_thurso_frankish:0 "Turseu" # terra_nomina
  cn_pd_b_thurso_gaelic:0 "Inbhir Theòrsa" # rosetta
+ cn_pd_b_thurso_icelandic:0 "Þórsá" # vanilla
  cn_pd_b_thurso_irish:0 "Inbhir Tarbhainn" # rosetta
- cn_pd_b_thurso_norse:0 "Þórsá" # rosetta
  cn_pd_b_thurso_pictish:0 "Aberteuafon" # rosetta
  cn_pd_b_thurso_roman:0 "Turseha" # rosetta
  cn_pd_b_thurso_scottish:0 "Thursa" # rosetta
@@ -89579,6 +89352,7 @@
  cn_pd_b_tiel_polabian:0 "Tiełewo" # immersive_toponyms
  cn_pd_b_tiel_roman:0 "Tillium" # rosetta
  cn_pd_b_tiel_yamato:0 "Tiiru" # Tiiru - more_cultural_names
+ cn_pd_b_tienen_french:0 "Tirlemont" # vanilla
  cn_pd_b_tifash_andalusian:0 "Tībāzah" # rosetta
  cn_pd_b_tifash_aragonese:0 "Tiefas" # immersive_toponyms
  cn_pd_b_tifash_baranis:0 "Tifezza" # rosetta
@@ -90122,23 +89896,6 @@
  cn_pd_b_tittawan_greek:0 "Tamoúda" # immersive_toponyms
  cn_pd_b_tittawan_portuguese:0 "Tetuão" # rosetta
  cn_pd_b_tittawan_roman:0 "Tamuda" # rosetta
- cn_pd_b_tivoli_andalusian:0 "Tifūli" # rosetta
- cn_pd_b_tivoli_aragonese:0 "Tívoli" # Tívoli - more_cultural_names
- cn_pd_b_tivoli_bavarian:0 "Tibur" # immersive_toponyms
- cn_pd_b_tivoli_bosnian:0 "Tivoli" # immersive_toponyms
- cn_pd_b_tivoli_carthaginian:0 "Tybowly" # Tybowly - more_cultural_names
- cn_pd_b_tivoli_danish:0 "Tifali" # terra_nomina
- cn_pd_b_tivoli_french:0 "Tibour" # immersive_toponyms
- cn_pd_b_tivoli_greek:0 "Tibournión" # rosetta
- cn_pd_b_tivoli_han:0 "Dìwòlì" # Dìwòlì - more_cultural_names
- cn_pd_b_tivoli_hungarian:0 "Tibold" # immersive_toponyms
- cn_pd_b_tivoli_ilmenian:0 "Civali" # Civali - more_cultural_names
- cn_pd_b_tivoli_korean:0 "Tibolli" # Tibolli - more_cultural_names
- cn_pd_b_tivoli_lithuanian:0 "Tivolis" # Tivolis - more_cultural_names
- cn_pd_b_tivoli_norse:0 "Tívolí" # Tívolí - more_cultural_names
- cn_pd_b_tivoli_polabian:0 "Tiwoli" # immersive_toponyms
- cn_pd_b_tivoli_vlach:0 "Tibrul" # immersive_toponyms
- cn_pd_b_tivoli_yamato:0 "Tivori" # Tivori - more_cultural_names
  cn_pd_b_tiz_afghan:0 "Tīz" # immersive_toponyms
  cn_pd_b_tiz_assamese:0 "Ṭija" # immersive_toponyms
  cn_pd_b_tiz_avar:0 "Tis" # immersive_toponyms
@@ -91018,8 +90775,6 @@
  cn_pd_b_tournai_dutch:0 "Doornik" # rosetta
  cn_pd_b_tournai_french:0 "Tornai" # Tornai - more_cultural_names
  cn_pd_b_tournai_frisian:0 "Doarnik" # immersive_toponyms
- cn_pd_b_tournai_greek:0 "Turnacum" # Turnacum - more_cultural_names
- cn_pd_b_tournai_lithuanian:0 "Turne" # Turne - more_cultural_names
  cn_pd_b_tournai_occitan:0 "Tournai" # Tournai - more_cultural_names
  cn_pd_b_tournai_polabian:0 "Doratynka" # immersive_toponyms
  cn_pd_b_tourraine_andalusian:0 "Sunay" # rosetta
@@ -91758,6 +91513,7 @@
  cn_pd_b_truong_yen_buryat:0 "Terüün-En" # immersive_toponyms
  cn_pd_b_truong_yen_jurchen:0 "Turunggen" # immersive_toponyms
  cn_pd_b_truong_yen_vietnamese:0 "Truòng Yên" # immersive_toponyms
+ cn_pd_b_trzebiatow_bavarian:0 "Treptow" # vanilla
  cn_pd_b_tsagaan_gazar_avar:0 "Beyazemin" # immersive_toponyms
  cn_pd_b_tsagaan_gazar_bosnian:0 "Bijala Zemja" # immersive_toponyms
  cn_pd_b_tsagaan_gazar_buryat:0 "Tsagaan Gazar" # immersive_toponyms
@@ -94477,6 +94233,7 @@
  cn_pd_b_vagay_greek:0 "Vagaiópolis" # rosetta
  cn_pd_b_vagay_han:0 "Wǎgài" # immersive_toponyms
  cn_pd_b_vagay_roman:0 "Vagaiopolis" # rosetta
+ cn_pd_b_vaiga_bavarian:0 "Waiga" # vanilla
  cn_pd_b_vaihingen_bavarian:0 "Vaihincen" # Vaihincen - more_cultural_names
  cn_pd_b_vaihingen_bosnian:0 "Valdinki" # immersive_toponyms
  cn_pd_b_vaihingen_cisalpine:0 "Vaingia" # immersive_toponyms
@@ -94801,19 +94558,6 @@
  cn_pd_b_valladolid_sephardi:0 "Vayadolid" # Vayadolid - more_cultural_names
  cn_pd_b_valladolid_swedish:0 "Vattendalen" # immersive_toponyms
  cn_pd_b_valladolid_visigothic:0 "Vallisoledo" # Vallisoledo - more_cultural_names
- cn_pd_b_vallombrosa_andalusian:0 "Fālumbrusā" # rosetta
- cn_pd_b_vallombrosa_bavarian:0 "Schattental" # immersive_toponyms
- cn_pd_b_vallombrosa_bosnian:0 "Sěnična Dolina" # immersive_toponyms
- cn_pd_b_vallombrosa_cisalpine:0 "Vallombrosa" # Vallombrosa - more_cultural_names
- cn_pd_b_vallombrosa_czech:0 "Vallombrija" # immersive_toponyms
- cn_pd_b_vallombrosa_french:0 "Vallombrouse" # immersive_toponyms
- cn_pd_b_vallombrosa_greek:0 "Valomandrion" # immersive_toponyms
- cn_pd_b_vallombrosa_hungarian:0 "Alkonyvölgy" # immersive_toponyms
- cn_pd_b_vallombrosa_ilmenian:0 "Vallombriya" # immersive_toponyms
- cn_pd_b_vallombrosa_mogyer:0 "Alkoňvölğ" # immersive_toponyms
- cn_pd_b_vallombrosa_polabian:0 "Wallombria" # immersive_toponyms
- cn_pd_b_vallombrosa_roman:0 "Reggellum" # rosetta
- cn_pd_b_vallombrosa_vlach:0 "Amurgeşti" # immersive_toponyms
  cn_pd_b_vallurapura_afghan:0 "Walūrapur" # immersive_toponyms
  cn_pd_b_vallurapura_assamese:0 "Ballurapurā" # immersive_toponyms
  cn_pd_b_vallurapura_avar:0 "Valurabur" # immersive_toponyms
@@ -95151,6 +94895,7 @@
  cn_pd_b_vaskina_polyana_lithuanian:0 "Spaskas" # immersive_toponyms
  cn_pd_b_vaskina_polyana_norwegian:0 "Spaskstad" # immersive_toponyms
  cn_pd_b_vaskina_polyana_roman:0 "Soteropolis Resaniensis" # rosetta
+ cn_pd_b_vasknarva_bavarian:0 "Neuschloss" # vanilla
  cn_pd_b_vaslui_andalusian:0 "Fāslwy" # Fāslwy - more_cultural_names
  cn_pd_b_vaslui_anglo_saxon:0 "Hwæsinga" # immersive_toponyms
  cn_pd_b_vaslui_armenian:0 "Vaslowy" # Vaslowy - more_cultural_names
@@ -95884,7 +95629,6 @@
  cn_pd_b_verdun_english:0 "Verdun" # Verdun - more_cultural_names
  cn_pd_b_verdun_frankish:0 "Wirtten" # Wirtten - more_cultural_names
  cn_pd_b_verdun_hunnic:0 "Wairþūna" # terra_nomina
- cn_pd_b_verdun_roman:0 "Virodunum" # rosetta
  cn_pd_b_verdun_visigothic:0 "Veriduno" # Veriduno - more_cultural_names
  cn_pd_b_verevce_albanian:0 "Virovitica" # immersive_toponyms
  cn_pd_b_verevce_andalusian:0 "Firufitika" # rosetta
@@ -96161,6 +95905,7 @@
  cn_pd_b_vettanen_danish:0 "Ängesån" # rosetta
  cn_pd_b_vettanen_estonian:0 "Vettänen" # immersive_toponyms
  cn_pd_b_vettanen_ilmenian:0 "Tornivoy" # immersive_toponyms
+ cn_pd_b_vettanen_latgalian:0 "Turne" # immersive_toponyms
  cn_pd_b_vettanen_lithuanian:0 "Turnė" # immersive_toponyms
  cn_pd_b_vettanen_norse:0 "Ángesán" # rosetta
  cn_pd_b_vettanen_polabian:0 "Torniwoj" # immersive_toponyms
@@ -98604,6 +98349,7 @@
  cn_pd_b_waterford_gujarati:0 "Voțaraforda" # Voțaraforda - more_cultural_names
  cn_pd_b_waterford_han:0 "Wòtèfúdé" # Wòtèfúdé - more_cultural_names
  cn_pd_b_waterford_hindustani:0 "Wātraphord" # Wātraphord - more_cultural_names
+ cn_pd_b_waterford_icelandic:0 "Veðrafjörðr" # vanilla
  cn_pd_b_waterford_ilmenian:0 "Uoterfard" # Uoterfard - more_cultural_names
  cn_pd_b_waterford_kannada:0 "Vāțar Phōrd" # Vāțar Phōrd - more_cultural_names
  cn_pd_b_waterford_korean:0 "Wŏtŏpŏdeu" # Wŏtŏpŏdeu - more_cultural_names
@@ -99027,6 +98773,7 @@
  cn_pd_b_wexford_frisian:0 "Waesfjord" # rosetta
  cn_pd_b_wexford_gaelic:0 "Loch Garman" # rosetta
  cn_pd_b_wexford_georgian:0 "Uekspordi" # Uekspordi - more_cultural_names
+ cn_pd_b_wexford_icelandic:0 "Veisafjörðr" # vanilla
  cn_pd_b_wexford_ilmenian:0 "Ueksfard" # Ueksfard - more_cultural_names
  cn_pd_b_wexford_late_norman:0 "Wexefort" # terra_nomina
  cn_pd_b_wexford_lithuanian:0 "Veksfordas" # Veksfordas - more_cultural_names
@@ -99111,10 +98858,10 @@
  cn_pd_b_wick_gaelic:0 "Inbhir Ùige" # rosetta
  cn_pd_b_wick_gujarati:0 "Vika" # Vika - more_cultural_names
  cn_pd_b_wick_han:0 "Wéikè" # Wéikè - more_cultural_names
+ cn_pd_b_wick_icelandic:0 "Vík" # vanilla
  cn_pd_b_wick_kannada:0 "Vik" # Vik - more_cultural_names
  cn_pd_b_wick_korean:0 "Wik" # Wik - more_cultural_names
  cn_pd_b_wick_lithuanian:0 "Vikas" # Vikas - more_cultural_names
- cn_pd_b_wick_norse:0 "Vík" # rosetta
  cn_pd_b_wick_pictish:0 "Aberbachuu" # rosetta
  cn_pd_b_wick_polabian:0 "Invernes" # Invernes - more_cultural_names
  cn_pd_b_wick_roman:0 "Ilca" # rosetta
@@ -99587,6 +99334,7 @@
  cn_pd_b_wizna_han:0 "Wéicínà" # Wéicínà - more_cultural_names
  cn_pd_b_wizna_polabian:0 "Wizna" # Wizna - more_cultural_names
  cn_pd_b_wizna_prussian:0 "Viznas" # immersive_toponyms
+ cn_pd_b_wizna_roman:0 "Pratum" # rosetta
  cn_pd_b_wizna_yamato:0 "Vuizuna" # Vuizuna - more_cultural_names
  cn_pd_b_wladyslawowo_anglo_saxon:0 "Putzig" # Putzig - more_cultural_names
  cn_pd_b_wladyslawowo_bosnian:0 "Puck" # immersive_toponyms
@@ -102029,6 +101777,7 @@
  cn_pd_b_york_greek:0 "Ebourákon" # rosetta
  cn_pd_b_york_gujarati:0 "Yorka" # Yorka - more_cultural_names
  cn_pd_b_york_han:0 "Yuēkè" # Yuēkè - more_cultural_names
+ cn_pd_b_york_icelandic:0 "Jórvík" # vanilla
  cn_pd_b_york_igbo:0 "Yok" # Yok # Guessed. Taken from New York - more_cultural_names
  cn_pd_b_york_ilmenian:0 "Horad Jork" # Horad Jork - more_cultural_names
  cn_pd_b_york_irish:0 "Eabhrac" # rosetta
@@ -102037,7 +101786,6 @@
  cn_pd_b_york_late_norman:0 "Évèroui" # terra_nomina
  cn_pd_b_york_latgalian:0 "Jorka" # Jorka - more_cultural_names
  cn_pd_b_york_lithuanian:0 "Jorkas" # Jorkas # Or Jorko - more_cultural_names
- cn_pd_b_york_norse:0 "Jórvík" # rosetta
  cn_pd_b_york_norwegian:0 "Jorvik" # rosetta
  cn_pd_b_york_roman:0 "Eboracum" # rosetta
  cn_pd_b_york_sinhala:0 "Yōrkțan" # Yōrkțan - more_cultural_names
@@ -103646,30 +103394,6 @@
  cn_pd_b_ziporea_greek:0 "Ziporéa" # rosetta
  cn_pd_b_ziporea_kurdish:0 "Qarafasîl" # immersive_toponyms
  cn_pd_b_ziporea_polabian:0 "Ziporiewo" # immersive_toponyms
- cn_pd_b_zirc_aragonese:0 "San Martín" # San Martín - more_cultural_names
- cn_pd_b_zirc_avar:0 "Zirç" # immersive_toponyms
- cn_pd_b_zirc_bavarian:0 "Sirtz" # rosetta
- cn_pd_b_zirc_bosnian:0 "Siroc" # rosetta
- cn_pd_b_zirc_carantanian:0 "Vjurski Sveti Martin" # Vjurski Sveti Martin - more_cultural_names
- cn_pd_b_zirc_catalan:0 "Sant Martí" # Sant Martí - more_cultural_names
- cn_pd_b_zirc_cisalpine:0 "San Martino" # San Martino - more_cultural_names
- cn_pd_b_zirc_czech:0 "Rábsky Svätý Martin" # Rábsky Svätý Martin - more_cultural_names
- cn_pd_b_zirc_danish:0 "Sirts" # immersive_toponyms
- cn_pd_b_zirc_english:0 "Saint Martin" # Saint Martin - more_cultural_names
- cn_pd_b_zirc_frankish:0 "Martinesbërc" # Martinesbërc - more_cultural_names
- cn_pd_b_zirc_galician:0 "São Martinho" # São Martinho - more_cultural_names
- cn_pd_b_zirc_greek:0 "Hágios Martinos" # Hágios Martinos - more_cultural_names
- cn_pd_b_zirc_hungarian:0 "Gyõrszentmárton" # Gyõrszentmárton - more_cultural_names
- cn_pd_b_zirc_ilmenian:0 "Pannonkhal’ma" # Pannonkhal’ma - more_cultural_names
- cn_pd_b_zirc_latgalian:0 "Zirca" # immersive_toponyms
- cn_pd_b_zirc_lithuanian:0 "Zircas" # immersive_toponyms
- cn_pd_b_zirc_mogyer:0 "Geur Tatos" # Geur Tatos - more_cultural_names
- cn_pd_b_zirc_occitan:0 "Sant Martin" # Sant Martin - more_cultural_names
- cn_pd_b_zirc_outremer:0 "Sîrtz" # immersive_toponyms
- cn_pd_b_zirc_polabian:0 "Zirec" # immersive_toponyms
- cn_pd_b_zirc_roman:0 "Crispiana" # rosetta
- cn_pd_b_zirc_trojan:0 "Bokkónion" # terra_nomina
- cn_pd_b_zirc_vlach:0 "Sânmartin" # Sânmartin # Not sure - but there are other similar Magyar place names that are all translated exactly like that - more_cultural_names
  cn_pd_b_zirjan_afghan:0 "Zīrjān" # immersive_toponyms
  cn_pd_b_zirjan_assamese:0 "Jirajāna" # immersive_toponyms
  cn_pd_b_zirjan_avar:0 "Zircan" # immersive_toponyms
@@ -104789,6 +104513,7 @@
  cn_pd_c_alupa_bodpa:0 "Kolatunad" # immersive_toponyms
  cn_pd_c_alupa_han:0 "Kēlātúnàdé" # immersive_toponyms
  cn_pd_c_alupa_tamil:0 "Kēālattunāț" # Kēālattunāț - more_cultural_names
+ cn_pd_c_amalfi_greek:0 "Amalphi" # vanilla
  cn_pd_c_amida_albanian:0 "Dijarbakëri" # Dijarbakëri - more_cultural_names
  cn_pd_c_amida_avar:0 "Diýarbakyr" # Diýarbakyr - more_cultural_names
  cn_pd_c_amiens_frankish:0 "Amiénois" # terra_nomina
@@ -104992,13 +104717,17 @@
  cn_pd_c_argyll_dutch:0 "Gatthem" # immersive_toponyms
  cn_pd_c_argyll_english:0 "Orgayle" # Orgayle - more_cultural_names
  cn_pd_c_argyll_french:0 "Ergadie" # immersive_toponyms
+ cn_pd_c_argyll_icelandic:0 "Argjáll" # vanilla
  cn_pd_c_argyll_late_norman:0 "Argueil" # terra_nomina
- cn_pd_c_argyll_norse:0 "Argjáll" # rosetta
  cn_pd_c_argyll_pictish:0 "Airer Goídel" # rosetta
  cn_pd_c_arkalyk_greek:0 "Gabiéne" # terra_nomina
  cn_pd_c_arkalyk_roman:0 "Gabiene" # terra_nomina
  cn_pd_c_arkat_greek:0 "Garáene" # terra_nomina
  cn_pd_c_arkat_roman:0 "Garaene" # terra_nomina
+ cn_pd_c_arles_andalusian:0 "Arul" # terra_nomina
+ cn_pd_c_arles_danish:0 "Arlas" # terra_nomina
+ cn_pd_c_arles_greek:0 "Arelátē" # terra_nomina
+ cn_pd_c_arles_norse:0 "Árlas" # terra_nomina
  cn_pd_c_ashir_greek:0 "Auzia" # Auzia - more_cultural_names
  cn_pd_c_ashmaka_afghan:0 "Ašmāk" # immersive_toponyms
  cn_pd_c_ashmaka_assamese:0 "Aśamākā" # immersive_toponyms
@@ -105274,6 +105003,7 @@
  cn_pd_c_baqlin_baranis:0 "Bakhlin" # immersive_toponyms
  cn_pd_c_baqlin_daju:0 "Bēliğin" # immersive_toponyms
  cn_pd_c_bar_frankish:0 "Barois" # terra_nomina
+ cn_pd_c_bar_roman:0 "Virodunum" # rosetta
  cn_pd_c_baranya_german:0 "Branau" # immersive_toponyms
  cn_pd_c_baranya_kipchak:0 "Baraňa" # immersive_toponyms
  cn_pd_c_baranya_latgalian:0 "Barańas" # immersive_toponyms
@@ -105297,6 +105027,7 @@
  cn_pd_c_barcasag_roman:0 "Terra Borsa" # rosetta
  cn_pd_c_barcasag_russian:0 "Byrsa" # Byrsa - more_cultural_names
  cn_pd_c_barcasag_vlach:0 "Țara Bârsei" # rosetta
+ cn_pd_c_bari_roman:0 "Tarentum" # rosetta
  cn_pd_c_barlad_prussian:0 "Birladas " # immersive_toponyms
  cn_pd_c_barma_hindustani:0 "Tendukheda" # Tendukheda - more_cultural_names
  cn_pd_c_barqa_afghan:0 "Berkeh" # immersive_toponyms
@@ -105774,10 +105505,10 @@
  cn_pd_c_caithness_french:0 "Caith" # immersive_toponyms
  cn_pd_c_caithness_gaelic:0 "Gallaibh" # rosetta
  cn_pd_c_caithness_han:0 "Kăisènísī" # Kăisènísī - more_cultural_names
+ cn_pd_c_caithness_icelandic:0 "Katanes" # vanilla
  cn_pd_c_caithness_ilmenian:0 "Kiejtnies" # Kiejtnies - more_cultural_names
  cn_pd_c_caithness_korean:0 "Keiseuneseu Chu" # Keiseuneseu Chu - more_cultural_names
  cn_pd_c_caithness_lithuanian:0 "Kaitnas" # Kaitnas - more_cultural_names
- cn_pd_c_caithness_norse:0 "Katanes" # rosetta
  cn_pd_c_caithness_pictish:0 "Catt" # rosetta
  cn_pd_c_caithness_roman:0 "Cathanesia" # rosetta
  cn_pd_c_caithness_russian:0 "Keytness" # Keytness - more_cultural_names
@@ -105787,6 +105518,7 @@
  cn_pd_c_caizhou_balhae:0 "Chaeju" # terra_nomina
  cn_pd_c_caizhou_yamato:0 "Saishū" # terra_nomina
  cn_pd_c_calafat_mogyer:0 "Völğeş" # immersive_toponyms
+ cn_pd_c_cambray_roman:0 "Bagacum" # rosetta
  cn_pd_c_cambridgeshire_alan:0 "Kembridžšir" # Kembridžšir - more_cultural_names
  cn_pd_c_cambridgeshire_andalusian:0 "Kāmbrīdğšīr" # Kāmbrīdğšīr - more_cultural_names
  cn_pd_c_cambridgeshire_armenian:0 "K’embriĵšir" # K’embriĵšir - more_cultural_names
@@ -105956,8 +105688,21 @@
  cn_pd_c_carrick_pictish:0 "Ueron" # rosetta
  cn_pd_c_carrick_roman:0 "Carricum" # rosetta
  cn_pd_c_carrick_swedish:0 "Karlrök" # rosetta
+ cn_pd_c_casentino_andalusian:0 "Kāzzintinu" # rosetta
+ cn_pd_c_casentino_bavarian:0 "Kassentin" # immersive_toponyms
+ cn_pd_c_casentino_bosnian:0 "Kasentinov" # immersive_toponyms
+ cn_pd_c_casentino_cisalpine:0 "Casentino" # Casentino - more_cultural_names
+ cn_pd_c_casentino_danish:0 "Kassundardal" # terra_nomina
+ cn_pd_c_casentino_french:0 "Casentine" # immersive_toponyms
+ cn_pd_c_casentino_greek:0 "Mevanióla" # rosetta
  cn_pd_c_casentino_hungarian:0 "Kesznyő" # immersive_toponyms
  cn_pd_c_casentino_mogyer:0 "Kesňö" # immersive_toponyms
+ cn_pd_c_casentino_norse:0 "Kássundardalr" # terra_nomina
+ cn_pd_c_casentino_polabian:0 "Kasentinów" # immersive_toponyms
+ cn_pd_c_casentino_roman:0 "Mevaniola" # rosetta
+ cn_pd_c_casentino_vlach:0 "Casentin" # immersive_toponyms
+ cn_pd_c_casentino_yamato:0 "Kazentiino" # Kazentiino - more_cultural_names
+ cn_pd_c_catania_greek:0 "Katánē" # terra_nomina
  cn_pd_c_central_tannu_english:0 "Central Tannu" # Central Tannu - more_cultural_names
  cn_pd_c_cephalonia_trojan:0 "Kephalleniá" # terra_nomina
  cn_pd_c_cetatea_alba_bulgarian:0 "Belgorod Dnestrovski" # Belgorod Dnestrovski - more_cultural_names
@@ -106134,6 +105879,8 @@
  cn_pd_c_connacht_norman:0 "Counachie" # rosetta
  cn_pd_c_connacht_norse:0 "Kunnaktir" # rosetta
  cn_pd_c_connacht_scottish:0 "Hy-Many" # Hy-Many - more_cultural_names
+ cn_pd_c_corfu_andalusian:0 "Qarqīrāh" # terra_nomina
+ cn_pd_c_corfu_swedish:0 "Korfey" # terra_nomina
  cn_pd_c_cornouaille_danish:0 "Sudkornbretaland" # rosetta
  cn_pd_c_cornouaille_greek:0 "Korstopíton" # terra_nomina
  cn_pd_c_cornouaille_norse:0 "Suðkornbretaland" # rosetta
@@ -106205,7 +105952,9 @@
  cn_pd_c_cumbum_assyrian:0 "Qūmbūm" # terra_nomina
  cn_pd_c_cumbum_avar:0 "Kambum" # immersive_toponyms
  cn_pd_c_cumbum_han:0 "Kǎngběng" # immersive_toponyms
- cn_pd_c_cuneo_mogyer:0 "Konç" # immersive_toponyms
+ cn_pd_c_czarnkow_bavarian:0 "Friedeberg" # terra_nomina
+ cn_pd_c_czarnkow_danish:0 "Tjarnkuf" # terra_nomina
+ cn_pd_c_czarnkow_roman:0 "Ossinia" # terra_nomina
  cn_pd_c_czerska_avar:0 "Varşo" # immersive_toponyms
  cn_pd_c_dagomba_akan:0 "Dagomba" # immersive_toponyms
  cn_pd_c_dagomba_andalusian:0 "Dāghbūn" # immersive_toponyms
@@ -106866,32 +106615,8 @@
  cn_pd_c_firdafylki_polabian:0 "Suninskaia" # immersive_toponyms
  cn_pd_c_firdafylki_prussian:0 "Sunfjurdas" # immersive_toponyms
  cn_pd_c_firdafylki_roman:0 "Comitatus Fiordum" # rosetta
- cn_pd_c_foggia_albanian:0 "Foxha" # Foxha - more_cultural_names
- cn_pd_c_foggia_andalusian:0 "Fawjiyyāh" # rosetta
- cn_pd_c_foggia_aragonese:0 "Fuedia" # Fuedia - more_cultural_names
- cn_pd_c_foggia_armenian:0 "Foĵa" # Foĵa - more_cultural_names
- cn_pd_c_foggia_bavarian:0 "Herdonia" # immersive_toponyms
- cn_pd_c_foggia_bengali:0 "Phojyā" # Phojyā - more_cultural_names
- cn_pd_c_foggia_bosnian:0 "Fodža" # Fodža - more_cultural_names
- cn_pd_c_foggia_bulgarian:0 "Fodzha" # Fodzha - more_cultural_names
- cn_pd_c_foggia_carthaginian:0 "Pewg'yh" # Pewg'yh - more_cultural_names
- cn_pd_c_foggia_catalan:0 "Fodia" # Fodia - more_cultural_names
- cn_pd_c_foggia_cisalpine:0 "Foggia" # Foggia - more_cultural_names
- cn_pd_c_foggia_french:0 "Foue" # Foue - more_cultural_names
- cn_pd_c_foggia_georgian:0 "Poja" # Poja - more_cultural_names
- cn_pd_c_foggia_greek:0 "Argórippa" # rosetta
- cn_pd_c_foggia_gujarati:0 "Fogiyā" # Fogiyā - more_cultural_names
- cn_pd_c_foggia_han:0 "Fúgŭ" # Fúgŭ - more_cultural_names
- cn_pd_c_foggia_hindustani:0 "Phogia" # Phogia - more_cultural_names
- cn_pd_c_foggia_hungarian:0 "Fodzsák" # immersive_toponyms
- cn_pd_c_foggia_kannada:0 "Phōggiya" # Phōggiya - more_cultural_names
- cn_pd_c_foggia_marathi:0 "Fogaiyaa" # Fogaiyaa - more_cultural_names
- cn_pd_c_foggia_outremer:0 "Fôgges" # immersive_toponyms
- cn_pd_c_foggia_polabian:0 "Fodźa" # immersive_toponyms
- cn_pd_c_foggia_sicilian:0 "Fogge" # Fogge - more_cultural_names
- cn_pd_c_foggia_vlach:0 "Fogia" # immersive_toponyms
- cn_pd_c_foggia_yamato:0 "Fojja" # Fojja - more_cultural_names
  cn_pd_c_forcalquier_frankish:0 "Embrunnais" # terra_nomina
+ cn_pd_c_forcalquier_roman:0 "Eburodunum" # rosetta
  cn_pd_c_forez_bavarian:0 "Forgau" # immersive_toponyms
  cn_pd_c_forez_catalan:0 "Forés" # Forés - more_cultural_names
  cn_pd_c_forez_french:0 "Forez" # Forez - more_cultural_names
@@ -107061,6 +106786,7 @@
  cn_pd_c_galloway_gaelic:0 "Gall-Ghàidhealaibh" # rosetta
  cn_pd_c_galloway_gujarati:0 "Gelove" # Gelove - more_cultural_names
  cn_pd_c_galloway_han:0 "Jiāluòwéi" # Jiāluòwéi - more_cultural_names
+ cn_pd_c_galloway_icelandic:0 "Galvei" # vanilla
  cn_pd_c_galloway_ilmenian:0 "Gallouey" # Gallouey - more_cultural_names
  cn_pd_c_galloway_kannada:0 "Gyālōvē" # Gyālōvē - more_cultural_names
  cn_pd_c_galloway_korean:0 "Kaellŏwei" # Kaellŏwei - more_cultural_names
@@ -107420,6 +107146,7 @@
  cn_pd_c_hainaut_old_saxon:0 "Henaga" # Henaga - more_cultural_names
  cn_pd_c_hainaut_outremer:0 "Hainaut" # immersive_toponyms
  cn_pd_c_hainaut_polabian:0 "Henegów" # immersive_toponyms
+ cn_pd_c_hainaut_roman:0 "Turnacum" # rosetta
  cn_pd_c_hainaut_scottish:0 "Hænnege" # Hænnege - more_cultural_names
  cn_pd_c_hainaut_sinhala:0 "Hayinauț" # Hayinauț - more_cultural_names
  cn_pd_c_hainaut_slovien:0 "Hennegavsko" # Hennegavsko - more_cultural_names
@@ -107684,6 +107411,7 @@
  cn_pd_c_hohenberg_bavarian:0 "Hohenberg" # rosetta
  cn_pd_c_hohenburg_avar:0 "Bayur" # immersive_toponyms
  cn_pd_c_hohenburg_hungarian:0 "Hahót" # immersive_toponyms
+ cn_pd_c_hohenburg_roman:0 "Brodentia" # rosetta
  cn_pd_c_hohenlohe_bavarian:0 "Hohenlohe" # Hohenlohe - more_cultural_names
  cn_pd_c_hohenlohe_bosnian:0 "Visokenice" # immersive_toponyms
  cn_pd_c_hohenlohe_cisalpine:0 "Altolone" # immersive_toponyms
@@ -107870,6 +107598,7 @@
  cn_pd_c_inner_hebrides_gaelic:0 "Na h-Eileanan a-staigh" # rosetta
  cn_pd_c_inner_hebrides_greek:0 "Esōterikés Ebrídes" # Esōterikés Ebrídes - more_cultural_names
  cn_pd_c_inner_hebrides_han:0 "Nèihèbùlĭdeqún" # Nèihèbùlĭdeqún - more_cultural_names
+ cn_pd_c_inner_hebrides_icelandic:0 "Innri Suðreyjar" # vanilla
  cn_pd_c_inner_hebrides_ilmenian:0 "Unutranyja Hiebrydskija Astravy" # Unutranyja Hiebrydskija Astravy - more_cultural_names
  cn_pd_c_inner_hebrides_korean:0 "Inŏhebeurijiseu Chedo" # Inŏhebeurijiseu Chedo - more_cultural_names
  cn_pd_c_inner_hebrides_late_norman:0 "Esbrides Dedens" # terra_nomina
@@ -107941,12 +107670,12 @@
  cn_pd_c_isle_of_man_danish:0 "Møn" # rosetta
  cn_pd_c_isle_of_man_english:0 "Isle of Man" # rosetta
  cn_pd_c_isle_of_man_gaelic:0 "Mhanainn" # rosetta
+ cn_pd_c_isle_of_man_icelandic:0 "Mön" # vanilla
  cn_pd_c_isle_of_man_irish:0 "Manainn" # rosetta
  cn_pd_c_isle_of_man_norse:0 "Mœn" # rosetta
  cn_pd_c_isle_of_man_pictish:0 "Manu" # rosetta
  cn_pd_c_isle_of_man_roman:0 "Monapia" # rosetta
  cn_pd_c_isle_of_man_scottish:0 "Isle o Man" # rosetta
- cn_pd_c_isle_of_man_swedish:0 "Mön" # rosetta
  cn_pd_c_isle_of_wight_alan:0 "Uajt" # Uajt - more_cultural_names
  cn_pd_c_isle_of_wight_andalusian:0 "Wāīt" # Wāīt - more_cultural_names
  cn_pd_c_isle_of_wight_anglo_saxon:0 "Whit" # rosetta
@@ -108353,6 +108082,7 @@
  cn_pd_c_kent_english:0 "Kent" # Kent - more_cultural_names
  cn_pd_c_kent_frankish:0 "Canthie" # rosetta
  cn_pd_c_kent_georgian:0 "K’ent’i" # K’ent’i - more_cultural_names
+ cn_pd_c_kent_greek:0 "Durovernum" # vanilla
  cn_pd_c_kent_gujarati:0 "Kența" # Kența - more_cultural_names
  cn_pd_c_kent_han:0 "Kěntè" # Kěntè - more_cultural_names
  cn_pd_c_kent_ilmenian:0 "Kient" # Kient - more_cultural_names
@@ -108838,7 +108568,9 @@
  cn_pd_c_lienz_avar:0 "Luboç" # immersive_toponyms
  cn_pd_c_lika_albanian:0 "Lika" # immersive_toponyms
  cn_pd_c_lika_roman:0 "Liburnia" # rosetta
+ cn_pd_c_lille_aragonese:0 "Arrás" # terra_nomina
  cn_pd_c_lille_frankish:0 "Artois" # terra_nomina
+ cn_pd_c_lille_greek:0 "Nemetokénna" # terra_nomina
  cn_pd_c_limousin_andalusian:0 "Limuzān" # rosetta
  cn_pd_c_limousin_aragonese:0 "Lemosín" # Lemosín - more_cultural_names
  cn_pd_c_limousin_asturleonese:0 "Llemosín" # Llemosín - more_cultural_names
@@ -109603,6 +109335,7 @@
  cn_pd_c_mianzhou_buryat:0 "Menjuu" # immersive_toponyms
  cn_pd_c_mianzhou_jurchen:0 "Miyanzhoo" # immersive_toponyms
  cn_pd_c_mianzhou_yamato:0 "Menshū" # terra_nomina
+ cn_pd_c_miastko_bosnian:0 "Mjastko" # immersive_toponyms
  cn_pd_c_middlesex_anglo_saxon:0 "Middle Seaxe" # rosetta
  cn_pd_c_middlesex_armenian:0 "Midlek’s" # Midlek’s - more_cultural_names
  cn_pd_c_middlesex_bavarian:0 "Mittelsachsen" # rosetta
@@ -109666,6 +109399,7 @@
  cn_pd_c_monmouthshire_english:0 "Monmouthshire" # rosetta
  cn_pd_c_monmouthshire_french:0 "Monmouthe" # rosetta
  cn_pd_c_monmouthshire_frisian:0 "Munwimuþascīr" # Munwimuþascīr # Or Monmuþscīr - more_cultural_names
+ cn_pd_c_monmouthshire_greek:0 "Isca Silurum" # vanilla
  cn_pd_c_monmouthshire_gujarati:0 "Monamāuthashāyara" # Monamāuthashāyara - more_cultural_names
  cn_pd_c_monmouthshire_han:0 "Gēwēntè" # Gēwēntè - more_cultural_names
  cn_pd_c_monmouthshire_hindustani:0 "Monmāuthshāyar" # Monmāuthshāyar - more_cultural_names
@@ -109677,6 +109411,7 @@
  cn_pd_c_monmouthshire_tamil:0 "Moņmoutkșir" # Moņmoutkșir - more_cultural_names
  cn_pd_c_monmouthshire_telugu:0 "Mōnmautșair" # Mōnmautșair - more_cultural_names
  cn_pd_c_monmouthshire_yamato:0 "Guwento" # Guwento - more_cultural_names
+ cn_pd_c_montpellier_roman:0 "Nemausus" # rosetta
  cn_pd_c_mora_visigothic:0 "Morum" # immersive_toponyms
  cn_pd_c_moray_anglo_saxon:0 "Muræife" # Muræife - more_cultural_names
  cn_pd_c_moray_bavarian:0 "Morawien" # immersive_toponyms
@@ -110233,8 +109968,6 @@
  cn_pd_c_orava_bosnian:0 "Orljava" # Orljava - more_cultural_names
  cn_pd_c_orava_danish:0 "Ærva" # immersive_toponyms
  cn_pd_c_orava_greek:0 "Orfanó" # immersive_toponyms
- cn_pd_c_orbetello_hungarian:0 "Orbánc" # immersive_toponyms
- cn_pd_c_orbetello_mogyer:0 "Orbanç" # immersive_toponyms
  cn_pd_c_oriel_anglo_saxon:0 "Eoriel" # immersive_toponyms
  cn_pd_c_oriel_bavarian:0 "Oriel" # immersive_toponyms
  cn_pd_c_oriel_breton:0 "Airgíalla" # rosetta
@@ -110268,11 +110001,11 @@
  cn_pd_c_orkney_gujarati:0 "Orkanī" # Orkanī - more_cultural_names
  cn_pd_c_orkney_han:0 "Àokèní" # Àokèní - more_cultural_names
  cn_pd_c_orkney_hindustani:0 "Orkne" # Orkne - more_cultural_names
+ cn_pd_c_orkney_icelandic:0 "Orkneyjar" # vanilla
  cn_pd_c_orkney_irish:0 "Inse Orc" # rosetta
  cn_pd_c_orkney_kannada:0 "Ārkni" # Ārkni - more_cultural_names
  cn_pd_c_orkney_korean:0 "Okeuni" # Okeuni - more_cultural_names
  cn_pd_c_orkney_lithuanian:0 "Orknio" # Orknio - more_cultural_names
- cn_pd_c_orkney_norse:0 "Orkneyjar" # rosetta
  cn_pd_c_orkney_norwegian:0 "Orknøyane" # rosetta
  cn_pd_c_orkney_polabian:0 "Orkady" # Orkady - more_cultural_names
  cn_pd_c_orkney_prussian:0 "Orknejas" # immersive_toponyms
@@ -110410,6 +110143,7 @@
  cn_pd_c_outer_hebrides_english:0 "Oute-Iles" # Oute-Iles - more_cultural_names
  cn_pd_c_outer_hebrides_french:0 "Hébrides Extérieures" # rosetta
  cn_pd_c_outer_hebrides_gaelic:0 "Na h-Eileanan Siar" # rosetta
+ cn_pd_c_outer_hebrides_icelandic:0 "Ytri Suðreyjar" # vanilla
  cn_pd_c_outer_hebrides_late_norman:0 "Esbrides Dehors" # terra_nomina
  cn_pd_c_outer_hebrides_norse:0 "Ytri Suðureyjar" # rosetta
  cn_pd_c_outer_hebrides_norwegian:0 "Ytre Hebridane" # rosetta
@@ -110626,6 +110360,7 @@
  cn_pd_c_phrygia_lithuanian:0 "Frygija" # Frygija - more_cultural_names
  cn_pd_c_phrygia_norse:0 "Frygia" # Frygia - more_cultural_names
  cn_pd_c_phrygia_polabian:0 "Frygiska" # Frygiska - more_cultural_names
+ cn_pd_c_piacenza_andalusian:0 "Biyātshīnzā" # terra_nomina
  cn_pd_c_pielinen_sami:0 "Pielisjávvrie" # immersive_toponyms
  cn_pd_c_pingyang_balhae:0 "Pyeongyang" # terra_nomina
  cn_pd_c_pirin_albanian:0 "Pirin" # immersive_toponyms
@@ -110704,6 +110439,9 @@
  cn_pd_c_polesine_roman:0 "Policinum" # rosetta
  cn_pd_c_polesine_vlach:0 "Poleşani" # immersive_toponyms
  cn_pd_c_polesine_yemeni:0 "Bulisin" # immersive_toponyms
+ cn_pd_c_policastro_andalusian:0 "Būjint" # terra_nomina
+ cn_pd_c_policastro_greek:0 "Polýkastron" # terra_nomina
+ cn_pd_c_policastro_roman:0 "Velia" # terra_nomina
  cn_pd_c_polovragi_avar:0 "Heğeş" # immersive_toponyms
  cn_pd_c_polovragi_hungarian:0 "Hegyes" # immersive_toponyms
  cn_pd_c_pomoravlje_carantanian:0 "Pomoravlje" # Pomoravlje - more_cultural_names
@@ -110874,6 +110612,7 @@
  cn_pd_c_rangzhou_jurchen:0 "Rangjoo" # immersive_toponyms
  cn_pd_c_rangzhou_vietnamese:0 "Nhuong Châu" # immersive_toponyms
  cn_pd_c_raniriki_danish:0 "Baahuslen" # rosetta
+ cn_pd_c_raniriki_icelandic:0 "Álfheimar" # vanilla
  cn_pd_c_raniriki_norse:0 "Bágahúslén" # rosetta
  cn_pd_c_raniriki_old_saxon:0 "Buxland" # terra_nomina
  cn_pd_c_raniriki_swedish:0 "Bohuslän" # rosetta
@@ -110974,6 +110713,35 @@
  cn_pd_c_rohana_assyrian:0 "Rūhūnū" # terra_nomina
  cn_pd_c_rohana_avar:0 "Ruhuna" # immersive_toponyms
  cn_pd_c_rohana_han:0 "Lǔhúnà" # immersive_toponyms
+ cn_pd_c_roma_albanian:0 "Romë" # Romë - more_cultural_names
+ cn_pd_c_roma_ancient_egyptian:0 "Herem" # Herem - more_cultural_names
+ cn_pd_c_roma_andalusian:0 "Rūma" # rosetta
+ cn_pd_c_roma_armenian:0 "Hrom" # Hrom - more_cultural_names
+ cn_pd_c_roma_ashkenazi:0 "Roym" # Roym - more_cultural_names
+ cn_pd_c_roma_bashkir:0 "Rim" # Rim - more_cultural_names
+ cn_pd_c_roma_basque:0 "Erroma" # Erroma - more_cultural_names
+ cn_pd_c_roma_beja:0 "Arome" # Arome - more_cultural_names
+ cn_pd_c_roma_bengali:0 "Romā" # Romā - more_cultural_names
+ cn_pd_c_roma_burmese:0 "Rauma" # Rauma - more_cultural_names
+ cn_pd_c_roma_carantanian:0 "Rimŭ" # Rimŭ - more_cultural_names
+ cn_pd_c_roma_carthaginian:0 "Rewm'" # Rewm' - more_cultural_names
+ cn_pd_c_roma_english:0 "Rome" # rosetta
+ cn_pd_c_roma_georgian:0 "Romi" # Romi - more_cultural_names
+ cn_pd_c_roma_greek:0 "Rómi" # rosetta
+ cn_pd_c_roma_han:0 "Luómă" # Luómă - more_cultural_names
+ cn_pd_c_roma_hungarian:0 "Róma" # rosetta
+ cn_pd_c_roma_ilmenian:0 "Rime" # Rime - more_cultural_names
+ cn_pd_c_roma_khwarezmian:0 "Frum" # Frum - more_cultural_names
+ cn_pd_c_roma_korean:0 "Noma" # Noma - more_cultural_names
+ cn_pd_c_roma_lombard:0 "Romma" # Romma - more_cultural_names
+ cn_pd_c_roma_norse:0 "Rómaborg" # rosetta
+ cn_pd_c_roma_pictish:0 "Yn Raue" # Yn Raue - more_cultural_names
+ cn_pd_c_roma_polabian:0 "Rzim" # Rzim - more_cultural_names
+ cn_pd_c_roma_polish:0 "Rzym" # rosetta
+ cn_pd_c_roma_sinhala:0 "Rōmaya" # Rōmaya - more_cultural_names
+ cn_pd_c_roma_slovien:0 "Rím" # rosetta
+ cn_pd_c_roma_vietnamese:0 "Rôma" # Rôma - more_cultural_names
+ cn_pd_c_roma_yoruba:0 "Rómù" # Rómù - more_cultural_names
  cn_pd_c_rongzhou_2_vietnamese:0 "Nhung Châu" # immersive_toponyms
  cn_pd_c_rongzhou_avar:0 "Ürüngsu" # immersive_toponyms
  cn_pd_c_rongzhou_balhae:0 "Yungju" # terra_nomina
@@ -110988,7 +110756,7 @@
  cn_pd_c_ross_frankish:0 "Rosse" # terra_nomina
  cn_pd_c_ross_french:0 "Rossay" # immersive_toponyms
  cn_pd_c_ross_gaelic:0 "Rois" # rosetta
- cn_pd_c_ross_irish:0 "Ros" # rosetta
+ cn_pd_c_ross_icelandic:0 "Ros" # vanilla
  cn_pd_c_ross_norse:0 "Hrossey" # rosetta
  cn_pd_c_ross_norwegian:0 "Rosøy" # rosetta
  cn_pd_c_ross_pictish:0 "Fidach" # rosetta
@@ -111160,11 +110928,13 @@
  cn_pd_c_savoie_greek:0 "Savoïa" # rosetta
  cn_pd_c_savoie_han:0 "Sàfúyī" # Sàfúyī - more_cultural_names
  cn_pd_c_savoie_korean:0 "Sabua" # Sabua - more_cultural_names
+ cn_pd_c_savoie_late_norman:0 "Moustiers" # terra_nomina
  cn_pd_c_savoie_norman:0 "Savouaie" # rosetta
  cn_pd_c_savoie_norse:0 "Savojía" # rosetta
  cn_pd_c_savoie_occitan:0 "Savòia" # rosetta
  cn_pd_c_savoie_polabian:0 "Sabaudia" # Sabaudia - more_cultural_names
  cn_pd_c_savoie_portuguese:0 "Saboia" # rosetta
+ cn_pd_c_savoie_roman:0 "Darantasia" # rosetta
  cn_pd_c_savoie_russian:0 "Savoyya" # Savoyya - more_cultural_names
  cn_pd_c_savoie_yamato:0 "Savowa" # Savowa - more_cultural_names
  cn_pd_c_scalovia_bavarian:0 "Schalauen" # rosetta
@@ -111183,6 +110953,9 @@
  cn_pd_c_schaumberg_hungarian:0 "Somos" # immersive_toponyms
  cn_pd_c_schweibus_avar:0 "Şabadi" # immersive_toponyms
  cn_pd_c_schweibus_hungarian:0 "Szabadi" # immersive_toponyms
+ cn_pd_c_schwerin_danish:0 "Sværin" # terra_nomina
+ cn_pd_c_schwerin_roman:0 "Lacciburgum Pharodenorum" # terra_nomina
+ cn_pd_c_schwerin_swedish:0 "Svärin" # terra_nomina
  cn_pd_c_seleucia_frankish:0 "Séleucie" # rosetta
  cn_pd_c_sens_frankish:0 "Senonais" # terra_nomina
  cn_pd_c_serdosk_greek:0 "Idraēne" # terra_nomina
@@ -111474,6 +111247,7 @@
  cn_pd_c_skane_sami:0 "Skooneana" # rosetta
  cn_pd_c_skane_suebi:0 "Sconaowe" # Sconaowe - more_cultural_names
  cn_pd_c_skane_swedish:0 "Skåneland" # rosetta
+ cn_pd_c_slawno_bavarian:0 "Schlawe" # vanilla
  cn_pd_c_slesvig_anglo_saxon:0 "Slasuuīc" # Slasuuīc - more_cultural_names
  cn_pd_c_slesvig_bavarian:0 "Schleswig" # rosetta
  cn_pd_c_slesvig_bosnian:0 "Šlezvig" # Šlezvig - more_cultural_names
@@ -111498,6 +111272,28 @@
  cn_pd_c_slesvig_polish:0 "Szlezwik" # Szlezwik - more_cultural_names
  cn_pd_c_slesvig_slovien:0 "Šlezvicko" # Šlezvicko - more_cultural_names
  cn_pd_c_slesvig_suebi:0 "Sleswih" # Sleswih - more_cultural_names
+ cn_pd_c_slupsk_andalusian:0 "Swubsk" # Swubsk - more_cultural_names
+ cn_pd_c_slupsk_armenian:0 "Slowpsk" # Slowpsk - more_cultural_names
+ cn_pd_c_slupsk_avar:0 "Slupsk" # Slupsk - more_cultural_names
+ cn_pd_c_slupsk_bengali:0 "Slāpaska" # Slāpaska - more_cultural_names
+ cn_pd_c_slupsk_cisalpine:0 "Stolpia" # immersive_toponyms
+ cn_pd_c_slupsk_czech:0 "Sloup" # Sloup - more_cultural_names
+ cn_pd_c_slupsk_french:0 "Stolpe" # immersive_toponyms
+ cn_pd_c_slupsk_georgian:0 "Slup’sk’i" # Slup’sk’i - more_cultural_names
+ cn_pd_c_slupsk_greek:0 "Souoúpsk" # Souoúpsk - more_cultural_names
+ cn_pd_c_slupsk_gujarati:0 "Slupska" # Slupska - more_cultural_names
+ cn_pd_c_slupsk_han:0 "Sīwŭpŭsīkè" # Sīwŭpŭsīkè - more_cultural_names
+ cn_pd_c_slupsk_hindustani:0 "Salaupask" # Salaupask - more_cultural_names
+ cn_pd_c_slupsk_kannada:0 "Sluphsk" # Sluphsk - more_cultural_names
+ cn_pd_c_slupsk_korean:0 "Seuupseukeu" # Seuupseukeu - more_cultural_names
+ cn_pd_c_slupsk_lithuanian:0 "Slupskas" # rosetta
+ cn_pd_c_slupsk_marathi:0 "Slaaps" # Slaaps - more_cultural_names
+ cn_pd_c_slupsk_polabian:0 "Stolpsk" # Stolpsk - more_cultural_names
+ cn_pd_c_slupsk_pommeranian:0 "Stôlpsk" # rosetta
+ cn_pd_c_slupsk_sinhala:0 "Slapsk" # Slapsk - more_cultural_names
+ cn_pd_c_slupsk_tamil:0 "Calamask" # Calamask - more_cultural_names
+ cn_pd_c_slupsk_telugu:0 "Salupamsk" # Salupamsk - more_cultural_names
+ cn_pd_c_slupsk_yamato:0 "Suupusuku" # Suupusuku - more_cultural_names
  cn_pd_c_sobrarbe_andalusian:0 "Subrarbi" # rosetta
  cn_pd_c_sochur_roman:0 "Cetum" # terra_nomina
  cn_pd_c_socotra_afar:0 "Suqadara" # immersive_toponyms
@@ -111822,6 +111618,7 @@
  cn_pd_c_sussex_frankish:0 "Sussesse" # rosetta
  cn_pd_c_sussex_frisian:0 "Suthseaxe" # rosetta
  cn_pd_c_sussex_georgian:0 "Suseksi" # Suseksi - more_cultural_names
+ cn_pd_c_sussex_greek:0 "Noviomagus" # vanilla
  cn_pd_c_sussex_han:0 "Sàsāikèsī" # Sàsāikèsī - more_cultural_names
  cn_pd_c_sussex_ilmenian:0 "Susieks" # Susieks - more_cultural_names
  cn_pd_c_sussex_korean:0 "Sŏsikseu" # Sŏsikseu - more_cultural_names
@@ -111838,6 +111635,7 @@
  cn_pd_c_sutherland_dutch:0 "Zuidelijkland" # immersive_toponyms
  cn_pd_c_sutherland_english:0 "Suthernelond" # Suthernelond - more_cultural_names
  cn_pd_c_sutherland_frankish:0 "Soterlande" # terra_nomina
+ cn_pd_c_sutherland_icelandic:0 "Suðrland" # vanilla
  cn_pd_c_sutherland_norse:0 "Súðrland" # rosetta
  cn_pd_c_sutherland_swedish:0 "Sorlandet" # rosetta
  cn_pd_c_suzhou_2_avar:0 "Sücü" # immersive_toponyms
@@ -112624,6 +112422,7 @@
  cn_pd_c_venaissin_french:0 "Venaissin" # immersive_toponyms
  cn_pd_c_venaissin_occitan:0 "Venaicin" # rosetta
  cn_pd_c_venaissin_portuguese:0 "Venaissino" # rosetta
+ cn_pd_c_venaissin_roman:0 "Arelate" # rosetta
  cn_pd_c_venaissin_suebi:0 "Venasque" # immersive_toponyms
  cn_pd_c_venaissin_swedish:0 "Vänesin" # immersive_toponyms
  cn_pd_c_veneto_andalusian:0 "Fīnītu" # rosetta
@@ -112641,6 +112440,10 @@
  cn_pd_c_veneto_norse:0 "Vénetaland" # terra_nomina
  cn_pd_c_veneto_polabian:0 "Wenecja Euganejska" # immersive_toponyms
  cn_pd_c_veneto_roman:0 "Venetum" # rosetta
+ cn_pd_c_verden_anglo_saxon:0 "Færden" # terra_nomina
+ cn_pd_c_verden_frankish:0 "Verdene" # terra_nomina
+ cn_pd_c_verden_polabian:0 "Wrydrań" # terra_nomina
+ cn_pd_c_verden_polish:0 "Werdenia" # terra_nomina
  cn_pd_c_vermandois_andalusian:0 "Fīrmāndua" # rosetta
  cn_pd_c_vermandois_anglo_saxon:0 "Wermandaland" # immersive_toponyms
  cn_pd_c_vermandois_bavarian:0 "Vermandland" # rosetta
@@ -112701,9 +112504,13 @@
  cn_pd_c_vidzeme_bosnian:0 "Livonija" # immersive_toponyms
  cn_pd_c_vidzeme_czech:0 "Livonsko" # immersive_toponyms
  cn_pd_c_vidzeme_estonian:0 "Viidzemee" # immersive_toponyms
+ cn_pd_c_vidzeme_greek:0 "Rigái" # rosetta
  cn_pd_c_vidzeme_ilmenian:0 "Livoniya" # immersive_toponyms
+ cn_pd_c_vidzeme_latgalian:0 "Ryga" # rosetta
+ cn_pd_c_vidzeme_norse:0 "Ríga" # rosetta
  cn_pd_c_vidzeme_polabian:0 "Śródziemie" # immersive_toponyms
  cn_pd_c_vidzeme_prussian:0 "Vidžeme" # immersive_toponyms
+ cn_pd_c_vidzeme_roman:0 "Rigae" # rosetta
  cn_pd_c_vidzeme_slovien:0 "Livónsko" # immersive_toponyms
  cn_pd_c_viena_bavarian:0 "Weißkarelien" # rosetta
  cn_pd_c_viena_bosnian:0 "Dvina" # Dvina - more_cultural_names
@@ -113127,6 +112934,7 @@
  cn_pd_c_yatvyagi_lithuanian:0 "Jotvingia" # rosetta
  cn_pd_c_yatvyagi_polabian:0 "Jaćwingowie" # rosetta
  cn_pd_c_yatvyagi_prussian:0 "Jotvingiai" # immersive_toponyms
+ cn_pd_c_yatvyagi_roman:0 "Chronopolis" # rosetta
  cn_pd_c_yazhou_2_balhae:0 "Aju" # terra_nomina
  cn_pd_c_yazhou_2_yamato:0 "Gashū" # terra_nomina
  cn_pd_c_yazhou_avar:0 "Yaju" # immersive_toponyms
@@ -113322,7 +113130,6 @@
  cn_pd_c_zelengora_roman:0 "Melcumis" # rosetta
  cn_pd_c_zemigalians_avar:0 "Kuroviya" # immersive_toponyms
  cn_pd_c_zemigalians_bavarian:0 "Semgallen" # rosetta
- cn_pd_c_zemigalians_bosnian:0 "Kuronija" # immersive_toponyms
  cn_pd_c_zemigalians_cisalpine:0 "Semigallia" # Semigallia - more_cultural_names
  cn_pd_c_zemigalians_czech:0 "Zemgalsko" # rosetta
  cn_pd_c_zemigalians_estonian:0 "Zemgale" # rosetta
@@ -113330,7 +113137,6 @@
  cn_pd_c_zemigalians_greek:0 "Simigallía" # rosetta
  cn_pd_c_zemigalians_ilmenian:0 "Zemgaliya" # rosetta
  cn_pd_c_zemigalians_lithuanian:0 "Žiemgala" # rosetta
- cn_pd_c_zemigalians_merya:0 "Kuurinmaa" # immersive_toponyms
  cn_pd_c_zemigalians_norse:0 "Semgalía" # rosetta
  cn_pd_c_zemigalians_norwegian:0 "Semgalia" # rosetta
  cn_pd_c_zemigalians_polabian:0 "Semigalskô" # Semigalskô - more_cultural_names
@@ -114966,11 +114772,13 @@
  cn_pd_d_courland_basque:0 "Kurlandia" # Kurlandia - more_cultural_names
  cn_pd_d_courland_bavarian:0 "Kurland" # rosetta
  cn_pd_d_courland_bosnian:0 "Kurlandija" # Kurlandija - more_cultural_names
+ cn_pd_d_courland_bulgarian:0 "Kuronija" # immersive_toponyms
  cn_pd_d_courland_catalan:0 "Curlàndia" # Curlàndia - more_cultural_names
  cn_pd_d_courland_czech:0 "Kuronsko" # rosetta
  cn_pd_d_courland_dutch:0 "Koerland" # Koerland # Or Kurland ??? - more_cultural_names
  cn_pd_d_courland_english:0 "Courland" # Courland - more_cultural_names
  cn_pd_d_courland_estonian:0 "Kuramaa" # rosetta
+ cn_pd_d_courland_finnish:0 "Kuurinmaa" # rosetta
  cn_pd_d_courland_frankish:0 "Courlande" # rosetta
  cn_pd_d_courland_frisian:0 "Kûrlân" # Kûrlân - more_cultural_names
  cn_pd_d_courland_gaelic:0 "an Chúróin" # an Chúróin - more_cultural_names
@@ -115463,6 +115271,7 @@
  cn_pd_d_duortnoseatnu_estonian:0 "Ruija" # immersive_toponyms
  cn_pd_d_duortnoseatnu_georgian:0 "Pinmark’i" # Pinmark’i - more_cultural_names
  cn_pd_d_duortnoseatnu_greek:0 "Phínmark" # Phínmark - more_cultural_names
+ cn_pd_d_duortnoseatnu_icelandic:0 "Finnmörk" # vanilla
  cn_pd_d_duortnoseatnu_latgalian:0 "Finnmarka" # immersive_toponyms
  cn_pd_d_duortnoseatnu_lithuanian:0 "Finmarkas" # Finmarkas - more_cultural_names
  cn_pd_d_duortnoseatnu_norse:0 "Finnmœrk" # rosetta
@@ -116012,6 +115821,7 @@
  cn_pd_d_giemajohka_finnish:0 "Pohjoispohja" # rosetta
  cn_pd_d_giemajohka_greek:0 "Kemía" # rosetta
  cn_pd_d_giemajohka_han:0 "Kăimĭhé" # Kăimĭhé - more_cultural_names
+ cn_pd_d_giemajohka_icelandic:0 "Leporie" # vanilla
  cn_pd_d_giemajohka_ilmenian:0 "Norbótnija" # rosetta
  cn_pd_d_giemajohka_korean:0 "Kemigang" # Kemigang - more_cultural_names
  cn_pd_d_giemajohka_lithuanian:0 "Kemijokis" # Kemijokis - more_cultural_names
@@ -116368,6 +116178,7 @@
  cn_pd_d_iceland_hausa:0 "Ayislan" # Ayislan - more_cultural_names
  cn_pd_d_iceland_hindustani:0 "Āislaind" # Āislaind - more_cultural_names
  cn_pd_d_iceland_hungarian:0 "Izland" # Izland - more_cultural_names
+ cn_pd_d_iceland_icelandic:0 "Ísland" # vanilla
  cn_pd_d_iceland_irish:0 "An Íoslainn" # rosetta
  cn_pd_d_iceland_kannada:0 "Aislyāņd" # Aislyāņd - more_cultural_names
  cn_pd_d_iceland_korean:0 "Aiseullandeu" # Aiseullandeu - more_cultural_names
@@ -116376,7 +116187,6 @@
  cn_pd_d_iceland_latgalian:0 "Īslandeja" # Īslandeja - more_cultural_names
  cn_pd_d_iceland_lithuanian:0 "Islandija" # Islandija - more_cultural_names
  cn_pd_d_iceland_marathi:0 "Aaislnd" # Aaislnd - more_cultural_names
- cn_pd_d_iceland_norse:0 "Ísland" # rosetta
  cn_pd_d_iceland_pictish:0 "Yn Eeslynn" # Yn Eeslynn - more_cultural_names
  cn_pd_d_iceland_polabian:0 "Islandëjô" # Islandëjô - more_cultural_names
  cn_pd_d_iceland_pulaar:0 "Islannda" # Islannda - more_cultural_names
@@ -118273,11 +118083,11 @@
  cn_pd_d_northern_isles_estonian:0 "Pohjoissaaret" # immersive_toponyms
  cn_pd_d_northern_isles_french:0 "Îles du Nord" # rosetta
  cn_pd_d_northern_isles_gaelic:0 "Na h-Eileanan a Tuath" # rosetta
+ cn_pd_d_northern_isles_icelandic:0 "Norðreyjar" # vanilla
  cn_pd_d_northern_isles_ilmenian:0 "Severnyye Ostrova" # immersive_toponyms
  cn_pd_d_northern_isles_irish:0 "Oileáin an Tuaiscirt" # rosetta
  cn_pd_d_northern_isles_latgalian:0 "Ziemelu Salas" # immersive_toponyms
  cn_pd_d_northern_isles_lithuanian:0 "Šiaurės Salos" # immersive_toponyms
- cn_pd_d_northern_isles_norse:0 "Norðreyjar" # rosetta
  cn_pd_d_northern_isles_norwegian:0 "Nordøyane" # rosetta
  cn_pd_d_northern_isles_pictish:0 "Insee Galeth" # rosetta
  cn_pd_d_northern_isles_polabian:0 "Wyspy Północne" # immersive_toponyms
@@ -120445,9 +120255,9 @@
  cn_pd_d_western_isles_dutch:0 "Hebriden" # rosetta
  cn_pd_d_western_isles_frankish:0 "Hébrides" # rosetta
  cn_pd_d_western_isles_gaelic:0 "Innse Gall" # Innse Gall - more_cultural_names
+ cn_pd_d_western_isles_icelandic:0 "Suðreyjar" # vanilla
  cn_pd_d_western_isles_irish:0 "Inse Ghall" # rosetta
  cn_pd_d_western_isles_late_norman:0 "Esbrides" # terra_nomina
- cn_pd_d_western_isles_norse:0 "Suðreyjar" # rosetta
  cn_pd_d_western_isles_norwegian:0 "Sørøyane" # rosetta
  cn_pd_d_western_isles_pictish:0 "Insee Hilth" # rosetta
  cn_pd_d_western_isles_roman:0 "Ebudae" # rosetta
@@ -124417,6 +124227,7 @@
  cn_pd_k_norway_german:0 "Nortweg" # Nortweg - more_cultural_names
  cn_pd_k_norway_greek:0 "Norvigía" # rosetta
  cn_pd_k_norway_hungarian:0 "Norvégia" # rosetta
+ cn_pd_k_norway_icelandic:0 "Noregr" # vanilla
  cn_pd_k_norway_iloko:0 "Norwega" # Norwega - more_cultural_names
  cn_pd_k_norway_irish:0 "An Iorua" # rosetta
  cn_pd_k_norway_kannada:0 "Nārvē" # Nārvē - more_cultural_names
@@ -124444,6 +124255,7 @@
  cn_pd_k_norway_wolof:0 "Noorwees" # Noorwees - more_cultural_names
  cn_pd_k_norway_yamato:0 "Noruwē" # Noruwē - more_cultural_names
  cn_pd_k_norway_yoruba:0 "Norwèy" # Norwèy - more_cultural_names
+ cn_pd_k_novgorod_icelandic:0 "Garðariki" # vanilla
  cn_pd_k_novgorod_severian:0 "Nóuharad" # rosetta
  cn_pd_k_novgorod_volhynian:0 "Nóvhorod" # rosetta
  cn_pd_k_nubia_afar:0 "Nuubiya" # immersive_toponyms

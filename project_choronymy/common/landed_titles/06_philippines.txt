@@ -1919,6 +1919,7 @@ e_nusantara = {
 			color = { 0 33 60 }
 
 			capital = c_BOR_martapura	#AKA Kutai Martadipura
+			market_capital = b_BOR_Kutai_Loman
 
 			c_BOR_martapura = {
 				color = { 12 57 69 }
@@ -2521,7 +2522,7 @@ e_nusantara = {
 		}
 
 		d_IDO_timor = {
-			color = { 151 51 52 }
+			color = { 151 41 42 }
 
 			capital = c_IDO_sonba_i
 
