@@ -3,6 +3,7 @@ tags={
 	"Map"
 	"Translation"
 	"Culture"
+	"1.21 'Florin'"
 }
 name="Project Choronymy"
 supported_version="1.21.*"
