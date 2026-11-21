@@ -6,10 +6,10 @@ All of these mods do a similar thing: they [b]change the name of holdings on the
 [h1]Features[/h1]
 Any title will try to pick its cultural name from [b]Rosetta[/b] first, then [b]More Cultural Names[/b] then [b]Immersive Toponyms[/b] and finally vanilla if possible.
 [list]
-[*] [b]467852[/b] cultural names come from [b]Immersive Toponyms[/b]
-[*] [b]173487[/b] cultural names come from [b]MCN[/b]
+[*] [b]467623[/b] cultural names come from [b]Immersive Toponyms[/b]
+[*] [b]174126[/b] cultural names come from [b]MCN[/b]
 [*] [b]99118[/b] cultural names come from [b]Rosetta[/b]
-[*] [b]23468[/b] cultural names come from [b]Terra Nomina[/b]
+[*] [b]23467[/b] cultural names come from [b]Terra Nomina[/b]
 [*] [b]0[/b] are vanilla entries!
 [/list]
 
